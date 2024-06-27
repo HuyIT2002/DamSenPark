@@ -49,8 +49,7 @@
                 <div class="image-container">
                     <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="xmark-large">
-                            <path id="Icon" d="M2.5 12H23.5M2.5 4.5H23.5M2.5 19.5H13" stroke="#EC008C" stroke-width="4"
-                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path id="Icon" d="M2.5 12H23.5M2.5 4.5H23.5M2.5 19.5H13" stroke="#EC008C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                     </svg>
                 </div>
@@ -69,8 +68,7 @@
                 <div class="outer-container">
                     <div class="inner-container">
                         <div class="triangle">
-                            <img class="icon" src="{{ asset('/public/images/chevron-left.svg') }}"
-                                alt="Chevron Left Icon">
+                            <img class="icon" src="{{ asset('/public/images/chevron-left.svg') }}" alt="Chevron Left Icon">
                         </div>
                     </div>
                 </div>
@@ -78,8 +76,7 @@
                 <div class="outer-container-2">
                     <div class="inner-container-2">
                         <div class="triangle-2">
-                            <img class="icon-2" src="{{ asset('/public/images/chevron-left-1.svg') }}"
-                                alt="Chevron Left Icon">
+                            <img class="icon-2" src="{{ asset('/public/images/chevron-left-1.svg') }}" alt="Chevron Left Icon">
                         </div>
                     </div>
                 </div>
@@ -102,13 +99,28 @@
                         <img src="{{ asset('/public/images/01.svg') }}" alt="Icon 1">
                     </div>
                 </div>
+                <div class="contact-section">
+                    <div class="circle">
+                        <img id="phoneFlip" src="{{ asset('/public/images/phone-flip.svg') }}" alt="Phone Flip">
+                    </div>
+                    <div class="circle">
+                        <img src="{{ asset('/public/images/Messenger-Outline-1.svg') }}" alt="Messenger Outline 1">
+                    </div>
+                </div>
+
+
             </div>
         </div>
-        <div class="contact-section">
-        </div>
     </div>
+    <script src="{{ asset('/public/js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ asset('/public/js/jbootstrap.min.js') }}"></script>
+    <script src="{{ asset('/public/js/jquery.slicknav.min.js') }}"></script>
+    <script src="{{ asset('/public/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('/public/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('/public/js/circle-progress.min.js') }}"></script>
+    <script src="{{ asset('/public/js/style.js') }}"></script>
 
 </body>
-<script src="{{ asset('/public/js/main.js') }}"></script>
+
 
 </html>
