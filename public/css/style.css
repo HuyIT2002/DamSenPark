@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(0deg, #E6FFD2 0%, #E6FFD2 100%);
+    width: 1900px;
+    height: 1001px; /* Điều chỉnh chiều cao của body */
+    padding: 0; /* Đặt padding của body là 0 */
+}
+
+ .content {
+    position: absolute;
+ 	width: 1615px;
+ 	height: 953px;
+ 	top: 24px;
+ 	left: 281px;
+ 	opacity: 1;
+ 	background-color: #E6FFD2;
+ 	box-sizing: border-box;
+ }
+
+ .banner img {
+ 	width: 1598px;
+ 	height: 953px;
+ 	top: 24px;
+ 	left: 281px;
+ 	object-fit: cover;
+    opacity: 1;
+    box-sizing: border-box;
+ }
+
+ /* sidebar */
+ .sidebar {
+ 	width: 257px;
+ 	height: 1001px;
+ 	opacity: 1;
+ 	background: #259E58;
+ 	position: relative;
+
+ }
+
+ .menu {
+ 	width: 64px;
+ 	height: 64px;
+ 	background-color: #ffffff;
+ 	border-radius: 50%;
+ 	position: absolute;
+ 	top: 24px;
+    left: 97px; /* Cách lề trái là 724px */
+    right: 96px; /* Cách lề phải là 724px */
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .menu img {
+ 	width: 24px;
+ 	height: 24px;
+     right: 24px;
+ 	display: block;
+ 	margin: 0 auto;
+ 	opacity: 0.5;
+ }
+
+ .image-container {
+ 	width: 24px;
+ 	height: 24px;
+ 	overflow: hidden;
+ }
+
+ .image-container img {
+ 	width: 100%;
+ 	height: auto;
+ 	display: block;
+ }
+
+ .colored-image {
+ 	width: 50px;
+ 	height: 50px;
+ 	filter: invert(20%) sepia(100%) saturate(3000%) hue-rotate(325deg) brightness(90%) contrast(100%);
+ 	display: block;
+ }
+
+ /* header*/
+.header-container {
+    display: flex;
+    flex-direction: column; /* Xếp các thẻ theo chiều dọc */
+    align-items: center; /* Căn giữa các thẻ con theo chiều ngang */
+    width: 100%;
+    max-width: 800px; /* Đặt chiều rộng tối đa để giới hạn chiều rộng của container */
+    padding: 0 65px; /* Đảm bảo các thẻ con có khoảng cách bên trong container */
+    box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến chiều rộng */
+}
+
+.header-title, .header-title-2 {
+    color: white;
+    font-size: 32px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: left; /* Căn chữ về bên trái */
+    margin: 0; /* Loại bỏ margin mặc định */
+    padding: 16px 0; /* Thêm padding trên và dưới để tạo khoảng cách */
+    width: 100%; /* Đảm bảo các thẻ có cùng chiều rộng */
+    box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến chiều rộng */
+}
+
+.header-title {
+    padding-top: 133px; /* Khoảng cách trên cho .header-title */
+}
+
+ /* contact */
+ .contact-section h2 {
+ 	color: #259E58;
+ 	font-size: 24px;
+ 	margin-bottom: 10px;
+ }
+
+ .contact-section p {
+ 	margin: 10px 0;
+ }
+
+ .contact-section ul {
+ 	list-style-type: none;
+ 	padding: 0;
+ }
+
+ .contact-section li {
+ 	margin-bottom: 5px;
+ }
+
+ /* Frame */
+.svg-container  {
+    position: absolute; /* Đặt vị trí của phần tử là tuyệt đối */
+    top: 60px; /* Cách lề trên là 60px */
+    left: 724px; /* Cách lề trái là 724px */
+    right: 724px; /* Cách lề phải là 724px */
+    width: auto; /* Chiều rộng tự động */
+    height: auto; /* Chiều cao tự động */
+    z-index: 1; /* Độ sâu đặt của phần tử so với phần tử khác */
+}
+.svg-container img {
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    height: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    display: block; /* Đảm bảo hình ảnh hiển thị đúng dạng block */
+}
+ .svg-container-2{
+    position: absolute; /* Đặt vị trí của phần tử là tuyệt đối */
+    top: 117px; /* Cách lề trên là 60px */
+    left: 761px; /* Cách lề trái là 724px */
+    right: 776px; /* Cách lề phải là 724px */
+    width: auto; /* Chiều rộng tự động */
+    height: auto; /* Chiều cao tự động */
+    z-index: 1; /* Độ sâu đặt của phần tử so với phần tử khác */
+}
+.svg-container-2 img {
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    height: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    display: block; /* Đảm bảo hình ảnh hiển thị đúng dạng block */
+}
+.svg-container-3 {
+    position: absolute;
+    top: 781px;
+    left: 43px;
+    right: 32px;
+    width: auto; /* Chiều rộng tự động */
+    height: auto; /* Chiều cao tự động */
+    z-index: 2; /* Độ sâu đặt của phần tử so với phần tử khác */
+}
+
+.svg-container-3 img {
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    height: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    display: block; /* Đảm bảo hình ảnh hiển thị đúng dạng block */
+}
+
+
+.svg-container-4 {
+    position: absolute;
+    top: 841px;
+    left: 84px;
+    right: 88px;
+    width: auto;
+    height: auto;
+    z-index: 2; /* Đặt z-index cao hơn .line để hiển thị phía trên */
+}
+.svg-container-4 img {
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    height: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    display: block; /* Đảm bảo hình ảnh hiển thị đúng dạng block */
+}
+
+.line {
+    position: absolute;
+    top: 930px; /* Điều chỉnh top của .line để cách .svg-container-4 24px */
+    left: 54px;
+    right: 53px;
+    width: 150px;
+    height: 1px;
+    background-color: white;
+    z-index: 1; /* Đặt z-index thấp hơn để .line hiển thị phía dưới */
+}
+
+
+
+
+
+/*Khám Phá Ngay*/
+.custom-div {
+    width: 257px;
+    height: 64px;
+    position: absolute;
+    top: 789px; /* Điều chỉnh vị trí từ trên xuống */
+    left: 50%; /* Đưa vào giữa theo chiều ngang */
+    transform: translateX(-50%);
+    background: #259E58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; /* Độ cong 4 góc */
+}
+
+.inner-content {
+    color: white;
+    font-size: 23px;
+    font-family: Nunito;
+    font-weight: 800;
+    word-wrap: break-word;
+    padding: 10px 16px; /* Padding 10px trên dưới và 16px trái phải */
+}
+
+/* Nút chevron phải*/
+.outer-container {
+    position: absolute;
+    top: 469px; /* Cách trên là 489px */
+    right: 1511px;
+    left: 40px; /* Cách trái là 547px */
+    width: 64px; /* Độ rộng là 64px */
+    height: 64px; /* Độ cao là 64px */
+}
+
+.inner-container {
+    width: 100%; /* Chiều rộng của phần tử con là 100% */
+    height: 100%; /* Chiều cao của phần tử con là 100% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle {
+    width: 64px; /* Độ rộng của phần tam giác */
+    height: 64px; /* Độ cao của phần tam giác */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 100%; /* Chiều rộng của hình ảnh là 100% của phần tử cha */
+    height: 100%; /* Chiều cao của hình ảnh là 100% của phần tử cha */
+    max-width: 64px; /* Giới hạn chiều rộng tối đa của hình ảnh là 64px */
+    max-height: 64px; /* Giới hạn chiều cao tối đa của hình ảnh là 64px */
+}
+
+
+ /* Nút chevron trái*/
+.outer-container-2 {
+    position: absolute;
+    top: 469px; /* Cách trên là 489px */
+    right: 40px;
+    left: 1511px; /* Cách trái là 547px */
+    width: 64px; /* Độ rộng là 64px */
+    height: 64px; /* Độ cao là 64px */
+}
+
+.inner-container-2 {
+    width: 100%; /* Chiều rộng của phần tử con là 100% */
+    height: 100%; /* Chiều cao của phần tử con là 100% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle-2 {
+    width: 64px; /* Độ rộng của phần tam giác */
+    height: 64px; /* Độ cao của phần tam giác */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-2 {
+    width: 100%; /* Chiều rộng của hình ảnh là 100% của phần tử cha */
+    height: 100%; /* Chiều cao của hình ảnh là 100% của phần tử cha */
+    max-width: 64px; /* Giới hạn chiều rộng tối đa của hình ảnh là 64px */
+    max-height: 64px; /* Giới hạn chiều cao tối đa của hình ảnh là 64px */
+}
+ 
+/*icon mạng xã hội*/
+.social-icons {
+    position: absolute;
+    top: 950px;
+    left: 71px;
+    right: 72px;
+    display: flex;
+    gap: 16px;
+    z-index: 2;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #259E58;
+    border-radius: 50%;
+    width: 46px;
+    height: 40px;
+    text-decoration: none;
+}
+
+/*chấm banner*/
+.icons-wrapper {
+    position: absolute;
+    top: 901px;
+    left: 71px;
+    right: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; /* Khoảng cách giữa các hình tròn */
+}
+.icon-container img {
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    height: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+    border-radius: 50%; /* Bo tròn để tạo hình tròn */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị méo khi co dãn */
+}
+
+
+
+
+
+
