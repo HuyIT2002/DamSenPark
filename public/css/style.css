@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
     background: linear-gradient(0deg, #E6FFD2 0%, #E6FFD2 100%);
-    width: 1900px;
+    width: 1920px;
     height: 1001px;
     /* Điều chỉnh chiều cao của body */
     padding: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 .banner img {
-    width: 1598px;
+    width: 1615px;
     height: 953px;
     top: 24px;
     left: 281px;
@@ -100,28 +100,221 @@ body {
     /* Đảm bảo padding và border không ảnh hưởng đến chiều rộng */
 }
 
-.header-title, .header-title-2 {
+.sidebar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #259E58;
+    padding: 20px;
+    width: 257px;
+    height: 990px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 133px;
+}
+
+.menu-item {
+    position: relative;
+    width: 177px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    /* Hiệu ứng transition */
+}
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-title {
     color: white;
     font-size: 32px;
     font-family: Bangers;
     font-weight: 400;
-    word-wrap: break-word;
-    text-align: left;
-    /* Căn chữ về bên trái */
-    margin: 0;
-    /* Loại bỏ margin mặc định */
-    padding: 16px 0;
-    /* Thêm padding trên và dưới để tạo khoảng cách */
-    width: 100%;
-    /* Đảm bảo các thẻ có cùng chiều rộng */
-    box-sizing: border-box;
-    /* Đảm bảo padding và border không ảnh hưởng đến chiều rộng */
+    white-space: nowrap;
 }
 
-.header-title {
-    padding-top: 133px;
-    /* Khoảng cách trên cho .header-title */
+/* Specific styling for the third menu item (Giới thiệu) */
+.menu-item:nth-child(3) .menu-content {
+    justify-content: space-between;
 }
+
+.menu-item:nth-child(3) .arrow-icon {
+    margin-left: 27px;
+}
+
+.menu-item:nth-child(4) .menu-content {
+    justify-content: space-between;
+}
+
+.menu-item:nth-child(4) .arrow-icon {
+    margin-left: 69px;
+}
+
+.arrow-icon {
+    width: 32px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    /* Hiệu ứng chuyển đổi màu */
+    position: relative;
+}
+
+.submenu-container {
+    position: absolute;
+    top: -10px;
+    /* Điều chỉnh top theo nhu cầu của bạn */
+    left: 200px;
+    /* Điều chỉnh left theo nhu cầu của bạn */
+    width: 232px;
+    /* Điều chỉnh width cho phù hợp với nội dung */
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 57.37, 31.01, 0.15);
+    z-index: 1000;
+    display: none;
+    overflow: hidden;
+    /* Ngăn chặn các phần tử con tràn ra ngoài */
+    opacity: 0;
+    /* Ẩn submenu mặc định */
+    transition: opacity 0.3s ease-in-out;
+    /* Hiệu ứng transition */
+}
+
+.submenu {
+    padding: 12px;
+    flex-direction: column;
+    gap: 8px;
+    display: flex;
+}
+
+.submenu-item {
+    height: 44px;
+    padding: 0 14px;
+    align-items: center;
+    display: flex;
+}
+
+.submenu-title {
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.submenu-divider {
+    width: 208px;
+    /* Điều chỉnh chiều cao cho phù hợp */
+    border: 1px #E0E0E0 solid;
+}
+
+.menu-item:hover .submenu-container,
+.menu-item .arrow-icon:hover+.submenu-container,
+.menu-item .submenu-container:hover {
+    display: block !important;
+    opacity: 1;
+    pointer-events: auto;
+    stroke: #C8FF9C;
+    color: #C8FF9C;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+.menu-title,
+.arrow-icon {
+    cursor: pointer;
+    /* Change cursor to pointer */
+    position: relative;
+    /* Necessary for positioning the pseudo-element */
+    transition: color 0.3s ease;
+    /* Smooth color change */
+}
+
+/* .menu-item:hover .menu-title,
+.menu-item:hover .arrow-icon svg #Icon {
+    stroke: #C8FF9C;
+    color: #C8FF9C;
+    transition: color 0.3s ease;
+} */
+
+.submenu-title:hover {
+    color: #005F33;
+    /* Change color on hover */
+}
+
+.menu-title.active,
+.arrow-icon.active {
+    color: #005F33;
+    /* Thay đổi màu khi ở trạng thái active */
+}
+
+.arrow-icon.active #Icon {
+    stroke: #005F33;
+    /* Thay đổi màu stroke */
+}
+
+.menu-title.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    /* Điều chỉnh vị trí theo nhu cầu */
+    height: 3px;
+    background-color: #005F33;
+    /* Màu của đường gạch chân */
+    width: 100%;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease;
+}
+
+.menu-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    /* Điều chỉnh vị trí theo nhu cầu */
+    height: 3px;
+    background-color: #005F33;
+    /* Màu của đường gạch chân */
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:not(.active):hover .menu-title:not(.active),
+.menu-item:not(.active):hover .arrow-icon:not(.active) svg #Icon {
+    stroke: #C8FF9C;
+    color: #C8FF9C;
+    transition: color 0.3s ease;
+}
+
 
 /* contact */
 .contact-section h2 {
@@ -252,10 +445,6 @@ body {
     /* Đặt z-index thấp hơn để .line hiển thị phía dưới */
 }
 
-
-
-
-
 /*Khám Phá Ngay*/
 .custom-div {
     width: 257px;
@@ -287,7 +476,7 @@ body {
 /* Nút chevron phải*/
 .outer-container {
     position: absolute;
-    top: 469px;
+    top: 465px;
     /* Cách trên là 489px */
     right: 1511px;
     left: 40px;
@@ -298,14 +487,19 @@ body {
     /* Độ cao là 64px */
 }
 
-.inner-container {
-    width: 100%;
-    /* Chiều rộng của phần tử con là 100% */
-    height: 100%;
-    /* Chiều cao của phần tử con là 100% */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.icon-container {
+    width: 16px;
+    /* Độ rộng của biểu tượng */
+    height: 16px;
+    /* Độ cao của biểu tượng */
+    background: white;
+    /* Màu nền của biểu tượng */
+    border-radius: 9999px;
+    /* Để tạo hình tròn */
+    margin-right: 5px;
+    /* Khoảng cách giữa các biểu tượng */
+    cursor: pointer;
+    /* Con trỏ chuột thành pointer khi di chuột vào */
 }
 
 
@@ -343,7 +537,7 @@ body {
 /* Nút chevron trái*/
 .outer-container-2 {
     position: absolute;
-    top: 469px;
+    top: 465px;
     /* Cách trên là 489px */
     right: 40px;
     left: 1511px;
@@ -431,15 +625,25 @@ body {
     /* Khoảng cách giữa các hình tròn */
 }
 
-.icon-container img {
-    width: 100%;
-    /* Đảm bảo hình ảnh lấp đầy phần tử cha */
-    height: 100%;
-    /* Đảm bảo hình ảnh lấp đầy phần tử cha */
+.icon-container {
+    width: 16px;
+    /* Độ rộng của biểu tượng */
+    height: 16px;
     border-radius: 50%;
-    /* Bo tròn để tạo hình tròn */
-    object-fit: cover;
-    /* Đảm bảo hình ảnh không bị méo khi co dãn */
+    /* Để tạo hình tròn */
+    margin-right: 5px;
+    /* Khoảng cách giữa các biểu tượng */
+    cursor: pointer;
+    /* Con trỏ chuột thành pointer khi di chuột vào */
+    border: 2px solid white;
+    /* Viền màu trắng */
+}
+
+.icon-container.active {
+    background: #259E58;
+    /* Màu nền của biểu tượng khi active */
+    border-color: white;
+    /* Màu viền của biểu tượng khi active */
 }
 
 /* effect*/
@@ -502,4 +706,33 @@ body {
 
 .sway-animation {
     animation: sway 1.5s ease-in-out;
+}
+
+/*chuyển ảnh*/
+.image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Ẩn các phần tử bên ngoài khu vực slider */
+}
+
+.image-slider img {
+    display: none;
+    /* Ẩn tất cả các ảnh mặc định */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    /* Đảm bảo kích thước phù hợp với khu vực hiển thị */
+}
+
+.image-slider img:first-child {
+    display: block;
+    /* Hiển thị ảnh đầu tiên khi bắt đầu */
+}
+
+.svg-container,
+.svg-container-2 {
+    cursor: pointer;
+    /* Con trỏ chuột thay đổi khi di chuột vào */
 }

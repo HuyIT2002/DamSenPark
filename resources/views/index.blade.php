@@ -17,12 +17,89 @@
 <body>
     <div class="container">
         <div class="sidebar">
+            <div class="menu-group">
+                <div class="menu-item">
+                    <div class="menu-content">
+                        <div class="menu-title">Trang chủ</div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-content">
+                        <div class="menu-title">Khám phá</div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-content">
+                        <div class="menu-title">Giới thiệu</div>
+                        <div class="arrow-icon">
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="arrow">
+                                    <path id="Icon" d="M13 10L19 16L13 22" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="submenu-container">
+                            <div class="submenu">
+                                <div class="submenu-item">
+                                    <div class="submenu-title">Lịch sử hình thành</div>
+                                </div>
+                                <div class="submenu-divider"></div>
+                                <div class="submenu-item">
+                                    <div class="submenu-title">Thành viên</div>
+                                </div>
+                                <div class="submenu-divider"></div>
+                                <div class="submenu-item">
+                                    <div class="submenu-title">Chính sách bảo mật</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="menu-item">
+                    <div class="menu-content">
+                        <div class="menu-title">Giá vé</div>
+                        <div class="arrow-icon">
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="arrow">
+                                    <path id="Icon" d="M13 10L19 16L13 22" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="submenu-container">
+                        <div class="submenu">
+                            <div class="submenu-item">
+                                <div class="submenu-title">Vé trong công viên</div>
+                            </div>
+                            <div class="submenu-divider"></div>
+                            <div class="submenu-item">
+                                <div class="submenu-title">Vé tập thể</div>
+                            </div>
+                            <div class="submenu-divider"></div>
+                            <div class="submenu-item">
+                                <div class="submenu-title">Vé dịch vụ</div>
+                            </div>
+                            <div class="submenu-divider"></div>
+                            <div class="submenu-item">
+                                <div class="submenu-title">Vé thể dục</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-content">
+                        <div class="menu-title">Sự kiện</div>
+                    </div>
+                </div>
+            </div>
             <div class="header-container">
-                <div class="header-title">TRANG CHỦ</div>
-                <div class="header-title-2">KHÁM PHÁ</div>
-                <div class="header-title-2">GIỚI THIỆU</div>
-                <div class="header-title-2">GIÁ VÉ</div>
-                <div class="header-title-2">SỰ KIỆN</div>
                 <div class="line"></div>
                 <div class="social-icons">
                     <a href="#" class="social-icon square">
@@ -58,13 +135,17 @@
         </div>
         <div class="content">
             <div class="banner">
-                <img src="{{ asset('/public/images/banner1.png') }}" alt="Banner">
+                <div class="image-slider">
+                    <img src="{{ asset('/public/images/banner1.png') }}" alt="Banner">
+                    <img src="{{ asset('/public/images/Rectangle-1526.png') }}" alt="Banner">
+                </div>
                 <div class="svg-container">
-                    <img src="{{ asset('/public/images/Frame.svg') }}" alt="Frame SVG">
+                    <img src="{{ asset('/public/images/Frame.svg') }}" alt="Frame SVG" class="frame-img">
                 </div>
                 <div class="svg-container-2">
                     <img src="{{ asset('/public/images/Frame-1.svg') }}" alt="Frame SVG">
                 </div>
+
                 <div class="outer-container">
                     <div class="inner-container">
                         <div class="triangle">
@@ -86,18 +167,6 @@
                     </div>
                 </div>
                 <div class="icons-wrapper">
-                    <div class="icon-container">
-                        <img src="{{ asset('/public/images/04.svg') }}" alt="Icon 4">
-                    </div>
-                    <div class="icon-container">
-                        <img src="{{ asset('/public/images/03.svg') }}" alt="Icon 3">
-                    </div>
-                    <div class="icon-container">
-                        <img src="{{ asset('/public/images/02.svg') }}" alt="Icon 2">
-                    </div>
-                    <div class="icon-container">
-                        <img src="{{ asset('/public/images/01.svg') }}" alt="Icon 1">
-                    </div>
                 </div>
                 <div class="contact-section">
                     <div class="circle">
@@ -119,7 +188,7 @@
     <script src="{{ asset('/public/js/jquery.magnific-popup.min.js') }}"></script>
     <script src="{{ asset('/public/js/circle-progress.min.js') }}"></script>
     <script src="{{ asset('/public/js/style.js') }}"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 
 
