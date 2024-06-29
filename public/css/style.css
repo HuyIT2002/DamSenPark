@@ -4,10 +4,10 @@ body {
     background: linear-gradient(0deg, #E6FFD2 0%, #E6FFD2 100%);
     width: 1920px;
     height: 1001px;
-    /* Điều chỉnh chiều cao của body */
     padding: 0;
-    /* Đặt padding của body là 0 */
+    overflow-x: hidden;
 }
+
 
 .content {
     position: absolute;
@@ -20,25 +20,30 @@ body {
     box-sizing: border-box;
 }
 
+.white-background {
+    width: 1615px;
+    height: 953px;
+    background-color: white;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.23);
+    /* Tùy chọn, có thể thêm border-radius nếu muốn */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .banner img {
     width: 1615px;
     height: 953px;
     top: 24px;
-    left: 281px;
+    /* left: 281px; */
     object-fit: cover;
     opacity: 1;
     box-sizing: border-box;
 }
 
 /* sidebar */
-.sidebar {
-    width: 257px;
-    height: 1001px;
-    opacity: 1;
-    background: #259E58;
-    position: relative;
 
-}
 
 .menu {
     width: 64px;
@@ -105,13 +110,16 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #259E58;
-    padding: 20px;
+    padding: 24px;
     width: 257px;
-    height: 990px;
+    height: 1001px;
     box-sizing: border-box;
     justify-content: flex-start;
     align-items: center;
 }
+
+
+
 
 .menu-group {
     display: flex;
@@ -230,82 +238,103 @@ body {
     border: 1px #E0E0E0 solid;
 }
 
+.menu-item .submenu-container {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
 .menu-item:hover .submenu-container,
 .menu-item .arrow-icon:hover+.submenu-container,
 .menu-item .submenu-container:hover {
-    display: block !important;
+    display: block;
     opacity: 1;
     pointer-events: auto;
-    stroke: #C8FF9C;
-    color: #C8FF9C;
-    transition: color 0.3s ease;
     cursor: pointer;
-    /* Change cursor to pointer */
 }
 
-.menu-title,
-.arrow-icon {
+.menu-item .menu-title,
+.menu-item .arrow-icon {
     cursor: pointer;
-    /* Change cursor to pointer */
     position: relative;
-    /* Necessary for positioning the pseudo-element */
+    transition: color 0.3s ease, border-color 0.3s ease;
+    color: white;
+    /* Màu mặc định */
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.menu-item .menu-content .menu-title,
+.menu-item .menu-content .arrow-icon {
+    cursor: pointer;
+    position: relative;
     transition: color 0.3s ease;
-    /* Smooth color change */
+    color: white;
+    /* Màu mặc định */
+    text-decoration: none;
 }
 
-/* .menu-item:hover .menu-title,
-.menu-item:hover .arrow-icon svg #Icon {
-    stroke: #C8FF9C;
-    color: #C8FF9C;
-    transition: color 0.3s ease;
-} */
-
-.submenu-title:hover {
+/* Change color on hover */
+.menu-item:hover .menu-content .menu-title,
+.menu-item:hover .menu-content .arrow-icon {
     color: #005F33;
-    /* Change color on hover */
 }
 
-.menu-title.active,
-.arrow-icon.active {
+/* Thay đổi màu khi ở trạng thái active */
+.menu-item.active .menu-content .menu-title,
+.menu-item.active .menu-content .arrow-icon,
+.menu-item .menu-content .menu-title.active,
+.menu-item .menu-content .arrow-icon.active {
     color: #005F33;
-    /* Thay đổi màu khi ở trạng thái active */
 }
 
+
+/* Thay đổi màu stroke */
 .arrow-icon.active #Icon {
     stroke: #005F33;
-    /* Thay đổi màu stroke */
+
 }
 
-.menu-title.active::after {
+.menu-item.active .menu-title::after,
+.menu-item .arrow-icon.active::after,
+.menu-item .menu-title.active::after,
+.menu-item .arrow-icon.active::after {
     content: '';
     position: absolute;
     left: 0;
     right: 0;
     bottom: -3px;
-    /* Điều chỉnh vị trí theo nhu cầu */
     height: 3px;
     background-color: #005F33;
-    /* Màu của đường gạch chân */
     width: 100%;
     transform: scaleX(1);
     transform-origin: bottom left;
     transition: transform 0.3s ease;
 }
 
-.menu-title::after {
+.menu-item .menu-title::after,
+.menu-item .arrow-icon::after {
     content: '';
     position: absolute;
     left: 0;
     right: 0;
     bottom: -3px;
-    /* Điều chỉnh vị trí theo nhu cầu */
     height: 3px;
-    background-color: #005F33;
-    /* Màu của đường gạch chân */
+    background-color: transparent;
     width: 100%;
     transform: scaleX(0);
     transform-origin: bottom left;
     transition: transform 0.3s ease;
+}
+
+.menu-item:hover .menu-title::after,
+.menu-item .arrow-icon:hover::after {
+    transform: scaleX(1);
+}
+
+.menu-item .submenu-title:hover {
+    color: #005F33;
 }
 
 .menu-item:not(.active):hover .menu-title:not(.active),
@@ -316,25 +345,7 @@ body {
 }
 
 
-/* contact */
-.contact-section h2 {
-    color: #259E58;
-    font-size: 24px;
-    margin-bottom: 10px;
-}
 
-.contact-section p {
-    margin: 10px 0;
-}
-
-.contact-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.contact-section li {
-    margin-bottom: 5px;
-}
 
 /* Frame */
 .svg-container {
@@ -735,4 +746,47 @@ body {
 .svg-container-2 {
     cursor: pointer;
     /* Con trỏ chuột thay đổi khi di chuột vào */
+}
+
+/*contact*/
+.contact-section {
+    position: fixed;
+    top: 820px;
+    left: 1750px;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.contact-section .circle {
+    width: 64px;
+    height: 64px;
+    background: white;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.23);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact-section .circle img {
+    width: 32px;
+    height: 32px;
+}
+
+.circle img {
+    width: 32px;
+    height: 32px;
+}
+
+.circle .inner-circle {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }

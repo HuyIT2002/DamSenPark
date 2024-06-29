@@ -1,35 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đầm Sen Park</title>
-
-    <head>
-        <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-        <link rel="stylesheet" href="{{ asset('/public/css/style.css') }}">
-        <!-- Bootstrap Icons CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    </head>
-
-<body>
-    <div class="container">
         <div class="sidebar">
             <div class="menu-group">
-                <div class="menu-item">
+                <div class="menu-item {{ request()->is('main') ? 'active' : '' }}">
                     <div class="menu-content">
-                        <div class="menu-title">Trang chủ</div>
+                        <a href="{{ route('main') }}" class="menu-title">Trang chủ</a>
                     </div>
                 </div>
 
-                <div class="menu-item">
+                <div class="menu-item {{ request()->is('main-2') ? 'active' : '' }}">
                     <div class="menu-content">
-                        <div class="menu-title">Khám phá</div>
+                        <a href="{{ route('main-2') }}" class="menu-title">Khám phá</a>
                     </div>
                 </div>
-
                 <div class="menu-item">
                     <div class="menu-content">
                         <div class="menu-title">Giới thiệu</div>
@@ -93,9 +74,9 @@
                     </div>
                 </div>
 
-                <div class="menu-item">
+                <div class="menu-item {{ request()->is('main-3') ? 'active' : '' }}">
                     <div class="menu-content">
-                        <div class="menu-title">Sự kiện</div>
+                        <a href="{{ route('main-3') }}" class="menu-title">sự kiện</a>
                     </div>
                 </div>
             </div>
@@ -133,63 +114,3 @@
             </div>
 
         </div>
-        <div class="content">
-            <div class="banner">
-                <div class="image-slider">
-                    <img src="{{ asset('/public/images/banner1.png') }}" alt="Banner">
-                    <img src="{{ asset('/public/images/Rectangle-1526.png') }}" alt="Banner">
-                </div>
-                <div class="svg-container">
-                    <img src="{{ asset('/public/images/Frame.svg') }}" alt="Frame SVG" class="frame-img">
-                </div>
-                <div class="svg-container-2">
-                    <img src="{{ asset('/public/images/Frame-1.svg') }}" alt="Frame SVG">
-                </div>
-
-                <div class="outer-container">
-                    <div class="inner-container">
-                        <div class="triangle">
-                            <img class="icon" src="{{ asset('/public/images/chevron-left.svg') }}" alt="Chevron Left Icon">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="outer-container-2">
-                    <div class="inner-container-2">
-                        <div class="triangle-2">
-                            <img class="icon-2" src="{{ asset('/public/images/chevron-left-1.svg') }}" alt="Chevron Left Icon">
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-div">
-                    <div class="inner-content">
-                        KHÁM PHÁ NGAY
-                    </div>
-                </div>
-                <div class="icons-wrapper">
-                </div>
-                <div class="contact-section">
-                    <div class="circle">
-                        <img id="phoneFlip" src="{{ asset('/public/images/phone-flip.svg') }}" alt="Phone Flip">
-                    </div>
-                    <div class="circle">
-                        <img src="{{ asset('/public/images/Messenger-Outline-1.svg') }}" alt="Messenger Outline 1">
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-    <script src="{{ asset('/public/js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ asset('/public/js/jbootstrap.min.js') }}"></script>
-    <script src="{{ asset('/public/js/jquery.slicknav.min.js') }}"></script>
-    <script src="{{ asset('/public/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('/public/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('/public/js/circle-progress.min.js') }}"></script>
-    <script src="{{ asset('/public/js/style.js') }}"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</body>
-
-
-</html>

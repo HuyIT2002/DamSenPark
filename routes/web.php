@@ -14,5 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('layouts.home.home');
 });
+
+Route::get('/main', function () {
+    return view('layouts.main.main');
+})->name('main');
+
+Route::get('/main-2', function () {
+    return view('layouts.main.main-2');
+})->name('main-2');
+Route::get('/main-3', function () {
+    return view('layouts.main.main-2');
+})->name('main-3');

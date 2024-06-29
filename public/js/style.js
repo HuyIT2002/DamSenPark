@@ -29,24 +29,17 @@ $(document).ready(function() {
 
     $('.menu-item').hover(
         function() {
-            // Clear any existing timeout to avoid hiding
             clearTimeout(timeout);
-
-            // Hide all submenu containers
             $('.submenu-container').hide();
 
-            // Show the submenu container of the current menu item
             $(this).find('.submenu-container').css('display', 'block').css('opacity', 1);
         },
         function() {
-            // Set a timeout to hide the submenu container after 200ms
             timeout = setTimeout(() => {
                 $(this).find('.submenu-container').css('display', 'none').css('opacity', 0);
             }, 200);
         }
     );
-
-    // Keep submenu container visible when hovering over it
     $('.submenu-container').hover(
         function() {
             clearTimeout(timeout);
@@ -144,11 +137,6 @@ $(document).ready(function() {
         $('.icon-container').not($('.icon-container').eq(currentIndex)).removeClass('active');
     });
 });
-
-
-
-
-
 
 
 
