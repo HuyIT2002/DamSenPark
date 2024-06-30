@@ -25,11 +25,11 @@ body {
     height: 953px;
     background-color: white;
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.23);
-    /* Tùy chọn, có thể thêm border-radius nếu muốn */
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .banner img {
@@ -660,8 +660,8 @@ body {
 /* effect*/
 .contact-section {
     position: absolute;
-    top: 765px;
-    left: 1503px;
+    top: 800px;
+    left: 1800px;
     display: flex;
     flex-direction: column;
     /* Hiển thị các phần tử con theo chiều dọc */
@@ -688,7 +688,12 @@ body {
     position: relative;
     margin-bottom: 24px;
     /* Khoảng cách 24px giữa các hình tròn */
+
+    /* Đổ bóng xung quanh với hiệu ứng mờ mờ nhẹ */
+    box-shadow: 0 0 10px 2px rgba(204, 204, 204, 0.5);
+    /* Màu xám xám, độ rộng 2px, mờ mờ nhẹ */
 }
+
 
 .circle img {
     width: 32px;
@@ -749,44 +754,67 @@ body {
 }
 
 /*contact*/
-.contact-section {
-    position: fixed;
-    top: 820px;
-    left: 1750px;
-    right: 0;
-    transform: translateY(-50%);
-    z-index: 1000;
+.content-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    /* Khoảng cách 32px bên trái */
+    padding-right: 32px;
+    /* Khoảng cách 32px bên phải */
+    /* border-bottom: 3px #EECDE0 solid; */
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: flex-end;
+    display: flex;
+    position: relative;
+    top: -850px;
+    /* Điều chỉnh vị trí lên trên */
 }
 
-.contact-section .circle {
-    width: 64px;
-    height: 64px;
-    background: white;
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.23);
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
+.item {
+    width: auto;
+    height: auto;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
-}
-
-.contact-section .circle img {
-    width: 32px;
-    height: 32px;
-}
-
-.circle img {
-    width: 32px;
-    height: 32px;
-}
-
-.circle .inner-circle {
-    width: 32px;
-    height: 32px;
-    position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-right: 54px;
+    /* Khoảng cách 54px chỉ vào bên phải */
+}
+
+.item:last-child {
+    margin-right: 0;
+    /* Loại bỏ margin-right cho item cuối cùng */
+}
+
+.text {
+    color: #67776F;
+    font-size: 55px;
+    font-family: 'Bangers', cursive;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 12px;
+    /* Khoảng cách dưới chân văn bản */
+    display: inline-block;
+    /* Để có thể áp dụng đường dưới */
+    position: relative;
+    /* Để có thể vị trí tuyệt đối cho đường dưới */
+}
+
+.item::after {
+    content: '';
+    width: calc(100% - 40px);
+    /* Chiều dài bằng chiều dài của .item trừ khoảng lề bên trong */
+    height: 3px;
+    /* Chiều cao của đường dưới */
+    background-color: #EECDE0;
+    /* Màu đường dưới */
+    position: absolute;
+    bottom: 0;
+    /* Đặt ở dưới cùng của .item */
+    left: 20px;
+    /* Khoảng lề bên trong bên trái */
+    right: 20px;
+    /* Khoảng lề bên trong bên phải */
 }
