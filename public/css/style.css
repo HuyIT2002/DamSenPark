@@ -53,41 +53,40 @@ body {
     position: absolute;
     top: 24px;
     left: 97px;
-    /* Cách lề trái là 724px */
     right: 96px;
-    /* Cách lề phải là 724px */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.menu img {
-    width: 24px;
-    height: 24px;
-    right: 24px;
-    display: block;
-    margin: 0 auto;
-    opacity: 0.5;
+.menu-link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.image-container {
-    width: 24px;
-    height: 24px;
-    overflow: hidden;
-}
-
-.image-container img {
+.image-container, .image-container-2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
 }
 
-.colored-image {
-    width: 50px;
-    height: 50px;
-    filter: invert(20%) sepia(100%) saturate(3000%) hue-rotate(325deg) brightness(90%) contrast(100%);
-    display: block;
+#default-svg, #alternate-svg {
+    width: 50%;
+    height: 50%;
 }
+
+
 
 /* header*/
 .header-container {
@@ -760,32 +759,37 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 32px;
-    /* Khoảng cách 32px bên trái */
     padding-right: 32px;
-    /* Khoảng cách 32px bên phải */
-    /* border-bottom: 3px #EECDE0 solid; */
     justify-content: center;
-    /* Căn giữa theo chiều ngang */
     align-items: flex-end;
     display: flex;
     position: relative;
-    top: -850px;
-    /* Điều chỉnh vị trí lên trên */
+    top: -810px;
+    flex-wrap: nowrap;
+    /* Đảm bảo các item không bị xuống hàng */
+    margin-left: 50px;
 }
 
 .item {
     width: auto;
     height: auto;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     display: flex;
     margin-right: 54px;
     /* Khoảng cách 54px chỉ vào bên phải */
+    white-space: nowrap;
+    /* Đảm bảo chữ không bị xuống hàng */
 }
 
 .item:last-child {
     margin-right: 0;
     /* Loại bỏ margin-right cho item cuối cùng */
+}
+
+.item .text {
+    transition: color 0.3s ease;
 }
 
 .text {
@@ -798,23 +802,33 @@ body {
     /* Khoảng cách dưới chân văn bản */
     display: inline-block;
     /* Để có thể áp dụng đường dưới */
-    position: relative;
-    /* Để có thể vị trí tuyệt đối cho đường dưới */
 }
 
 .item::after {
     content: '';
-    width: calc(100% - 40px);
-    /* Chiều dài bằng chiều dài của .item trừ khoảng lề bên trong */
     height: 3px;
-    /* Chiều cao của đường dưới */
     background-color: #EECDE0;
-    /* Màu đường dưới */
     position: absolute;
     bottom: 0;
-    /* Đặt ở dưới cùng của .item */
+    left: 30px;
+    right: 70px;
+    /* Điều chỉnh khoảng cách từ lề phải của .item là 27px */
+}
+
+
+.scroll-line {
+    height: 3px;
+    background-color: #EC008C;
+    position: absolute;
+    bottom: 0;
     left: 20px;
-    /* Khoảng lề bên trong bên trái */
-    right: 20px;
-    /* Khoảng lề bên trong bên phải */
+}
+
+.item .text {
+    transition: color 0.3s ease;
+}
+
+.item.selected .text {
+    color: #EC008C;
+    /* Màu chữ khi được chọn */
 }

@@ -13,7 +13,7 @@
         <div class="text">Cảnh đẹp</div>
     </div>
     <div class="item">
-        <div class="text highlight">Sân khấu</div>
+        <div class="text">Sân khấu</div>
     </div>
     <div class="item">
         <div class="text">Giáo dục trải nghiệm</div>
@@ -21,5 +21,6 @@
     <div class="item">
         <div class="text">Ẩm thực</div>
     </div>
+    <div class="scroll-line"></div>
 </div>
 @endsection

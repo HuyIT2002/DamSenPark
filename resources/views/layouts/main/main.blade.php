@@ -35,5 +35,4 @@
     </div>
     <div class="icons-wrapper">
     </div>
-
     @endsection

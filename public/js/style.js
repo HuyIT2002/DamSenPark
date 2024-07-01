@@ -137,6 +137,40 @@ $(document).ready(function() {
         $('.icon-container').not($('.icon-container').eq(currentIndex)).removeClass('active');
     });
 });
+$(document).ready(function() {
+    $('.item').on('click', function() {
+        // Xóa lớp 'selected' khỏi tất cả các .item
+        $('.item').removeClass('selected');
+        
+        // Thêm lớp 'selected' cho .item hiện tại
+        $(this).addClass('selected');
+        
+        // Lấy vị trí left của .item hiện tại
+        var leftPosition = $(this).position().left;
+        
+        // Lấy chiều rộng của .item hiện tại
+        var itemWidth = $(this).outerWidth();
+
+        // Cập nhật vị trí và chiều dài của .scroll-line
+        // Giảm độ dài scroll-line xuống 30% so với chiều rộng của .item
+        var scrollLineWidth = itemWidth * 0.9; // 30% của chiều rộng .item
+        $('.scroll-line').css({
+            left: leftPosition + 1 + 'px', // Thêm 25px để căn giữa đúng với .item::after
+            width: scrollLineWidth + 'px' // Sử dụng độ dài tính toán
+        });
+
+        // Cuộn tới .item hiện tại nếu nó vượt ra ngoài phạm vi hiện tại của .content-container
+        var containerWidth = $('.content-container').outerWidth();
+        var scrollLeft = $('.content-container').scrollLeft();
+        
+        if (leftPosition < scrollLeft || leftPosition + itemWidth > scrollLeft + containerWidth) {
+            $('.content-container').scrollLeft(leftPosition);
+        }
+    });
+});
+
+
+
 
 
 
