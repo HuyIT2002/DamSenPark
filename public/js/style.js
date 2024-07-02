@@ -137,7 +137,56 @@ $(document).ready(function() {
         $('.icon-container').not($('.icon-container').eq(currentIndex)).removeClass('active');
     });
 });
+// $(document).ready(function() {
+//     $('.item').on('click', function() {
+//         // Xóa lớp 'selected' khỏi tất cả các .item
+//         $('.item').removeClass('selected');
+        
+//         // Thêm lớp 'selected' cho .item hiện tại
+//         $(this).addClass('selected');
+        
+//         // Lấy vị trí left của .item hiện tại
+//         var leftPosition = $(this).position().left;
+        
+//         // Lấy chiều rộng của .item hiện tại
+//         var itemWidth = $(this).outerWidth();
+
+//         // Cập nhật vị trí và chiều dài của .scroll-line
+//         // Giảm độ dài scroll-line xuống 30% so với chiều rộng của .item
+//         var scrollLineWidth = itemWidth * 0.9; // 30% của chiều rộng .item
+//         $('.scroll-line').css({
+//             left: leftPosition + 1 + 'px', // Thêm 25px để căn giữa đúng với .item::after
+//             width: scrollLineWidth + 'px' // Sử dụng độ dài tính toán
+//         });
+
+//         // Cuộn tới .item hiện tại nếu nó vượt ra ngoài phạm vi hiện tại của .content-container
+//         var containerWidth = $('.content-container').outerWidth();
+//         var scrollLeft = $('.content-container').scrollLeft();
+        
+//         if (leftPosition < scrollLeft || leftPosition + itemWidth > scrollLeft + containerWidth) {
+//             $('.content-container').scrollLeft(leftPosition);
+//         }
+//     });
+// });
 $(document).ready(function() {
+   var firstItemLeftPosition = $('.item:first').position().left;
+    var scrollLineWidth = $('.item:first').outerWidth() * 0.9; // 30% của chiều rộng .item
+
+      $('.item[data-item="1"]').addClass('selected');
+    $('.scroll-line').css({
+        left: firstItemLeftPosition + 1 + 'px',
+        width: scrollLineWidth + 'px',
+        background: '#EC008C'
+    });
+    $('#highlighted-text').css('color', '#EC008C');
+    // Bắt sự kiện click trên bất kỳ .item nào
+    $('.item').on('click', function() {
+        // Xóa màu hồng của các phần tử có ID là highlighted-text khi click vào .item
+        $('#highlighted-text').css('color', '');
+    });
+
+
+    // Khi click vào một .item
     $('.item').on('click', function() {
         // Xóa lớp 'selected' khỏi tất cả các .item
         $('.item').removeClass('selected');
@@ -152,11 +201,10 @@ $(document).ready(function() {
         var itemWidth = $(this).outerWidth();
 
         // Cập nhật vị trí và chiều dài của .scroll-line
-        // Giảm độ dài scroll-line xuống 30% so với chiều rộng của .item
         var scrollLineWidth = itemWidth * 0.9; // 30% của chiều rộng .item
         $('.scroll-line').css({
             left: leftPosition + 1 + 'px', // Thêm 25px để căn giữa đúng với .item::after
-            width: scrollLineWidth + 'px' // Sử dụng độ dài tính toán
+            width: scrollLineWidth + 'px'
         });
 
         // Cuộn tới .item hiện tại nếu nó vượt ra ngoài phạm vi hiện tại của .content-container
@@ -168,6 +216,7 @@ $(document).ready(function() {
         }
     });
 });
+
 
 
 

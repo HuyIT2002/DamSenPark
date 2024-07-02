@@ -760,9 +760,9 @@ body {
     padding-bottom: 8px;
     padding-left: 32px;
     padding-right: 32px;
+    display: flex;
     justify-content: center;
     align-items: flex-end;
-    display: flex;
     position: relative;
     top: -810px;
     flex-wrap: nowrap;
@@ -771,17 +771,62 @@ body {
 }
 
 .item {
-    width: auto;
-    height: auto;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
     display: flex;
+    align-items: center;
+    cursor: pointer;
     margin-right: 54px;
-    /* Khoảng cách 54px chỉ vào bên phải */
     white-space: nowrap;
-    /* Đảm bảo chữ không bị xuống hàng */
 }
+
+.text {
+    color: #259E58;
+    font-size: 32px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 48px;
+    word-wrap: break-word;
+
+}
+
+.additional-info {
+    position: absolute;
+    top: 100%;
+    /* Hiển thị additional-info dưới text */
+    left: 0;
+    display: none;
+    /* Mặc định ẩn additional-info */
+}
+
+.item.selected .additional-info {
+    display: flex;
+    /* Hiển thị additional-info khi item được chọn */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.info-item {
+    color: #259E58;
+    /* Màu chữ */
+    font-size: 32px;
+    /* Kích thước font */
+    font-family: Nunito;
+    /* Font chữ */
+    font-weight: 800;
+    /* Độ đậm của font */
+    line-height: 48px;
+    /* Chiều cao dòng */
+    word-wrap: break-word;
+    /* Ngắt dòng khi cần */
+    white-space: nowrap;
+    /* Ngăn không cho dòng ngắt trên một dòng */
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+    /* Khoảng cách giữa các info-item */
+
+}
+
+
 
 .item:last-child {
     margin-right: 0;
@@ -812,7 +857,6 @@ body {
     bottom: 0;
     left: 30px;
     right: 70px;
-    /* Điều chỉnh khoảng cách từ lề phải của .item là 27px */
 }
 
 
@@ -831,4 +875,75 @@ body {
 .item.selected .text {
     color: #EC008C;
     /* Màu chữ khi được chọn */
+}
+
+/**/
+
+.info-link {
+    margin-right: 24px;
+}
+
+.info-item a {
+    color: inherit;
+    /* Kế thừa màu chữ từ thẻ cha */
+    text-decoration: none;
+    /* Loại bỏ đường gạch chân của các liên kết */
+}
+
+.info-item ul {
+    list-style-type: none;
+    /* Loại bỏ dấu chấm của danh sách */
+    padding: 0;
+    /* Loại bỏ padding mặc định của danh sách */
+    margin: 0;
+    /* Loại bỏ margin mặc định của danh sách */
+}
+
+.info-item li {
+    margin-bottom: 8px;
+}
+
+
+.icon-container-2 {
+    display: flex;
+    align-items: center;
+}
+
+.icon-2 {
+    width: 32px;
+    /* Giảm chiều rộng xuống */
+    height: 32px;
+    /* Giảm chiều cao xuống */
+    border-radius: 50%;
+    border: 1px #EC008C solid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* Điều chỉnh khoảng cách top */
+    display: inline-flex;
+}
+
+
+
+.number {
+    color: #EC008C;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.title {
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.title-text {
+    color: #4D4D4D;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
 }
