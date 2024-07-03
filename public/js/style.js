@@ -216,10 +216,9 @@ $(document).ready(function() {
         }
     });
 });
-
-
-
-
+document.querySelector('.white-background-2').addEventListener('mousedown', function(event) {
+    console.log('Mouse down event detected');
+});
 
 
 

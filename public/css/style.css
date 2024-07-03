@@ -25,7 +25,7 @@ body {
     height: 953px;
     background-color: white;
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.23);
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,7 +259,6 @@ body {
     position: relative;
     transition: color 0.3s ease, border-color 0.3s ease;
     color: white;
-    /* Màu mặc định */
     text-decoration: none;
 }
 
@@ -270,7 +269,6 @@ body {
     position: relative;
     transition: color 0.3s ease;
     color: white;
-    /* Màu mặc định */
     text-decoration: none;
 }
 
@@ -296,9 +294,7 @@ body {
 }
 
 .menu-item.active .menu-title::after,
-.menu-item .arrow-icon.active::after,
-.menu-item .menu-title.active::after,
-.menu-item .arrow-icon.active::after {
+.menu-item .menu-title.active::after {
     content: '';
     position: absolute;
     left: 0;
@@ -804,6 +800,7 @@ body {
     gap: 10px;
 }
 
+
 .info-item {
     color: #259E58;
     /* Màu chữ */
@@ -946,4 +943,180 @@ body {
     font-weight: 500;
     line-height: 27px;
     word-wrap: break-word;
+}
+
+.info-list {
+    list-style-type: none;
+    /* Loại bỏ dấu chấm */
+    padding: 0;
+    margin: 0;
+    display: contents;
+    /* Cho phép các mục con sử dụng grid của cha */
+}
+
+.info-list li {
+    margin-bottom: 24px;
+    /* Khoảng cách giữa các mục */
+}
+
+/*event*/
+.white-background-2 {
+    width: 1615px;
+    height: 2888px;
+    background-color: white;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* Thêm thuộc tính position relative vào đây */
+}
+
+.event-title {
+    color: #259E58;
+    font-size: 96px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 77px;
+    left: 12%;
+    transform: translateX(-50%);
+}
+
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    /* Đặt kích thước mong muốn */
+    height: auto;
+    top: -950px;
+    /* Hoặc chiều cao mong muốn */
+}
+
+
+.event-title::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 3px #259E58 solid;
+}
+
+/*slides box*/
+.mySlides {
+    position: absolute;
+    top: 50%;
+    /* Điều chỉnh vị trí giữa theo chiều dọc */
+    transform: translateY(-50%);
+    /* Đưa slide lên trên 50% chiều cao của nó */
+}
+
+.slide-image {
+    width: 100%;
+    height: auto;
+    /* Ensure aspect ratio is maintained */
+    border-radius: 40px;
+    /* Rounded corners */
+}
+
+.overlay-container {
+    width: 100%;
+    height: 100%;
+    /* White background behind the image */
+    border-radius: 40px;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Ensure content doesn't overflow */
+    display: flex;
+    /* Center content horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* Positioning context for absolute children */
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* CSS cho slide 1 */
+#slide1 {
+    z-index: 3;
+    /* Slide 1 có z-index cao nhất */
+    left: 50%;
+    /* Đưa slide 1 vào giữa */
+    transform: translateX(-50%) translateY(-50%);
+    /* Đưa slide 1 vào giữa cả chiều ngang và dọc */
+}
+
+#slide1 {
+    z-index: 3;
+    /* Slide 1 có z-index cao nhất */
+}
+
+#slide2 {
+    z-index: 2;
+    /* Slide 2 có z-index thấp hơn slide 1 nhưng cao hơn slide 4 và 5 */
+    left: 250px;
+}
+
+#slide3 {
+    z-index: 2;
+    /* Slide 3 có z-index như slide 2 */
+    right: 250px;
+    /* Đưa slide 3 vào bên phải */
+}
+
+#slide4 {
+    z-index: 1;
+    /* Slide 4 có z-index thấp hơn slide 2 và 3 */
+    left: 200px;
+}
+
+#slide5 {
+    z-index: 1;
+    /* Slide 5 có z-index nhỏ nhất trong các slide */
+    right: 200px;
+    /* Đưa slide 5 vào bên phải */
+}
+
+/*Navigation*/
+.custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    transform: translateY(-650px);
+}
+
+.custom-dot-left, .custom-dot-right {
+    margin: 0 10px;
+    /* Khoảng cách giữa chấm và biểu tượng mũi tên */
+}
+
+.custom-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #259E58;
+    /* Màu sắc của các chấm */
+    border-radius: 50%;
+    /* Làm tròn các góc để tạo hình dáng chấm */
+    display: inline-block;
+    margin: 0 5px;
+    /* Khoảng cách giữa các chấm */
+}
+
+.custom-dot-left svg,
+.custom-dot-right svg {
+    width: 25px;
+    /* Kích thước của biểu tượng mũi tên */
+    height: 24px;
+    fill: #259E58;
+    /* Màu sắc của biểu tượng mũi tên */
+    margin-top: 5px;
 }

@@ -9,18 +9,22 @@
     <head>
         <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('/public/css/style.css') }}">
         <!-- Bootstrap Icons CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
     </head>
 
 <body>
     <div class="container">
         @include('layouts.sidebar')
         <div class="content">
-            <div class="white-background">
+            <!-- <div class="white-background">
                 @yield('content')
-            </div>
+            </div> -->
+            @yield('content')
         </div>
     </div>
 

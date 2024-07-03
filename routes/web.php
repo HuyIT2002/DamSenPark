@@ -25,5 +25,8 @@ Route::get('/main-2', function () {
     return view('layouts.main.main-2');
 })->name('main-2');
 Route::get('/main-3', function () {
-    return view('layouts.main.main-2');
+    return view('layouts.main.main-3');
 })->name('main-3');
+Route::get('/su-kien', function () {
+    return view('layouts.sukien.su-kien');
+})->name('su-kien');
