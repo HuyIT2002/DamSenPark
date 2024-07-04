@@ -654,8 +654,8 @@ body {
 
 /* effect*/
 .contact-section {
-    position: absolute;
-    top: 800px;
+    position: fixed;
+    top: 750px;
     left: 1800px;
     display: flex;
     flex-direction: column;
@@ -971,31 +971,20 @@ body {
     align-items: center;
     flex-direction: column;
     position: relative;
-    /* Thêm thuộc tính position relative vào đây */
 }
 
 .event-title {
     color: #259E58;
     font-size: 96px;
-    font-family: Bangers;
+    font-family: Bangers, sans-serif;
     font-weight: 400;
     word-wrap: break-word;
     position: absolute;
-    top: 77px;
-    left: 12%;
+    top: 97px;
+    left: 15%;
+    /* Thay đổi vị trí theo yêu cầu */
     transform: translateX(-50%);
 }
-
-
-.slideshow-container {
-    position: relative;
-    width: 100%;
-    /* Đặt kích thước mong muốn */
-    height: auto;
-    top: -950px;
-    /* Hoặc chiều cao mong muốn */
-}
-
 
 .event-title::after {
     content: '';
@@ -1004,6 +993,47 @@ body {
     height: 100%;
     border: 3px #259E58 solid;
 }
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -500px;
+    /* Dịch chuyển slideshow lên theo yêu cầu */
+}
+
+.custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    transform: translateY(750px);
+}
+
+.events-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* Khoảng cách giữa các ô */
+    margin-top: 350px;
+    /* Di chuyển .events-wrapper xuống 20px */
+}
+
+.event-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    /* Đặt chiều rộng là 350px */
+    height: 400px;
+}
+
 
 /*slides box*/
 .mySlides {
@@ -1085,14 +1115,20 @@ body {
     /* Đưa slide 5 vào bên phải */
 }
 
-/*Navigation*/
-.custom-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    transform: translateY(-650px);
+#slide2 .slide-image,
+#slide3 .slide-image,
+#slide4 .slide-image,
+#slide5 .slide-image {
+    width: 90%;
+    /* Giảm chiều rộng xuống 90% so với container */
+    height: 90%;
+    /* Giảm chiều cao xuống 90% so với container */
+    object-fit: contain;
+    /* Đảm bảo hình ảnh hiển thị đầy đủ trong không gian của container */
+    position: relative;
 }
+
+/*Navigation*/
 
 .custom-dot-left, .custom-dot-right {
     margin: 0 10px;
@@ -1119,4 +1155,65 @@ body {
     fill: #259E58;
     /* Màu sắc của biểu tượng mũi tên */
     margin-top: 5px;
+}
+
+/*Phượng Hoàng Bay*/
+.unique-container {
+    width: 100%;
+    padding: 50px 0;
+    /* Để giữ khoảng cách với lề trang và top/bottom */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Canh giữa theo chiều dọc */
+}
+
+.unique-item {
+    display: flex;
+    align-items: center;
+    margin: 0 80px;
+    /* Điều chỉnh khoảng cách giữa các unique-item */
+}
+
+.custom-rotated-left, .custom-rotated-right {
+    display: flex;
+    /* Hiển thị các phần tử con trên cùng 1 dòng */
+    align-items: center;
+    /* Canh giữa theo chiều dọc */
+}
+
+.custom-rotated-left svg, .custom-rotated-right svg {
+    width: 20px;
+    /* Độ rộng của mũi tên */
+    height: 50px;
+    /* Chiều cao của mũi tên */
+    margin-right: 10px;
+    /* Điều chỉnh khoảng cách từ mũi tên đến văn bản */
+    margin-left: 10px;
+    /* Điều chỉnh khoảng cách từ mũi tên đến văn bản */
+}
+
+.custom-text-left, .custom-text-right {
+    color: #EC008C;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 30px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+.custom-text-right {
+    margin-left: auto;
+    /* Đẩy văn bản bên phải về phía phải cùng */
+    text-align: right;
+    /* Căn phải cho văn bản bên phải */
+}
+
+.custom-text-left {
+    margin-right: auto;
+    /* Đẩy văn bản bên trái về phía trái cùng */
+    text-align: left;
+    /* Căn trái cho văn bản bên trái */
 }

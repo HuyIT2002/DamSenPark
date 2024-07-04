@@ -57,8 +57,62 @@
                         fill="#259E58" />
                 </g>
             </svg>
-
         </div>
     </div>
+    <div class="events-wrapper">
+        <div class="event-container">
+            <h1>123</h1>
+        </div>
+        <div class="event-container">
+            <h1>123</h1>
+        </div>
+        <div class="event-container">
+            <h1>123</h1>
+        </div>
+        <div class="event-container">
+            <h1>123</h1>
+        </div>
+        <div class="event-container">
+            <h1>123</h1>
+        </div>
+        <div class="event-container">
+            <h1>123</h1>
+        </div>
+        <div class="event-container">
+            <h1>123</h1>
+        </div>
+        <div class="event-container">
+            <h1>123</h1>
+        </div>
+    </div>
+    <div class="unique-container">
+        <div class="unique-item">
+
+            <div class="custom-rotated-left">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Arrow Left">
+                        <path id="icon" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.62155 10.5001H21.5002V13.5001H8.62155L13.5609 18.4395L11.4396 20.5608L2.87891 12.0001L11.4396 3.43945L13.5609 5.56077L8.62155 10.5001Z"
+                            fill="#259E58" />
+                    </g>
+                </svg>
+            </div>
+            <div class="custom-text-left">Phượng Hoàng Bay</div>
+        </div>
+        <div class="unique-item">
+            <div class="custom-text-right">Tàu vượt thác</div>
+            <div class="custom-rotated-right">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Arrow Right">
+                        <path id="icon" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.9775 13.5563H3.42383V10.4423H15.9775L11.1628 5.31522L13.2306 3.11328L21.5752 11.9993L13.2306 20.8853L11.1628 18.6833L15.9775 13.5563Z"
+                            fill="#259E58" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 @endsection
