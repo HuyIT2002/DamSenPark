@@ -980,7 +980,30 @@ body {
     position: relative;
     width: 100%;
     height: auto;
-    margin-top: -450px;
+    margin-top: 500px;
+}
+
+.event-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    /* Đặt chiều rộng là 350px */
+    height: 400px;
+}
+
+
+.container-2 {
+    width: 100%;
+    height: 440px;
+    position: relative;
+    background: #259E58;
+    border-top: 1px solid;
+    margin-top: 495px;
+
 }
 
 .custom-container {
@@ -1025,17 +1048,6 @@ body {
 
 
 
-.event-container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    /* Đặt chiều rộng là 350px */
-    height: 400px;
-}
 
 
 /*slides box*/
@@ -1227,7 +1239,7 @@ body {
     top: 1900px;
     left: 100px;
     z-index: 1000;
-    width: calc(4 * 350px + 3 * 8px);
+    width: calc(4 * 350px + 4 * 20px);
     /* Tính toán chiều rộng cho 4 item và khoảng cách giữa chúng */
     overflow: hidden;
     /* Ẩn các nội dung bị tràn ra ngoài khung chứa */
@@ -1251,28 +1263,85 @@ body {
 .recommendation-item {
     width: 350px;
     height: 308px;
-    /* Kích thước của mỗi item */
     flex: 0 0 auto;
-    /* Để các phần tử không co giãn và nằm ngang */
     position: relative;
-    margin-right: 8px;
-    /* Khoảng cách giữa các item */
+    margin-right: 20px;
 }
 
-
-.recommendation-item {
-    width: 350px;
-    height: 308px;
-    /* Kích thước của mỗi item */
-    flex: 0 0 auto;
-    /* Để các phần tử không co giãn và nằm ngang */
-    position: relative;
-    margin-right: 8px;
-    /* Khoảng cách giữa các item */
+.recommendation-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 127px;
 }
 
+.recommendation-item-title {
+    color: #259E58;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 30px;
+    word-wrap: break-word;
+}
 
+.recommendation-item-date {
+    color: #666666;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
 
+.custom-icon-container {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    display: inline-flex;
+}
+
+.custom-tag-icon {
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.custom-tag-icon>div {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.custom-tag-icon>div>div:first-child {
+    width: 18.47px;
+    height: 18.44px;
+    left: 2.77px;
+    top: 2.77px;
+    position: absolute;
+    background: #EC008C;
+}
+
+.custom-tag-icon>div>div:last-child {
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.custom-text {
+    color: #EC008C;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
 
 
 .chevrons-container {
@@ -1306,4 +1375,343 @@ body {
 .custom-chevron-left:hover svg,
 .custom-chevron-right:hover svg {
     opacity: 0.8;
+}
+
+/*Footer*/
+
+.section-1 {
+    height: 163px;
+    left: 96px;
+    top: 32px;
+    position: absolute;
+}
+
+.title {
+    left: 0;
+    top: 0;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.box-container {
+    width: 462px;
+    height: 93px;
+    left: 0;
+    top: 70px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box {
+    width: 139.62px;
+    height: 89px;
+    position: relative;
+}
+
+.blue-box {
+    width: 89px;
+    height: 89px;
+    left: 25.59px;
+    top: 0;
+    position: absolute;
+    background: #0054A6;
+}
+
+.white-box-1,
+.white-box-2,
+.white-box-3 {
+    background: white;
+}
+
+.white-box-1 {
+    width: 89px;
+    height: 89px;
+    left: 25.59px;
+    top: 0;
+    position: absolute;
+}
+
+.white-box-2 {
+    width: 139.62px;
+    height: 29.48px;
+    left: 0;
+    top: 30.04px;
+    position: absolute;
+}
+
+.white-box-3 {
+    width: 140.62px;
+    height: 30.48px;
+    left: -0.50px;
+    top: 29.54px;
+    position: absolute;
+}
+
+.bar-1 {
+    width: 311.78px;
+    height: 16.54px;
+    background: white;
+}
+
+.bar-2 {
+    width: 318.02px;
+    height: 26.15px;
+    background: #99FFFF;
+}
+
+.section-2 {
+    left: 639px;
+    top: 32px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon-container {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+}
+
+.icon-inner-1 {
+    width: 17.25px;
+    height: 20px;
+    left: 3.38px;
+    top: 2px;
+    background: white;
+}
+
+.icon-inner-2 {
+    width: 6.24px;
+    height: 6.24px;
+    left: 8.88px;
+    top: 7.19px;
+    background: #259E58;
+}
+
+.contact-text {
+    color: white;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.opening-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.opening-hours-info {
+    position: relative;
+}
+
+.opening-hours-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+}
+
+.opening-hours-dot {
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 9999px;
+}
+
+.opening-hours-text {
+    color: white;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.section-3 {
+    left: 1181px;
+    top: 32px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.system-title {
+    width: 354px;
+    height: 34px;
+    color: white;
+    font-size: 24px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.system-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    flex-wrap: nowrap;
+
+}
+
+.system-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.system-dot {
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 9999px;
+}
+
+.system-text-container {
+    width: 218px;
+    height: 31px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.system-text {
+    left: 0;
+    top: 2px;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+
+}
+
+/**/
+.footer-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.footer-content {
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    display: inline-flex;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.footer-icon {
+    width: 18px;
+    height: 18px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.icon-wrapper {
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+
+.icon-inner-1 {
+    width: 15px;
+    height: 15px;
+    left: 1.5px;
+    top: 1.5px;
+    position: absolute;
+    border: 1px white solid;
+}
+
+.icon-inner-2 {
+    width: 4.98px;
+    height: 6px;
+    left: 6.18px;
+    top: 6px;
+    position: absolute;
+    border: 1px white solid;
+}
+
+.icon-background {
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0;
+}
+
+.footer-line {
+    width: 1613px;
+    height: 0px;
+    left: 0px;
+    bottom: 50px;
+    /* Điều chỉnh khoảng cách từ đáy theo ý muốn */
+    position: absolute;
+    border: 1px white solid;
 }

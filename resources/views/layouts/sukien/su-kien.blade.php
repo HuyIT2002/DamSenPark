@@ -128,7 +128,18 @@
                             <div class="recommendation-icon-background"></div>
                             <div class="recommendation-icon-overlay"></div>
                         </div>
-                        <div class="recommendation-item-category">Cảm giác mạnh</div>
+                        <div class="custom-icon-container">
+                            <div class="custom-tag-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.83 8.7L15.3 4.17C14.35 3.22 13.04 2.71 11.7 2.78L6.7 3.02C4.7 3.11 3.11 4.7 3.01 6.69L2.77 11.69C2.71 13.03 3.21 14.34 4.16 15.29L8.69 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.7ZM9.5 12.38C7.92 12.38 6.62 11.09 6.62 9.5C6.62 7.91 7.92 6.62 9.5 6.62C11.08 6.62 12.38 7.91 12.38 9.5C12.38 11.09 11.08 12.38 9.5 12.38ZM17.53 13.53L13.53 17.53C13.38 17.68 13.19 17.75 13 17.75C12.81 17.75 12.62 17.68 12.47 17.53C12.18 17.24 12.18 16.76 12.47 16.47L16.47 12.47C16.76 12.18 17.24 12.18 17.53 12.47C17.82 12.76 17.82 13.24 17.53 13.53Z"
+                                        fill="#EC008C" />
+                                </svg>
+                            </div>
+                            <div class="custom-text">
+                                Cảm giác mạnh
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -144,7 +155,18 @@
                             <div class="recommendation-icon-background"></div>
                             <div class="recommendation-icon-overlay"></div>
                         </div>
-                        <div class="recommendation-item-category">Cảm giác mạnh</div>
+                        <div class="custom-icon-container">
+                            <div class="custom-tag-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.83 8.7L15.3 4.17C14.35 3.22 13.04 2.71 11.7 2.78L6.7 3.02C4.7 3.11 3.11 4.7 3.01 6.69L2.77 11.69C2.71 13.03 3.21 14.34 4.16 15.29L8.69 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.7ZM9.5 12.38C7.92 12.38 6.62 11.09 6.62 9.5C6.62 7.91 7.92 6.62 9.5 6.62C11.08 6.62 12.38 7.91 12.38 9.5C12.38 11.09 11.08 12.38 9.5 12.38ZM17.53 13.53L13.53 17.53C13.38 17.68 13.19 17.75 13 17.75C12.81 17.75 12.62 17.68 12.47 17.53C12.18 17.24 12.18 16.76 12.47 16.47L16.47 12.47C16.76 12.18 17.24 12.18 17.53 12.47C17.82 12.76 17.82 13.24 17.53 13.53Z"
+                                        fill="#EC008C" />
+                                </svg>
+                            </div>
+                            <div class="custom-text">
+                                Cảm giác mạnh
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -160,7 +182,18 @@
                             <div class="recommendation-icon-background"></div>
                             <div class="recommendation-icon-overlay"></div>
                         </div>
-                        <div class="recommendation-item-category">Cảm giác mạnh</div>
+                        <div class="custom-icon-container">
+                            <div class="custom-tag-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.83 8.7L15.3 4.17C14.35 3.22 13.04 2.71 11.7 2.78L6.7 3.02C4.7 3.11 3.11 4.7 3.01 6.69L2.77 11.69C2.71 13.03 3.21 14.34 4.16 15.29L8.69 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.7ZM9.5 12.38C7.92 12.38 6.62 11.09 6.62 9.5C6.62 7.91 7.92 6.62 9.5 6.62C11.08 6.62 12.38 7.91 12.38 9.5C12.38 11.09 11.08 12.38 9.5 12.38ZM17.53 13.53L13.53 17.53C13.38 17.68 13.19 17.75 13 17.75C12.81 17.75 12.62 17.68 12.47 17.53C12.18 17.24 12.18 16.76 12.47 16.47L16.47 12.47C16.76 12.18 17.24 12.18 17.53 12.47C17.82 12.76 17.82 13.24 17.53 13.53Z"
+                                        fill="#EC008C" />
+                                </svg>
+                            </div>
+                            <div class="custom-text">
+                                Cảm giác mạnh
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -192,7 +225,18 @@
                             <div class="recommendation-icon-background"></div>
                             <div class="recommendation-icon-overlay"></div>
                         </div>
-                        <div class="recommendation-item-category">Cảm giác mạnh</div>
+                        <div class="custom-icon-container">
+                            <div class="custom-tag-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.83 8.7L15.3 4.17C14.35 3.22 13.04 2.71 11.7 2.78L6.7 3.02C4.7 3.11 3.11 4.7 3.01 6.69L2.77 11.69C2.71 13.03 3.21 14.34 4.16 15.29L8.69 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.7ZM9.5 12.38C7.92 12.38 6.62 11.09 6.62 9.5C6.62 7.91 7.92 6.62 9.5 6.62C11.08 6.62 12.38 7.91 12.38 9.5C12.38 11.09 11.08 12.38 9.5 12.38ZM17.53 13.53L13.53 17.53C13.38 17.68 13.19 17.75 13 17.75C12.81 17.75 12.62 17.68 12.47 17.53C12.18 17.24 12.18 16.76 12.47 16.47L16.47 12.47C16.76 12.18 17.24 12.18 17.53 12.47C17.82 12.76 17.82 13.24 17.53 13.53Z"
+                                        fill="#EC008C" />
+                                </svg>
+                            </div>
+                            <div class="custom-text">
+                                Cảm giác mạnh
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -201,14 +245,25 @@
                 <div class="recommendation-item-details">
                     <div class="recommendation-item-header">
                         <div class="recommendation-item-title">Roller Coaster 6</div>
-                        <div class="recommendation-item-date">10/02/2020</div>
+                        <div c lass="recommendation-item-date">10/02/2020</div>
                     </div>
                     <div class="recommendation-item-footer">
                         <div class="recommendation-icon-container">
                             <div class="recommendation-icon-background"></div>
                             <div class="recommendation-icon-overlay"></div>
                         </div>
-                        <div class="recommendation-item-category">Cảm giác mạnh</div>
+                        <div class="custom-icon-container">
+                            <div class="custom-tag-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.83 8.7L15.3 4.17C14.35 3.22 13.04 2.71 11.7 2.78L6.7 3.02C4.7 3.11 3.11 4.7 3.01 6.69L2.77 11.69C2.71 13.03 3.21 14.34 4.16 15.29L8.69 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.7ZM9.5 12.38C7.92 12.38 6.62 11.09 6.62 9.5C6.62 7.91 7.92 6.62 9.5 6.62C11.08 6.62 12.38 7.91 12.38 9.5C12.38 11.09 11.08 12.38 9.5 12.38ZM17.53 13.53L13.53 17.53C13.38 17.68 13.19 17.75 13 17.75C12.81 17.75 12.62 17.68 12.47 17.53C12.18 17.24 12.18 16.76 12.47 16.47L16.47 12.47C16.76 12.18 17.24 12.18 17.53 12.47C17.82 12.76 17.82 13.24 17.53 13.53Z"
+                                        fill="#EC008C" />
+                                </svg>
+                            </div>
+                            <div class="custom-text">
+                                Cảm giác mạnh
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -235,5 +290,109 @@
             </svg>
         </div>
     </div>
+    <div class="container-2">
+        <div class="section-1">
+            <div class="title">Trực thuộc</div>
+            <div class="box-container">
+                <div class="box">
+                    <div class="blue-box"></div>
+                    <div class="white-box-1"></div>
+                    <div class="white-box-2"></div>
+                    <div class="white-box-3"></div>
+                </div>
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="contact-title">
+                <div class="title">Liên hệ</div>
+                <div class="contact-item">
+                    <div class="contact-info">
+                        <div class="icon-container">
+                            <div class="icon icon-inner-1"></div>
+                            <div class="icon icon-inner-2"></div>
+                        </div>
+                        <div class="contact-text">03 Hòa Bình, Phường 3, Quận 11</div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="icon-container">
+                            <div class="icon"
+                                style="width: 19.97px; height: 20px; left: 2px; top: 2px; background: white"></div>
+                        </div>
+                        <div class="contact-text">0839 632 394</div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="icon-container">
+                            <div class="icon"
+                                style="width: 20px; height: 17px; left: 2px; top: 3.50px; background: white"></div>
+                            <div class="icon"
+                                style="width: 10px; height: 3.11px; left: 7px; top: 9px; border: 1.50px #57AF60 solid">
+                            </div>
+                        </div>
+                        <div class="contact-text">phuthotouristquan11@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-3">
+            <div class="system-title">Các đơn vị CÙNG hệ thống Phuthotourist</div>
+            <div class="system-items">
+                <div class="system-item">
+                    <div class="system-dot"></div>
+                    <div class="system-text-container">
+                        <div class="system-text">Công ty CP DVDL Phú Thọ</div>
+                    </div>
+                </div>
+                <div class="system-item">
+                    <div class="system-dot"></div>
+                    <div class="system-text-container">
+                        <div class="system-text">Khu du lịch sinh thái Vàm Sát</div>
+                    </div>
+                </div>
+                <div class="system-item">
+                    <div class="system-dot"></div>
+                    <div class="system-text-container">
+                        <div class="system-text">Khách sạn Ngọc Lan</div>
+                    </div>
+                </div>
+                <div class="system-item">
+                    <div class="system-dot"></div>
+                    <div class="system-text-container">
+                        <div class="system-text">Khách sạn Phú Thọ</div>
+                    </div>
+                </div>
+                <div class="system-item">
+                    <div class="system-dot"></div>
+                    <div class="system-text-container">
+                        <div class="system-text">Trung tâm Du lịch Đầm Sen</div>
+                    </div>
+                </div>
+                <div class="system-item">
+                    <div class="system-dot"></div>
+                    <div class="system-text-container">
+                        <div class="system-text">Cà phê Vườn Đá</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-text">Copyright</div>
+                <div class="footer-icon">
+                    <div class="icon-wrapper">
+                        <div class="icon-inner-1"></div>
+                        <div class="icon-inner-2"></div>
+                        <div class="icon-background"></div>
+                    </div>
+                </div>
+                <div class="footer-text">Công ty Cổ phần Dịch vụ Du lịch Phú Thọ (Phuthotourist)</div>
+            </div>
+            <div class="footer-line"></div>
+        </div>
+
+    </div>
+
+
 </div>
 @endsection
