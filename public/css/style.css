@@ -667,6 +667,7 @@ body {
 }
 
 .circle {
+
     width: 64px;
     /* Đường kính của hình tròn */
     height: 64px;
@@ -965,13 +966,41 @@ body {
     height: 2888px;
     background-color: white;
     box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.23);
-    overflow: hidden;
+    overflow: auto;
+    /* Thay đổi từ 'hidden' sang 'auto' hoặc xóa đi nếu đã có */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
+    z-index: 1;
+    /* Đảm bảo lớp z-index cao hơn nếu cần thiết */
 }
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -450px;
+}
+
+.custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    transform: translateY(750px);
+}
+
+.events-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 400px;
+}
+
+
 
 .event-title {
     color: #259E58;
@@ -994,33 +1023,7 @@ body {
     border: 3px #259E58 solid;
 }
 
-.slideshow-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-top: -500px;
-    /* Dịch chuyển slideshow lên theo yêu cầu */
-}
 
-.custom-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    position: absolute;
-    top: 0;
-    transform: translateY(750px);
-}
-
-.events-wrapper {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    /* Khoảng cách giữa các ô */
-    margin-top: 350px;
-    /* Di chuyển .events-wrapper xuống 20px */
-}
 
 .event-container {
     background-color: #f0f0f0;
@@ -1171,7 +1174,7 @@ body {
 .unique-item {
     display: flex;
     align-items: center;
-    margin: 0 80px;
+    margin: 0 90px;
     /* Điều chỉnh khoảng cách giữa các unique-item */
 }
 
@@ -1187,9 +1190,9 @@ body {
     /* Độ rộng của mũi tên */
     height: 50px;
     /* Chiều cao của mũi tên */
-    margin-right: 10px;
+    margin-right: 5px;
     /* Điều chỉnh khoảng cách từ mũi tên đến văn bản */
-    margin-left: 10px;
+    margin-left: 5px;
     /* Điều chỉnh khoảng cách từ mũi tên đến văn bản */
 }
 
@@ -1216,4 +1219,91 @@ body {
     /* Đẩy văn bản bên trái về phía trái cùng */
     text-align: left;
     /* Căn trái cho văn bản bên trái */
+}
+
+/**/
+.recommendation-container {
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+    z-index: 1000;
+    width: calc(4 * 350px + 3 * 8px);
+    /* Tính toán chiều rộng cho 4 item và khoảng cách giữa chúng */
+    overflow: hidden;
+    /* Ẩn các nội dung bị tràn ra ngoài khung chứa */
+    white-space: nowrap;
+    /* Ngăn các item xuống dòng */
+}
+
+.recommendation-items-container {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* Ở đây thay đổi overflow-x thành hidden để chỉ hiển thị các items 1 item. */
+    scroll-behavior: smooth;
+    /* Làm mượt cuộn */
+    -webkit-overflow-scrolling: touch;
+    /* Hỗ trợ cuộn mượt trên thiết bị di động */
+    white-space: nowrap;
+    /* Đảm bảo các item recommendation nằm trên cùng một dòng */
+}
+
+.recommendation-item {
+    width: 350px;
+    height: 308px;
+    /* Kích thước của mỗi item */
+    flex: 0 0 auto;
+    /* Để các phần tử không co giãn và nằm ngang */
+    position: relative;
+    margin-right: 8px;
+    /* Khoảng cách giữa các item */
+}
+
+
+.recommendation-item {
+    width: 350px;
+    height: 308px;
+    /* Kích thước của mỗi item */
+    flex: 0 0 auto;
+    /* Để các phần tử không co giãn và nằm ngang */
+    position: relative;
+    margin-right: 8px;
+    /* Khoảng cách giữa các item */
+}
+
+
+
+
+
+.chevrons-container {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(2350%);
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.custom-chevron-left,
+.custom-chevron-right {
+    width: 64px;
+    /* chiều rộng của nút chevron */
+    height: 64px;
+    cursor: pointer;
+
+
+}
+
+.custom-chevron-left svg,
+.custom-chevron-right svg {
+    width: 100%;
+    height: 100%;
+}
+
+.custom-chevron-left:hover svg,
+.custom-chevron-right:hover svg {
+    opacity: 0.8;
 }

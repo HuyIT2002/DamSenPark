@@ -39,6 +39,29 @@
     <script src="{{ asset('/public/js/circle-progress.min.js') }}"></script>
     <script src="{{ asset('/public/js/style.js') }}"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        var itemWidth = $('.recommendation-item').outerWidth(
+        true); // Lấy chiều rộng của mỗi item recommendation
+
+        $('.custom-chevron-right').click(function() {
+            var container = $('.recommendation-items-container');
+            var scrollAmount = container.scrollLeft() + itemWidth; // Di chuyển tới item kế tiếp
+            container.animate({
+                scrollLeft: scrollAmount
+            }, 400);
+        });
+
+        $('.custom-chevron-left').click(function() {
+            var container = $('.recommendation-items-container');
+            var scrollAmount = container.scrollLeft() - itemWidth; // Di chuyển tới item trước đó
+            container.animate({
+                scrollLeft: scrollAmount
+            }, 400);
+        });
+    });
+    </script>
 </body>
 
 
