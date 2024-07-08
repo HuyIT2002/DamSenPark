@@ -1841,6 +1841,8 @@ body {
 
 
 .main-ticket {
+    width: 1615px;
+    height: auto;
     display: flex;
     gap: 48px;
     padding: 30px;
@@ -1921,7 +1923,7 @@ body {
 
 .green-border {
     width: 358px;
-    height: 518px;
+    height: auto;
     background: white;
     box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
     border-radius: 18px;
@@ -1935,7 +1937,7 @@ body {
 
 .pink-border {
     width: 358px;
-    height: 518px;
+    height: auto;
     background: white;
     box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
     border-radius: 18px;
@@ -2093,14 +2095,12 @@ body {
 
 /*node - vé*/
 .note-container {
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: -200px;
 }
 
 .note-title {
@@ -2138,4 +2138,214 @@ body {
     font-weight: 700;
     margin-right: 8px;
     /* Khoảng cách giữa dấu chấm và văn bản */
+}
+
+/*vé thể dục*/
+.custom-svg {
+    width: 50px;
+    /* Điều chỉnh kích thước SVG theo nhu cầu */
+    height: 50px;
+}
+
+.gradient-background-td {
+    position: relative;
+    width: 225px;
+    height: 152px;
+    background: linear-gradient(0deg, #259E58 0%, #259E58 100%);
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient-background-td::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    /* Điều chỉnh top theo yêu cầu */
+    width: 282px;
+    /* Điều chỉnh width theo yêu cầu */
+    height: 1px;
+    /* Điều chỉnh height theo yêu cầu */
+    background: rgba(0, 0, 0, 0.20);
+    box-shadow: 3px 3px 3px;
+    border-radius: 9999px;
+
+}
+
+.green-border-td {
+    width: 358px;
+    height: auto;
+    background: white;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    overflow: hidden;
+    border: 4px #259E58 solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex
+}
+
+.custom-td-text-container {
+    align-self: stretch;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-top: 100px;
+}
+
+.custom-td-text {
+    text-align: center;
+    color: #259E58;
+    font-size: 40px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 48px;
+    word-wrap: break-word
+}
+
+.custom-td-sub-text {
+    text-align: center;
+    color: #666666;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 27.6px;
+    word-wrap: break-word;
+}
+
+/*pink thể dục*/
+.pink-background-td {
+    position: relative;
+    width: 225px;
+    height: 152px;
+    background: linear-gradient(0deg, #FF41B2 0%, #FF41B2 100%);
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-background-td::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    /* Điều chỉnh top theo yêu cầu */
+    width: 282px;
+    /* Điều chỉnh width theo yêu cầu */
+    height: 1px;
+    /* Điều chỉnh height theo yêu cầu */
+    background: rgba(0, 0, 0, 0.20);
+    box-shadow: 3px 3px 3px;
+    border-radius: 9999px;
+
+}
+
+.pink-border-td {
+    width: 358px;
+    height: auto;
+    background: white;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    overflow: hidden;
+    border: 4px #FF41B2 solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex
+}
+
+.custom-td-pink-text-container {
+    align-self: stretch;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-top: 100px;
+}
+
+.custom-td-pink-text {
+    text-align: center;
+    color: #FF41B2;
+    font-size: 40px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 48px;
+    word-wrap: break-word
+}
+
+/*pink  vé thể dục*/
+.blue-background-td {
+    position: relative;
+    width: 225px;
+    height: 152px;
+    background: linear-gradient(0deg, #3781DB 0%, #3781DB 100%);
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-background-td::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    /* Điều chỉnh top theo yêu cầu */
+    width: 282px;
+    /* Điều chỉnh width theo yêu cầu */
+    height: 1px;
+    /* Điều chỉnh height theo yêu cầu */
+    background: rgba(0, 0, 0, 0.20);
+    box-shadow: 3px 3px 3px;
+    border-radius: 9999px;
+
+}
+
+.blue-border-td {
+    width: 358px;
+    height: auto;
+    background: white;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    overflow: hidden;
+    border: 4px #3781DB solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex
+}
+
+.custom-td-blue-text-container {
+    align-self: stretch;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-top: 100px;
+}
+
+.custom-td-blue-text {
+    text-align: center;
+    color: #3781DB;
+    font-size: 40px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 48px;
+    word-wrap: break-word
 }

@@ -24,9 +24,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="check">
-                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -36,9 +38,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="xmark">
-                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -52,9 +56,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="xmark">
-                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -87,9 +93,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="check">
-                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -99,9 +107,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="check">
-                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -111,9 +121,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="xmark">
-                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -123,9 +135,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="xw">
-                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -163,9 +177,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="check">
-                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -175,9 +191,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="check">
-                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -187,9 +205,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="check">
-                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M4.5 12.6111L9.42308 17.5L20.5 6.5" stroke="#259E58"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -199,9 +219,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="xmark">
-                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -211,9 +233,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="xmark">
-                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -223,9 +247,11 @@
                 <div class="ticket-item">
                     <div class="checkbox">
                         <div class="checkmark red">
-                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <g id="xw">
-                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </g>
                             </svg>
                         </div>
@@ -275,7 +301,8 @@
                 <1,4m: </span><span class="note-normal">người cao dưới 1,4m<br /></span>
                     <span class="note-highlight">Trẻ em dưới 1m được miễn phí </span><span class="note-normal">(nhưng
                         phải đi cùng với người lớn).<br /></span>
-                    <span class="note-highlight">Có vé mời, được giảm 50% vé trọn gói </span><span class="note-normal">(áp dụng mua từ cổng).</span>
+                    <span class="note-highlight">Có vé mời, được giảm 50% vé trọn gói </span><span
+                        class="note-normal">(áp dụng mua từ cổng).</span>
         </div>
     </div>
     @include('layouts.partials.container')

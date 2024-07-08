@@ -33,3 +33,6 @@ Route::get('/su-kien', function () {
 Route::get('/ve-trong-cong-vien', function () {
     return view('layouts.giave.ve-trong-cong-vien');
 })->name('ve-trong-cong-vien');
+Route::get('/ve-tap-the-duc', function () {
+    return view('layouts.giave.ve-tap-the-duc');
+})->name('ve-tap-the-duc');

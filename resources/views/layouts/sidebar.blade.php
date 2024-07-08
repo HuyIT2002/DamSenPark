@@ -62,7 +62,9 @@
                             </div>
                             <div class="submenu-divider"></div>
                             <div class="submenu-item">
-                                <div class="submenu-title">Vé tập thể</div>
+                                <div class="submenu-title">
+                                    <a href="{{ route('ve-tap-the-duc') }}">Vé tập thể dục</a>
+                                </div>
                             </div>
                             <div class="submenu-divider"></div>
                             <div class="submenu-item">
