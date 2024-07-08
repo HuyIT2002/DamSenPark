@@ -36,3 +36,9 @@ Route::get('/ve-trong-cong-vien', function () {
 Route::get('/ve-tap-the-duc', function () {
     return view('layouts.giave.ve-tap-the-duc');
 })->name('ve-tap-the-duc');
+Route::get('/ve-tap-the', function () {
+    return view('layouts.giave.ve-tap-the');
+})->name('ve-tap-the');
+Route::get('/ve-dich-vu', function () {
+    return view('layouts.giave.ve-dich-vu');
+})->name('ve-dich-vu');

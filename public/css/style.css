@@ -2349,3 +2349,361 @@ body {
     line-height: 48px;
     word-wrap: break-word
 }
+
+/*vé tập thể */
+.inner-container-ve-td {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    margin-top: 72px;
+    /* Cách từ trên xuống */
+    margin-right: 1150px;
+    /* Cách bên phải */
+}
+
+.container-td {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 9px;
+    display: inline-flex;
+    margin-top: 180px;
+    margin-left: 180px;
+}
+
+.text-block-td {
+    width: 1162px;
+    white-space: normal;
+    /* Đảm bảo chữ không bị tràn */
+}
+
+.normal-text-td {
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.highlighted-text-td {
+    color: #4D4D4D;
+    font-size: 18px;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.bullet-point::before {
+    content: '• ';
+    /* Thêm dấu chấm đầu dòng */
+    color: #666666;
+    /* Màu sắc của dấu chấm */
+    margin-left: 20px;
+}
+
+.container-td-2 {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.header-text {
+    text-align: center;
+    color: #EC008C;
+    font-size: 50px;
+    font-family: Bangers, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.text-block {
+    width: 1182px;
+    word-wrap: break-word;
+}
+
+.normal-text {
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.highlighted-text {
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+/*vé dịch vụ*/
+.additional-services {
+    width: 804px;
+    height: 54px;
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+    margin-top: 150px;
+    margin-right: 680px;
+}
+
+.electric-vehicle-service {
+    color: #EC008C;
+    font-size: 50px;
+    font-family: Bangers, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 50px;
+    /* Cách từ trên xuống */
+    margin-right: 1250px;
+    /* Cách bên phải */
+}
+
+.note-container {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+
+
+}
+
+.icon-container-dv {
+    display: flex;
+    /* Sử dụng flexbox để căn chỉnh các phần tử trên cùng một hàng */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    gap: 8px;
+    /* Khoảng cách giữa các phần tử */
+    margin-top: 15.5px;
+    /* Cách từ trên xuống */
+    margin-right: 1120px;
+}
+
+.icon-container-dv svg {
+    width: 20px;
+    height: 21px;
+    /* Điều chỉnh chiều cao để phù hợp với tỷ lệ của SVG */
+    fill: #DFA100;
+    margin-right: 2px;
+    /* Khoảng cách với phần tử văn bản */
+}
+
+.icon-container-dv span {
+    color: #DFA100;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+
+.electric-vehicle-service-2 {
+    color: #EC008C;
+    font-size: 50px;
+    font-family: Bangers, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 50px;
+    /* Cách từ trên xuống */
+    margin-right: 1220px;
+    /* Cách bên phải */
+}
+
+.icon-container-dv-2 {
+    display: flex;
+    /* Sử dụng flexbox để căn chỉnh các phần tử trên cùng một hàng */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    gap: 8px;
+    /* Khoảng cách giữa các phần tử */
+    margin-top: 15.5px;
+    /* Cách từ trên xuống */
+    margin-right: 930px;
+}
+
+.icon-container-dv-2 svg {
+    width: 20px;
+    height: 21px;
+    /* Điều chỉnh chiều cao để phù hợp với tỷ lệ của SVG */
+    fill: #DFA100;
+    margin-right: 2px;
+    /* Khoảng cách với phần tử văn bản */
+}
+
+.icon-container-dv-2 span {
+    width: 546px;
+    color: #DFA100;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+/**/
+.text-container {
+    width: 1196px;
+    height: 81px;
+    margin-top: 24px;
+    /* Cách từ trên xuống */
+    margin-right: 300px;
+    /* Cách bên phải */
+}
+
+.text-container span {
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.text-container span.highlighted {
+    color: #005AAB;
+    text-decoration: underline;
+}
+
+.container-column-dv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 24px;
+    /* Cách từ trên xuống */
+    margin-left: 120px;
+    /* Cách bên phải */
+}
+
+.column {
+    width: 187px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.column div {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.title-dv {
+    color: #666666;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.content-dv {
+    width: auto;
+    height: auto;
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+/**/
+.price-table {
+    width: auto;
+    /* Adjust to content */
+    border-collapse: collapse;
+    font-family: Nunito, sans-serif;
+    margin-top: 10px;
+    margin-right: 1030px;
+    /* Adjust as needed */
+}
+
+.price-table th, .price-table td {
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.price-table th {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.price-table .col-label {
+    width: 150px;
+    /* Adjust the width of the label column */
+}
+
+.price-table .col-price {
+    width: 300px;
+    /* Adjust the width of the price column */
+}
+
+.price-table td {
+    word-wrap: break-word;
+}
+
+
+/**/
+.electric-vehicle-service-3 {
+    color: #EC008C;
+    font-size: 50px;
+    font-family: Bangers, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 50px;
+    /* Cách từ trên xuống */
+    margin-right: 1340px;
+    /* Cách bên phải */
+}
+
+.text-container-2 {
+    width: 989px;
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+    margin-top: 10px;
+    /* Cách từ trên xuống */
+    margin-right: 490px;
+    /* Cách bên phải */
+}
+
+.text-container-2 span.highlighted {
+    color: #005AAB;
+    text-decoration: underline;
+}

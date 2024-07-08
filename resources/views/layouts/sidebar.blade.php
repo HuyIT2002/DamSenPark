@@ -63,16 +63,18 @@
                             <div class="submenu-divider"></div>
                             <div class="submenu-item">
                                 <div class="submenu-title">
-                                    <a href="{{ route('ve-tap-the-duc') }}">Vé tập thể dục</a>
+                                    <a href="{{ route('ve-tap-the') }}">Vé tập thể </a>
                                 </div>
                             </div>
                             <div class="submenu-divider"></div>
                             <div class="submenu-item">
-                                <div class="submenu-title">Vé dịch vụ</div>
+                                <a href="{{ route('ve-dich-vu') }}">Vé dịch vụ </a>
                             </div>
                             <div class="submenu-divider"></div>
                             <div class="submenu-item">
-                                <div class="submenu-title">Vé thể dục</div>
+                                <div class="submenu-title">
+                                    <a href="{{ route('ve-tap-the-duc') }}">Vé tập thể dục</a>
+                                </div>
                             </div>
                         </div>
                     </div>
