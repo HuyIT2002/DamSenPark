@@ -30,3 +30,6 @@ Route::get('/main-3', function () {
 Route::get('/su-kien', function () {
     return view('layouts.sukien.su-kien');
 })->name('su-kien');
+Route::get('/ve-trong-cong-vien', function () {
+    return view('layouts.giave.ve-trong-cong-vien');
+})->name('ve-trong-cong-vien');
