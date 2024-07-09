@@ -30,7 +30,9 @@
                                 </div>
                                 <div class="submenu-divider"></div>
                                 <div class="submenu-item">
-                                    <div class="submenu-title">Thành viên</div>
+                                    <div class="submenu-title">
+                                        <a href="{{ route('thanh-vien') }}">Thành viên</a>
+                                    </div>
                                 </div>
                                 <div class="submenu-divider"></div>
                                 <div class="submenu-item">

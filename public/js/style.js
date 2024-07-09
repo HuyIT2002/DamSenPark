@@ -216,10 +216,11 @@ $(document).ready(function() {
         }
     });
 });
+$(document).ready(function() {
+    const maxVisible = 1; // Số lượng tối đa các image-container-fellow hiển thị
 
-
-
-
-
+    // Ẩn các image-container-fellow thừa
+    $(".image-container-fellow:gt(" + (maxVisible - 1) + ")").hide();
+});
 
 });

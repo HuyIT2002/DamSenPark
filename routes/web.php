@@ -46,3 +46,6 @@ Route::get('/ve-dich-vu', function () {
 Route::get('/lich-su-hinh-thanh', function () {
     return view('layouts.gioi-thieu.lich-su-hinh-thanh');
 })->name('lich-su-hinh-thanh');
+Route::get('/thanh-vien', function () {
+    return view('layouts.gioi-thieu.thanh-vien');
+})->name('thanh-vien');
