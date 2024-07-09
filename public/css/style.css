@@ -2707,3 +2707,294 @@ body {
     color: #005AAB;
     text-decoration: underline;
 }
+
+/*lịch sử hình thành*/
+.history-content {
+    width: 973px;
+    color: #666666;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+    margin-top: 150px;
+    margin-right: 500px;
+}
+
+.history-content-2 {
+    width: 973px;
+    color: #666666;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+    margin-top: 50px;
+    margin-right: 500px;
+}
+
+.history-content-2 p {
+    position: relative;
+    margin: 10px 0;
+    padding-left: 30px;
+    /* Tạo khoảng cách cho dấu chấm */
+}
+
+.history-content-2 p::before {
+    content: '•';
+    position: absolute;
+    left: 10px;
+    /* Đảm bảo dấu chấm không quá sát lề trái */
+    top: 0;
+    font-size: 24px;
+    /* Kích thước dấu chấm */
+    line-height: 27px;
+    /* Đảm bảo dấu chấm thẳng hàng với văn bản */
+    color: #666666;
+}
+
+.electric-vehicle-history {
+    color: #EC008C;
+    font-size: 50px;
+    font-family: Bangers, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 50px;
+    /* Cách từ trên xuống */
+    margin-right: 1050px;
+    /* Cách bên phải */
+}
+
+.bordered-div {
+    margin-top: 50px;
+    width: 1471px;
+    height: 0;
+    border: 1px solid #A8D8BC;
+}
+
+.container-history {
+    width: 1471px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.history-services-title {
+    color: #EC008C;
+    font-size: 50px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.row-history {
+    display: flex;
+    justify-content: center;
+    /* Đẩy các box-history vào giữa */
+    flex-wrap: wrap;
+    /* Cho phép wrap các box-history khi không đủ chỗ */
+    width: 100%;
+    margin-top: 40px;
+}
+
+.row-history {
+    display: flex;
+    justify-content: center;
+    /* Đẩy các box-history vào giữa */
+    flex-wrap: wrap;
+    /* Cho phép wrap các box-history khi không đủ chỗ */
+    width: 100%;
+    margin-top: 40px;
+}
+
+.box-history {
+    padding: 0;
+    /* Xóa hoặc điều chỉnh padding nếu cần thiết */
+    width: 470px;
+    height: 514px;
+    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 1120px) {
+    .row-history {
+        justify-content: space-between;
+        /* Trở lại cách canh lề space-between khi đủ chỗ */
+    }
+
+    .box-history {
+        width: calc(50% - 20px);
+        /* 50% của width, trừ đi khoảng cách giữa các box */
+    }
+}
+
+@media (max-width: 720px) {
+    .box-history {
+        width: 100%;
+        /* Hiển thị mỗi box-history trên một dòng khi không đủ chỗ */
+        margin-right: 0;
+        /* Xóa khoảng cách phải của mỗi box khi hiển thị trên một dòng */
+    }
+}
+
+.box-history img {
+    margin: 0;
+    /* Xóa margin mặc định */
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+
+.history-description {
+    width: 412px;
+    height: 72px;
+    text-align: center;
+    color: #666666;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin: 20px auto 0;
+    /* margin-top: 20px; và căn giữa với margin: 0 auto; */
+}
+
+
+.game-title {
+    text-align: center;
+    color: #259E58;
+    font-size: 40px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 24px;
+    position: relative;
+    /* Đảm bảo định vị tương đối */
+}
+
+.separator-history {
+    width: 50px;
+    height: 0;
+    border: 2px #259E58 solid;
+    position: absolute;
+    /* Để có thể dịch chuyển dễ dàng */
+    bottom: -12px;
+    /* Dịch chuyển xuống phía dưới 12px (giữa chữ) */
+    left: 50%;
+    /* Đưa nó vào giữa với khoảng cách 50% so với phần tử cha */
+    transform: translateX(-50%);
+    /* Dịch chuyển ngược lại 50% chiều ngang của chính nó */
+}
+
+.sk-title {
+    text-align: center;
+    color: #4293FA;
+    font-size: 40px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 24px;
+    position: relative;
+    /* Đảm bảo định vị tương đối */
+}
+
+.sk-separator-history {
+    width: 50px;
+    height: 0;
+    border: 2px #4293FA solid;
+    position: absolute;
+    /* Để có thể dịch chuyển dễ dàng */
+    bottom: -12px;
+    /* Dịch chuyển xuống phía dưới 12px (giữa chữ) */
+    left: 50%;
+    /* Đưa nó vào giữa với khoảng cách 50% so với phần tử cha */
+    transform: translateX(-50%);
+    /* Dịch chuyển ngược lại 50% chiều ngang của chính nó */
+}
+
+.ct-title {
+    text-align: center;
+    color: #E931C3;
+    font-size: 40px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 24px;
+    position: relative;
+    /* Đảm bảo định vị tương đối */
+}
+
+.ct-separator-history {
+    width: 50px;
+    height: 0;
+    border: 2px #E931C3 solid;
+    position: absolute;
+    /* Để có thể dịch chuyển dễ dàng */
+    bottom: -12px;
+    /* Dịch chuyển xuống phía dưới 12px (giữa chữ) */
+    left: 50%;
+    /* Đưa nó vào giữa với khoảng cách 50% so với phần tử cha */
+    transform: translateX(-50%);
+    /* Dịch chuyển ngược lại 50% chiều ngang của chính nó */
+}
+
+.cth-title {
+    text-align: center;
+    color: #FFA034;
+    font-size: 40px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 24px;
+    position: relative;
+    /* Đảm bảo định vị tương đối */
+}
+
+.cth-separator-history {
+    width: 50px;
+    height: 0;
+    border: 2px #FFA034 solid;
+    position: absolute;
+    /* Để có thể dịch chuyển dễ dàng */
+    bottom: -12px;
+    /* Dịch chuyển xuống phía dưới 12px (giữa chữ) */
+    left: 50%;
+    /* Đưa nó vào giữa với khoảng cách 50% so với phần tử cha */
+    transform: translateX(-50%);
+    /* Dịch chuyển ngược lại 50% chiều ngang của chính nó */
+}
+
+.at-title {
+    text-align: center;
+    color: #31C996;
+    font-size: 40px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 24px;
+    position: relative;
+    /* Đảm bảo định vị tương đối */
+}
+
+.at-separator-history {
+    width: 50px;
+    height: 0;
+    border: 2px #31C996 solid;
+    position: absolute;
+    /* Để có thể dịch chuyển dễ dàng */
+    bottom: -12px;
+    /* Dịch chuyển xuống phía dưới 12px (giữa chữ) */
+    left: 50%;
+    /* Đưa nó vào giữa với khoảng cách 50% so với phần tử cha */
+    transform: translateX(-50%);
+    /* Dịch chuyển ngược lại 50% chiều ngang của chính nó */
+}

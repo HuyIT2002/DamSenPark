@@ -24,7 +24,9 @@
                         <div class="submenu-container">
                             <div class="submenu">
                                 <div class="submenu-item">
-                                    <div class="submenu-title">Lịch sử hình thành</div>
+                                    <div class="submenu-title">
+                                        <a href="{{ route('lich-su-hinh-thanh') }}">Lịch sử hinh thành</a>
+                                    </div>
                                 </div>
                                 <div class="submenu-divider"></div>
                                 <div class="submenu-item">
@@ -68,7 +70,9 @@
                             </div>
                             <div class="submenu-divider"></div>
                             <div class="submenu-item">
-                                <a href="{{ route('ve-dich-vu') }}">Vé dịch vụ </a>
+                                <div class="submenu-title">
+                                    <a href="{{ route('ve-dich-vu') }}">Vé dịch vụ </a>
+                                </div>
                             </div>
                             <div class="submenu-divider"></div>
                             <div class="submenu-item">

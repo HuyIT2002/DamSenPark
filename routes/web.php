@@ -42,3 +42,7 @@ Route::get('/ve-tap-the', function () {
 Route::get('/ve-dich-vu', function () {
     return view('layouts.giave.ve-dich-vu');
 })->name('ve-dich-vu');
+
+Route::get('/lich-su-hinh-thanh', function () {
+    return view('layouts.gioi-thieu.lich-su-hinh-thanh');
+})->name('lich-su-hinh-thanh');
