@@ -60,6 +60,32 @@
                 }, 400);
             });
         });
+
+        // $(document).ready(function() {
+        //     console.log("Document is ready");
+
+        //     var $imageRow = $('.image-column-fellow');
+        //     console.log($imageRow);
+
+        //     // Xử lý sự kiện cuộn khi sử dụng chuột hoặc phím mũi tên
+        //     $imageRow.scroll();
+
+        //     // Xử lý sự kiện click cho mũi tên chuyển đổi trái
+        //     $('.custom-chevron-left-fellow').click(function() {
+        //         console.log("Left arrow clicked");
+        //         $imageRow.animate({
+        //             scrollLeft: $imageRow.scrollLeft() - 273 // Độ lệch bạn muốn cuộn
+        //         }, 'slow');
+        //     });
+
+        //     // Xử lý sự kiện click cho mũi tên chuyển đổi phải
+        //     $('.custom-chevron-right-fellow').click(function() {
+        //         console.log("Right arrow clicked");
+        //         $imageRow.animate({
+        //             scrollLeft: $imageRow.scrollLeft() + 273 // Độ lệch bạn muốn cuộn
+        //         }, 'slow');
+        //     });
+        // });
     </script>
 </body>
 
