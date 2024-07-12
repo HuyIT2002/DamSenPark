@@ -56,4 +56,9 @@ Route::get('/chinh-sach-bao-mat', function () {
 
 Route::get('/ca-chep-nhao-lon', function () {
     return view('layouts.tro-choi.ca-chep-nhao-lon');
-})->name('ca-chepp-nhao-lon');
+})->name('ca-chep-nhao-lon');
+
+
+Route::get('/khi-duoi-dai', function () {
+    return view('layouts.vuon-thu.khi-duoi-dai');
+})->name('khi-duoi-dai');
