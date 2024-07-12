@@ -36,7 +36,9 @@
                                 </div>
                                 <div class="submenu-divider"></div>
                                 <div class="submenu-item">
-                                    <div class="submenu-title">Chính sách bảo mật</div>
+                                    <div class="submenu-title">
+                                        <a href="{{ route('chinh-sach-bao-mat') }}">Chính sách bảo mật</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -374,4 +374,11 @@ $(document).ready(function() {
     checkAndShowOverlay();
 });
 
+ $(document).ready(function() {
+            var $title = $('.title-ve-tc');
+            var $line = $('.line-ve-tc');
+            $line.css('width', $title.outerWidth());
+        });
+
+
 });

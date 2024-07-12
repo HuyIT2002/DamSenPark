@@ -49,3 +49,11 @@ Route::get('/lich-su-hinh-thanh', function () {
 Route::get('/thanh-vien', function () {
     return view('layouts.gioi-thieu.thanh-vien');
 })->name('thanh-vien');
+Route::get('/chinh-sach-bao-mat', function () {
+    return view('layouts.gioi-thieu.chinh-sach-bao-mat');
+})->name('chinh-sach-bao-mat');
+
+
+Route::get('/ca-chep-nhao-lon', function () {
+    return view('layouts.tro-choi.ca-chep-nhao-lon');
+})->name('ca-chepp-nhao-lon');
