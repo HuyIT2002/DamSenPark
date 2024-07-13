@@ -62,3 +62,8 @@ Route::get('/ca-chep-nhao-lon', function () {
 Route::get('/khi-duoi-dai', function () {
     return view('layouts.vuon-thu.khi-duoi-dai');
 })->name('khi-duoi-dai');
+
+
+Route::get('/canh-dep', function () {
+    return view('layouts.canh-dep.canh-dep');
+})->name('canh-dep');

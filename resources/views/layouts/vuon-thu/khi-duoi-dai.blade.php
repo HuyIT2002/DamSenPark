@@ -30,6 +30,12 @@
 
         </div>
     </div>
+    <div class="main-container">
+        <div class="header-container-2">
+            <div class="header-title">Mô tả</div>
+        </div>
+        <div class="description">Trò chơi Cá chép nhào lộn tại CVVH Đầm Sen</div>
+    </div>
     <div class="zoo-section">
         <div class="zoo-row">
             <div class="zoo-column-zoo">

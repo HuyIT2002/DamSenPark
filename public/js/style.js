@@ -137,37 +137,6 @@ $(document).ready(function() {
         $('.icon-container').not($('.icon-container').eq(currentIndex)).removeClass('active');
     });
 });
-// $(document).ready(function() {
-//     $('.item').on('click', function() {
-//         // Xóa lớp 'selected' khỏi tất cả các .item
-//         $('.item').removeClass('selected');
-        
-//         // Thêm lớp 'selected' cho .item hiện tại
-//         $(this).addClass('selected');
-        
-//         // Lấy vị trí left của .item hiện tại
-//         var leftPosition = $(this).position().left;
-        
-//         // Lấy chiều rộng của .item hiện tại
-//         var itemWidth = $(this).outerWidth();
-
-//         // Cập nhật vị trí và chiều dài của .scroll-line
-//         // Giảm độ dài scroll-line xuống 30% so với chiều rộng của .item
-//         var scrollLineWidth = itemWidth * 0.9; // 30% của chiều rộng .item
-//         $('.scroll-line').css({
-//             left: leftPosition + 1 + 'px', // Thêm 25px để căn giữa đúng với .item::after
-//             width: scrollLineWidth + 'px' // Sử dụng độ dài tính toán
-//         });
-
-//         // Cuộn tới .item hiện tại nếu nó vượt ra ngoài phạm vi hiện tại của .content-container
-//         var containerWidth = $('.content-container').outerWidth();
-//         var scrollLeft = $('.content-container').scrollLeft();
-        
-//         if (leftPosition < scrollLeft || leftPosition + itemWidth > scrollLeft + containerWidth) {
-//             $('.content-container').scrollLeft(leftPosition);
-//         }
-//     });
-// });
 $(document).ready(function() {
    var firstItemLeftPosition = $('.item:first').position().left;
     var scrollLineWidth = $('.item:first').outerWidth() * 0.9; // 30% của chiều rộng .item
@@ -379,6 +348,162 @@ $(document).ready(function() {
             var $line = $('.line-ve-tc');
             $line.css('width', $title.outerWidth());
         });
+$(document).ready(function() {
+    const maxVisible = 1; // Số lượng tối đa các image-container-fellow hiển thị
+
+    // Ẩn các image-container-fellow thừa
+    $(".image-container-fellow-cde:gt(" + (maxVisible - 1) + ")").hide();
+});
 
 
+ $(document).ready(function () {
+        let currentIndex = 0; // Index của ảnh hiện tại
+        const imageContainers = $(".image-container-fellow-cde");
+        const totalImages = imageContainers.length;
+
+        // Ẩn tất cả các ảnh trừ ảnh đầu tiên
+        imageContainers.hide();
+        imageContainers.eq(currentIndex).show();
+
+        // Chuyển ảnh khi bấm nút trái
+        $(".custom-chevron-left-fellow-cde").click(function () {
+            imageContainers.eq(currentIndex).hide();
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages; // Lùi về ảnh trước, vòng lại ảnh cuối nếu đã ở ảnh đầu
+            imageContainers.eq(currentIndex).show();
+        });
+
+        // Chuyển ảnh khi bấm nút phải
+        $(".custom-chevron-right-fellow-cde").click(function () {
+            imageContainers.eq(currentIndex).hide();
+            currentIndex = (currentIndex + 1) % totalImages; // Tiến tới ảnh tiếp theo, vòng lại ảnh đầu nếu đã ở ảnh cuối
+            imageContainers.eq(currentIndex).show();
+        });
+    });
+$(document).ready(function() {
+    var $imageRow = $('.image-row');
+    var $borderBox = $('.border-box');
+    
+    // Hàm kiểm tra và hiển thị overlay
+    function checkAndShowOverlay() {
+        // Lấy vị trí của border-box
+        var boxLeft = $borderBox.offset().left;
+        var boxRight = boxLeft + $borderBox.outerWidth();
+
+        // Duyệt qua từng image-container để kiểm tra vị trí và hiển thị overlay tương ứng
+        $('.image-container-column-fellow').each(function(index, element) {
+            var $imageContainer = $(element);
+            var $overlay = $imageContainer.find('.image-overlay');
+            
+            // Kiểm tra vị trí của image-container
+            var imageLeft = $imageContainer.offset().left;
+            var imageRight = imageLeft + $imageContainer.outerWidth();
+
+            // Kiểm tra xem ảnh có nằm ngoài vùng hiển thị của border-box hay không
+            if (imageRight < boxLeft || imageLeft > boxRight) {
+                $overlay.fadeIn('fast'); // Hiển thị overlay
+            } else {
+                $overlay.fadeOut('fast'); // Ẩn overlay khi nằm trong vùng hiển thị
+            }
+        });
+    }
+
+    // Xử lý sự kiện cuộn khi sử dụng chuột hoặc phím mũi tên
+    $imageRow.scroll(checkAndShowOverlay);
+
+    // Xử lý sự kiện click cho mũi tên chuyển đổi trái
+    $('.custom-chevron-left-fellow-cde').click(function() {
+        $imageRow.animate({
+            scrollLeft: $imageRow.scrollLeft() - 273 // Độ lệch bạn muốn cuộn
+        }, 'slow', checkAndShowOverlay);
+    });
+
+    // Xử lý sự kiện click cho mũi tên chuyển đổi phải
+    $('.custom-chevron-right-fellow-cde').click(function() {
+        $imageRow.animate({
+            scrollLeft: $imageRow.scrollLeft() + 270 // Độ lệch bạn muốn cuộn
+        }, 'slow', checkAndShowOverlay);
+    });
+
+    // Gọi hàm checkAndShowOverlay ban đầu để khởi tạo
+    checkAndShowOverlay();
+});
+$(document).ready(function() {
+    const maxVisible = 1; // Số lượng tối đa các image-container-fellow hiển thị
+
+    // Ẩn các image-container-fellow thừa
+    $(".image-container-fellow-bc:gt(" + (maxVisible - 1) + ")").hide();
+});
+
+
+ $(document).ready(function () {
+        let currentIndex = 0; // Index của ảnh hiện tại
+        const imageContainers = $(".image-container-fellow-bc");
+        const totalImages = imageContainers.length;
+
+        // Ẩn tất cả các ảnh trừ ảnh đầu tiên
+        imageContainers.hide();
+        imageContainers.eq(currentIndex).show();
+
+        // Chuyển ảnh khi bấm nút trái
+        $(".custom-chevron-left-fellow-bc").click(function () {
+            imageContainers.eq(currentIndex).hide();
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages; // Lùi về ảnh trước, vòng lại ảnh cuối nếu đã ở ảnh đầu
+            imageContainers.eq(currentIndex).show();
+        });
+
+        // Chuyển ảnh khi bấm nút phải
+        $(".custom-chevron-right-fellow-bc").click(function () {
+            imageContainers.eq(currentIndex).hide();
+            currentIndex = (currentIndex + 1) % totalImages; // Tiến tới ảnh tiếp theo, vòng lại ảnh đầu nếu đã ở ảnh cuối
+            imageContainers.eq(currentIndex).show();
+        });
+    });
+$(document).ready(function() {
+    var $imageRow = $('.image-row');
+    var $borderBox = $('.border-box');
+    
+    // Hàm kiểm tra và hiển thị overlay
+    function checkAndShowOverlay() {
+        // Lấy vị trí của border-box
+        var boxLeft = $borderBox.offset().left;
+        var boxRight = boxLeft + $borderBox.outerWidth();
+
+        // Duyệt qua từng image-container để kiểm tra vị trí và hiển thị overlay tương ứng
+        $('.image-container-column-fellow').each(function(index, element) {
+            var $imageContainer = $(element);
+            var $overlay = $imageContainer.find('.image-overlay');
+            
+            // Kiểm tra vị trí của image-container
+            var imageLeft = $imageContainer.offset().left;
+            var imageRight = imageLeft + $imageContainer.outerWidth();
+
+            // Kiểm tra xem ảnh có nằm ngoài vùng hiển thị của border-box hay không
+            if (imageRight < boxLeft || imageLeft > boxRight) {
+                $overlay.fadeIn('fast'); // Hiển thị overlay
+            } else {
+                $overlay.fadeOut('fast'); // Ẩn overlay khi nằm trong vùng hiển thị
+            }
+        });
+    }
+
+    // Xử lý sự kiện cuộn khi sử dụng chuột hoặc phím mũi tên
+    $imageRow.scroll(checkAndShowOverlay);
+
+    // Xử lý sự kiện click cho mũi tên chuyển đổi trái
+    $('.custom-chevron-left-fellow-bc').click(function() {
+        $imageRow.animate({
+            scrollLeft: $imageRow.scrollLeft() - 273 // Độ lệch bạn muốn cuộn
+        }, 'slow', checkAndShowOverlay);
+    });
+
+    // Xử lý sự kiện click cho mũi tên chuyển đổi phải
+    $('.custom-chevron-right-fellow-bc').click(function() {
+        $imageRow.animate({
+            scrollLeft: $imageRow.scrollLeft() + 270 // Độ lệch bạn muốn cuộn
+        }, 'slow', checkAndShowOverlay);
+    });
+
+    // Gọi hàm checkAndShowOverlay ban đầu để khởi tạo
+    checkAndShowOverlay();
+});
 });

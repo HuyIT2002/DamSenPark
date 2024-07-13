@@ -3974,18 +3974,6 @@ body {
 }
 
 /*trò choi*/
-
-/* .inner-container-ve-tc {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 8px;
-    position: relative;
-    margin-top: 72px;
-    margin-right: 900px;
-} */
-
 .inner-container-ve-tc {
     width: 100%;
     height: 100%;
@@ -4102,6 +4090,7 @@ body {
     align-items: flex-start;
     gap: 40px;
     display: inline-flex;
+    margin-top: 100px;
     padding: 0 40px;
     /* Thêm padding 48px vào cả hai bên */
 }
@@ -4193,7 +4182,7 @@ body {
 
 .recommendation-container-zoo {
     position: absolute;
-    top: 2350px;
+    top: 2400px;
     left: 70px;
     z-index: 1000;
     width: calc(4 * 355px + 41 * 1px);
@@ -4206,7 +4195,324 @@ body {
 
 .chevrons-container-zoo {
     position: absolute;
-    top: 1000px;
+    top: 1050px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(2350%);
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+
+/*cảnh đẹp*/
+
+.container-beauty-scene {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 100px;
+    padding: 0 40px;
+}
+
+.line-beauty-scene {
+    width: 1471px;
+    /* Chiều rộng trừ đi phần padding của container */
+    height: 1px;
+    /* Chiều cao 1px */
+    border: 1px #99C6B1 solid;
+    /* Màu sắc đường */
+    margin: 20px auto;
+    /* Khoảng cách phía trên và dưới, căn giữa dòng */
+    box-sizing: border-box;
+    /* Đảm bảo padding và đường viền được tính trong tổng chiều rộng và chiều cao */
+}
+
+
+.description-beauty-scene,
+.sub-description-beauty-scene,
+.caption-beauty-scene {
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+
+
+}
+
+.description-beauty-scene {
+    width: 981px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0 70px;
+}
+
+.sub-description-beauty-scene {
+    width: 973px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0 30px;
+}
+
+.section-beauty-scene {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0 35px;
+}
+
+.title-beauty-scene {
+    color: #EC008C;
+    font-size: 50px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 0 35px;
+}
+
+.subsection-beauty-scene {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.image-section-beauty-scene {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    margin-top: 110px;
+}
+
+.image-container-beauty-scene,
+.left-image-container-beauty-scene,
+.right-image-container-beauty-scene {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-beauty-scene {
+    width: 100%;
+    height: auto;
+    padding: 0 32px;
+}
+
+.left-image-container-beauty-scene img {
+    width: 541px;
+    height: 737px;
+}
+
+.right-image-container-beauty-scene img {
+    width: 1000px;
+    height: 737px;
+}
+
+.image-row-beauty-scene {
+    display: inline-flex;
+    height: 656px;
+    padding-right: 2px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.left-image-container-beauty-scene,
+.right-image-container-beauty-scene {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.caption-beauty-scene {
+    text-align: center;
+}
+
+.container-fellow-cde {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+.main-content-fellow-cde {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.images-wrapper-fellow-cde {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    /* Thêm khoảng cách giữa images-wrapper-fellow và phần mới */
+}
+
+.image-column-fellow-cde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Ẩn các phần tử con bị tràn */
+    width: 100%;
+    /* Sử dụng 100% để chiếm hết không gian của images-wrapper-fellow */
+}
+
+.image-container-fellow-cde {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-fellow-cde {
+    width: 800px;
+    /* Kích thước ảnh */
+    height: 532px;
+    object-fit: cover;
+    /* Đảm bảo hình ảnh không bị biến dạng */
+}
+
+.custom-chevron-left-fellow-cde,
+.custom-chevron-right-fellow-cde {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.6;
+    z-index: 2;
+    position: absolute;
+}
+
+.custom-chevron-left-fellow-cde {
+    left: 100px;
+    cursor: pointer;
+    /* Đặt nút chevron ra ngoài bên trái của hình ảnh */
+}
+
+.custom-chevron-right-fellow-cde {
+    right: 100px;
+    cursor: pointer;
+    /* Đặt nút chevron ra ngoài bên phải của hình ảnh */
+}
+
+.container-fellow-bc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+.main-content-fellow-bc {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.images-wrapper-fellow-bc {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    /* Thêm khoảng cách giữa images-wrapper-fellow và phần mới */
+}
+
+.image-column-fellow-bc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Ẩn các phần tử con bị tràn */
+    width: 100%;
+    /* Sử dụng 100% để chiếm hết không gian của images-wrapper-fellow */
+}
+
+.image-container-fellow-bc {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-fellow-bc {
+    width: 800px;
+    /* Kích thước ảnh */
+    height: 532px;
+    object-fit: cover;
+    /* Đảm bảo hình ảnh không bị biến dạng */
+}
+
+.custom-chevron-left-fellow-bc,
+.custom-chevron-right-fellow-bc {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.6;
+    z-index: 2;
+    position: absolute;
+}
+
+.custom-chevron-left-fellow-bc {
+    left: 100px;
+    cursor: pointer;
+    /* Đặt nút chevron ra ngoài bên trái của hình ảnh */
+}
+
+.custom-chevron-right-fellow-bc {
+    right: 100px;
+    cursor: pointer;
+    /* Đặt nút chevron ra ngoài bên phải của hình ảnh */
+}
+
+.recommendation-container-bc {
+    position: absolute;
+    top: 1350%;
+    left: 70px;
+    z-index: 1000;
+    width: calc(4 * 355px + 41 * 1px);
+    /* Tính toán chiều rộng cho 4 item và khoảng cách giữa chúng */
+    overflow: hidden;
+    /* Ẩn các nội dung bị tràn ra ngoài khung chứa */
+    white-space: nowrap;
+    /* Ngăn các item xuống dòng */
+}
+
+.chevrons-container-bc {
+    position: absolute;
+    top: 1210%;
     left: 0;
     right: 0;
     display: flex;
