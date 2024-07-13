@@ -158,6 +158,8 @@ body {
     white-space: nowrap;
 }
 
+
+
 /* Specific styling for the third menu item (Giới thiệu) */
 .menu-item:nth-child(3) .menu-content {
     justify-content: space-between;
@@ -4520,4 +4522,719 @@ body {
     transform: translateY(2350%);
     margin-bottom: 16px;
     width: 100%;
+}
+
+/*gioi thieu*/
+.menu-title a {
+    text-decoration: none;
+    /* Loại bỏ gạch chân mặc định của liên kết */
+    color: inherit;
+    /* Giữ màu sắc của liên kết giống như màu của thẻ div */
+}
+
+.description-introduce {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #666666;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: center;
+    /* Optional: Để văn bản dễ đọc hơn */
+    padding: 10px;
+    /* Optional: Để tạo khoảng cách cho văn bản */
+    margin-top: 290px;
+}
+
+.inner-container-introduce {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    margin-top: 160px;
+}
+
+/*box 1*/
+.container-introduce {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 60px;
+    margin-right: 20%;
+}
+
+.content-box-introduce {
+    width: 992px;
+    height: 532px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #259E58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.background-image-introduce {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+}
+
+.text-content-introduce {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    padding: 0 60px;
+}
+
+.title-introduce {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.2px;
+}
+
+
+.description-introduce {
+    color: white;
+    width: 659px;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
+    margin-top: 5px;
+    margin-right: 120px;
+}
+
+.button-container-introduce {
+    padding: 10px 16px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.button-text-introduce {
+    color: #259E58;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.arrow-icon-introduce {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+    /* Xoay biểu tượng 90 độ */
+}
+
+.arrow-icon-introduce svg {
+    transform: rotate(-90deg);
+    /* Đảo ngược lại để biểu tượng svg nằm ngang */
+}
+
+
+.image-container-introduce {
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(100%);
+    width: 346px;
+    height: 517px;
+    /* Chiều cao cố định để đảm bảo hình ảnh không bị tràn */
+    overflow: hidden;
+    /* Ẩn phần dư thừa của hình ảnh */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-image-introduce {
+    width: 919px;
+    /* Kích thước ban đầu của hình ảnh */
+    height: 517px;
+    /* Kích thước ban đầu của hình ảnh */
+    object-fit: cover;
+    /* Đảm bảo hình ảnh bao phủ toàn bộ container */
+    object-position: center;
+    /* Căn giữa hình ảnh */
+}
+
+
+.caption-introduce {
+    position: absolute;
+    top: 548px;
+    left: 50%;
+    transform: translateX(10%);
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+/*box 2*/
+.container-introduce-pink {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 150px;
+    margin-right: 20%;
+}
+
+.content-box-introduce-pink {
+    width: 992px;
+    height: 532px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-15%);
+    background-color: #EC008C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image-container-introduce-pink {
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-100%);
+    width: 346px;
+    height: 517px;
+    /* Chiều cao cố định để đảm bảo hình ảnh không bị tràn */
+    overflow: hidden;
+    /* Ẩn phần dư thừa của hình ảnh */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container-introduce-pink {
+    padding: 10px 16px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button-text-introduce-pink {
+    color: #EC008C;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.description-introduce-pink {
+    color: white;
+    width: 659px;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+/*thời gian hoạt động*/
+.container-custom-introduce {
+    width: 100%;
+    height: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    margin-top: 250px;
+}
+
+.content-box-custom-introduce {
+    height: 415px;
+    position: relative;
+}
+
+.title-box-custom-introduce {
+    width: 382px;
+    height: 73px;
+    padding: 10px 8px;
+    left: 570px;
+    top: -100px;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.card-container-custom-introduce {
+    width: 436px;
+    height: 316px;
+    background: white;
+    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    display: inline-flex;
+    margin-right: 60px;
+}
+
+.card-container-custom-introduce:nth-child(2) {
+    margin: 0 60px;
+    /* Adjust the spacing between cards */
+}
+
+.card-header-custom-introduce {
+    width: 77px;
+    height: 77px;
+    position: relative;
+}
+
+.card-header-custom-introduce div {
+    width: 57.75px;
+    height: 57.75px;
+    position: absolute;
+    border: 4px #259E58 solid;
+}
+
+.time-title-custom-introduce {
+    color: #EC008C;
+    font-size: 50px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.card-content-custom-introduce {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    display: flex;
+}
+
+.opening-time-custom-introduce {
+    color: #259E58;
+    font-size: 36px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 43.20px;
+    word-wrap: break-word;
+}
+
+.time-detail-custom-introduce {
+    text-align: center;
+    color: #726E6E;
+    font-size: 23px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 34.50px;
+    word-wrap: break-word;
+}
+
+.span-white {
+    color: #666666;
+    font-size: 23px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 34.50px;
+    word-wrap: break-word
+}
+
+.custom-line {
+    display: block;
+    width: 20px;
+    height: 0;
+    border-top: 3px solid #259E58;
+}
+
+/*box giá vé*/
+.container-gv-introduce {
+    width: 100%;
+    height: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+
+.time-title-gv-introduce {
+    color: #EC008C;
+    font-size: 50px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.flex-container-gv-introduce {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Hai cột */
+    gap: 24px;
+    /* Khoảng cách giữa các phần tử */
+    row-gap: 16px;
+    /* Khoảng cách giữa các hàng */
+    justify-items: flex-start;
+    align-items: center;
+}
+
+
+
+
+.green-card-gv-introduce, .pink-card-gv-introduce {
+    width: 723px;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+}
+
+.green-card-gv-introduce {
+    background: #259E58;
+}
+
+.pink-card-gv-introduce {
+    background: #D9248F;
+}
+
+.card-image-gv-introduce {
+    width: 724px;
+    height: 370px;
+    position: absolute;
+    left: -0.50px;
+    top: 0px;
+}
+
+.circle-background-gv-introduce {
+    width: 540px;
+    height: 540px;
+    position: absolute;
+    left: -270px;
+    top: -215px;
+    background-color: #C5E0CF;
+    border-radius: 9999px;
+}
+
+.circle-background-gv-introduce-pink {
+    width: 540px;
+    height: 540px;
+    position: absolute;
+    left: -270px;
+    top: -215px;
+    background-color: #EFCFE0;
+    border-radius: 9999px;
+}
+
+
+.title-gv-introduce {
+    position: absolute;
+    left: 312px;
+    top: 55px;
+    color: white;
+    font-size: 40px;
+    font-family: Bangers;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.price-gv-introduce {
+    position: absolute;
+    left: 312px;
+    top: 103px;
+    color: white;
+    font-size: 32px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.description-gv-introduce {
+    width: 365px;
+    position: absolute;
+    left: 312px;
+    top: 162px;
+    color: white;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.cta-button-gv-introduce {
+    padding: 10px 12px;
+    position: absolute;
+    left: 311px;
+    top: 296px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-text-gv-introduce {
+    text-align: center;
+    color: #259E58;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+
+
+.arrow-icon-gv-introduce {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+    /* Xoay biểu tượng 90 độ */
+}
+
+.arrow-stem-gv-introduce svg {
+    transform: rotate(-90deg);
+    /* Đảo ngược lại để biểu tượng svg nằm ngang */
+}
+
+.highlight-line-gv-introduce {
+    width: 100px;
+    height: 15px;
+    position: absolute;
+    left: 55px;
+    top: 239px;
+    background: rgba(33, 109, 65, 0.12);
+    border-radius: 50%;
+    /* Sử dụng 50% để tạo hình ellipse */
+}
+
+.color-box-gv-introduce {
+    width: 94px;
+    height: 222px;
+    position: absolute;
+    left: 53.50px;
+    top: 35px;
+
+}
+
+.color-box-gv-introduce>div {
+    position: absolute;
+}
+
+/* Specific styles for color elements */
+.color-box-gv-introduce .color-element1 {
+    width: 9.47px;
+    height: 11.41px;
+    left: 26.26px;
+    top: 188.53px;
+    background: #E38680;
+}
+
+.color-box-gv-introduce .color-element2 {
+    width: 10.85px;
+    height: 12.34px;
+    left: 55.61px;
+    top: 188.53px;
+    background: #E38680;
+}
+
+.button-text-gv-pink {
+    text-align: center;
+    color: #EC008C;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.color-box-gv-introduce-pink {
+    width: 94px;
+    height: 222px;
+    position: absolute;
+    left: 25px;
+    top: 35px;
+
+}
+
+.highlight-line-gv-introduce-pink {
+    width: 155px;
+    height: 15px;
+    position: absolute;
+    left: 25px;
+    top: 239px;
+    background: rgba(33, 109, 65, 0.12);
+    border-radius: 50%;
+    /* Sử dụng 50% để tạo hình ellipse */
+}
+
+.color-box-gv-introduce-pink-2 {
+    width: 94px;
+    height: 222px;
+    position: absolute;
+    left: 10px;
+    top: 80px;
+
+}
+
+.color-box-gv-introduce-green {
+    width: 94px;
+    height: 222px;
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Khoảng cách giữa các phần tử SVG */
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-line-gv-green {
+    width: 191px;
+    height: 15px;
+    position: absolute;
+    left: 10px;
+    top: 220px;
+    background: rgba(33, 109, 65, 0.12);
+    border-radius: 50%;
+    /* Sử dụng 50% để tạo hình ellipse */
+}
+
+.svg-container-gv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.color-box-gv-introduce-green img {
+    width: auto;
+    height: auto;
+}
+
+/* Chỉnh từng SVG một */
+.svg-1 {
+    margin-top: -90px;
+}
+
+.svg-2 {
+    margin-top: -160px;
+    margin-left: 70px;
+    z-index: 2;
+}
+
+.svg-3 {
+    margin-top: -210px;
+    margin-left: 160px;
+    z-index: 1;
+}
+
+.svg-4 {
+    margin-top: -160px;
+    margin-left: 260px;
+    z-index: 2;
+    /* Đặt giá trị z-index cao hơn cho .svg-4 */
+}
+
+.svg-5 {
+    margin-top: -200px;
+    margin-left: 340px;
+    z-index: 1;
+    /* Giữ giá trị z-index thấp hơn cho .svg-5 */
+}
+
+.notice-container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    display: inline-flex;
+    margin-left: 150px;
+}
+
+.notice-title {
+    width: 1470px;
+    color: #EC008C;
+    font-size: 23px;
+    font-family: Nunito;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.notice-content {
+    width: 1225px;
+}
+
+.highlight-text {
+    color: #666666;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 27px;
+    word-wrap: break-word;
+    margin-left: 10px;
+}
+
+.regular-text {
+    color: #858585;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.highlight-text::before {
+    content: '• ';
+    color: #666666;
+    font-weight: 700;
 }

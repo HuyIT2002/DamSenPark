@@ -43,6 +43,11 @@ Route::get('/ve-dich-vu', function () {
     return view('layouts.giave.ve-dich-vu');
 })->name('ve-dich-vu');
 
+// giới thiệu
+Route::get('/gioi-thieu', function () {
+    return view('layouts.gioi-thieu.gioi-thieu');
+})->name('gioi-thieu');
+
 Route::get('/lich-su-hinh-thanh', function () {
     return view('layouts.gioi-thieu.lich-su-hinh-thanh');
 })->name('lich-su-hinh-thanh');
@@ -53,17 +58,17 @@ Route::get('/chinh-sach-bao-mat', function () {
     return view('layouts.gioi-thieu.chinh-sach-bao-mat');
 })->name('chinh-sach-bao-mat');
 
-
+//tro-choi
 Route::get('/ca-chep-nhao-lon', function () {
     return view('layouts.tro-choi.ca-chep-nhao-lon');
 })->name('ca-chep-nhao-lon');
 
-
+//vườn thú
 Route::get('/khi-duoi-dai', function () {
     return view('layouts.vuon-thu.khi-duoi-dai');
 })->name('khi-duoi-dai');
 
-
+//cảnh đẹp
 Route::get('/canh-dep', function () {
     return view('layouts.canh-dep.canh-dep');
 })->name('canh-dep');

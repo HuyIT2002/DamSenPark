@@ -13,7 +13,7 @@
                 </div>
                 <div class="menu-item">
                     <div class="menu-content">
-                        <div class="menu-title">Giới thiệu</div>
+                        <div class="menu-title"><a href="{{ route('gioi-thieu') }}">Giới thiệu</a></div>
                         <div class="arrow-icon">
                             <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g id="arrow">
