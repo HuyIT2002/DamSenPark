@@ -5072,6 +5072,7 @@ body {
     left: 26.26px;
     top: 188.53px;
     background: #E38680;
+
 }
 
 .color-box-gv-introduce .color-element2 {
@@ -5237,4 +5238,375 @@ body {
     content: '• ';
     color: #666666;
     font-weight: 700;
+}
+
+/* giáo dục trải nghiệm*/
+.education-experience-container {
+    width: 1471px;
+    height: 848px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.education-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* Background should be at the lowest z-index */
+}
+
+.education-background img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.education-title,
+.education-description,
+.education-info,
+.education-button,
+.education-divider {
+    position: absolute;
+    z-index: 2;
+    /* Content should be above the background */
+}
+
+.education-title {
+    width: 679px;
+    left: 30px;
+    top: 248px;
+    color: white;
+    font-size: 48px;
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.education-description {
+    width: 629px;
+    left: 30px;
+    top: 337px;
+    color: white;
+    font-size: 18px;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.education-info {
+    left: 30px;
+    top: 430px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.education-info-item {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+
+
+}
+
+.info-icon-education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.icon-background-education {
+    width: 18.47px;
+    height: 18.44px;
+    position: absolute;
+
+}
+
+
+.icon-border-education {
+    width: 20px;
+    height: 20px;
+    gap: 20px;
+    position: relative;
+
+}
+
+.info-text-education {
+    color: white;
+    font-size: 16px;
+    font-family: Nunito, sans-serif;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+
+.highlight-text-education {
+    font-weight: 700;
+}
+
+.regular-text-education {
+    font-weight: 400;
+}
+
+.education-button {
+    left: 30px;
+    top: 478px;
+    padding: 10px 16px;
+    background: #259E58;
+    border-radius: 8px;
+    border: 0.50px solid;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-education-text {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.button-education-icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+}
+
+.arrow-education svg {
+    width: 30px;
+    height: 30px;
+    fill: none;
+    transform: rotate(-90deg);
+    /* Xoay SVG 90 độ để nằm ngang */
+}
+
+.education-divider {
+    width: 89px;
+    height: 0;
+    left: 30px;
+    top: 316px;
+    border: 2px solid white;
+}
+
+/*education box item*/
+.education-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: -180px;
+}
+
+.education-item {
+    width: auto;
+    /* Adjusted width calculation */
+    height: 462px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    justify-content: center;
+}
+
+.education-card {
+    width: 350px;
+    height: 462px;
+    position: relative;
+    background: white;
+    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.16);
+    margin-bottom: 24px;
+    /* Added margin-bottom to create space between education-cards */
+}
+
+.education-card img {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info-section-education-card {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    margin-top: -10px;
+}
+
+.info-row-education-card {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon-education-card {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-inner-education-card {
+    position: relative;
+}
+
+.icon-background-education-card {
+    width: 15.39px;
+    height: 15.37px;
+    position: absolute;
+    left: -3px;
+    top: -9px;
+}
+
+.icon-border-education-card {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: -10px;
+    top: -12px;
+}
+
+.category-education-card {
+    color: #EC008C;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.date-education-card {
+    color: #666666;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+
+.cta-section-education-card {
+    position: absolute;
+    top: 390px;
+    left: 190px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #259E58;
+    border-radius: 8px;
+    border: 0.50px solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+    width: auto;
+    /* Allow width to adjust based on content */
+    height: auto;
+    /* Allow height to adjust based on content */
+}
+
+
+.cta-button-education-card {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 700;
+    word-wrap: break-word;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.description-section-education-card {
+    position: absolute;
+    top: 262px;
+    left: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.title-education-card {
+    width: 305px;
+    color: #259E58;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 800;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+.description-education-card {
+    width: 318px;
+    height: 77px;
+    color: #666666;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.unique-container-fellow-education {
+    width: 100%;
+    padding: 40px 0;
+    /* Để giữ khoảng cách với lề trang và top/bottom */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Canh giữa theo chiều dọc */
+    margin-top: 600px;
+}
+
+.recommendation-container-education {
+    position: absolute;
+    top: 2100px;
+    left: 70px;
+    z-index: 1000;
+    width: calc(4 * 355px + 41 * 1px);
+    /* Tính toán chiều rộng cho 4 item và khoảng cách giữa chúng */
+    overflow: hidden;
+    /* Ẩn các nội dung bị tràn ra ngoài khung chứa */
+    white-space: nowrap;
+    /* Ngăn các item xuống dòng */
+}
+
+.chevrons-container-education {
+    position: absolute;
+    top: 78%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(2350%);
+    margin-bottom: 16px;
+    width: 100%;
 }

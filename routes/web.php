@@ -72,3 +72,8 @@ Route::get('/khi-duoi-dai', function () {
 Route::get('/canh-dep', function () {
     return view('layouts.canh-dep.canh-dep');
 })->name('canh-dep');
+
+//giao-duc-trai-nghiem
+Route::get('/thuc-vat', function () {
+    return view('layouts.giao-duc-trai-nghiem.thuc-vat');
+})->name('thuc-vat');
