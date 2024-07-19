@@ -4,7 +4,7 @@
 <div class="white-background">
     <div class="content-container">
         <div class="item selected" data-item="1">
-            <div class="text" id="highlighted-text">Trò chơi </div>
+            <div class="text-selected" id="highlighted-text">Trò chơi </div>
             <div class="additional-info">
                 <div class="info-item">CẢM GIÁC MẠNH
                     <ul>
@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="item" data-item="2">
-            <div class="text">Vườn thú</div>
+            <div class="text-selected">Vườn thú</div>
             <div class="additional-info">
                 <div class="info-item">
                     <ul>
@@ -113,7 +113,7 @@
         </div>
 
         <div class="item" data-item="3">
-            <div class="text">Cảnh đẹp</div>
+            <div class="text-selected">Cảnh đẹp</div>
             <div class="additional-info">
                 <div class="info-item">
                     <ul>
@@ -135,7 +135,7 @@
         </div>
 
         <div class="item" data-item="4">
-            <div class="text">Sân khấu</div>
+            <div class="text-selected">Sân khấu</div>
             <div class="additional-info">
                 <div class="info-item">
                     <ul>
@@ -158,7 +158,7 @@
         </div>
 
         <div class="item" data-item="5">
-            <div class="text">Giáo dục trải nghiệm</div>
+            <div class="text-selected">Giáo dục trải nghiệm</div>
             <div class="additional-info">
                 <div class="info-item">
                     <ul>
@@ -180,7 +180,7 @@
         </div>
 
         <div class="item" data-item="6">
-            <div class="text">Ẩm thực</div>
+            <div class="text-selected">Ẩm thực</div>
             <div class="additional-info">
                 <div class="info-item">
                     <ul>

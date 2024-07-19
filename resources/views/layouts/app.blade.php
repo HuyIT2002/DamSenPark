@@ -40,52 +40,54 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script>
-        $(document).ready(function() {
-            var itemWidth = $('.recommendation-item').outerWidth(
-                true); // Lấy chiều rộng của mỗi item recommendation
+    $(document).ready(function() {
+        var itemWidth = $('.recommendation-item').outerWidth(
+            true); // Lấy chiều rộng của mỗi item recommendation
 
-            $('.custom-chevron-right').click(function() {
-                var container = $('.recommendation-items-container');
-                var scrollAmount = container.scrollLeft() + itemWidth; // Di chuyển tới item kế tiếp
-                container.animate({
-                    scrollLeft: scrollAmount
-                }, 400);
-            });
-
-            $('.custom-chevron-left').click(function() {
-                var container = $('.recommendation-items-container');
-                var scrollAmount = container.scrollLeft() - itemWidth; // Di chuyển tới item trước đó
-                container.animate({
-                    scrollLeft: scrollAmount
-                }, 400);
-            });
+        $('.custom-chevron-right').click(function() {
+            var container = $('.recommendation-items-container');
+            var scrollAmount = container.scrollLeft() + itemWidth; // Di chuyển tới item kế tiếp
+            container.animate({
+                scrollLeft: scrollAmount
+            }, 400);
         });
 
-        // $(document).ready(function() {
-        //     console.log("Document is ready");
+        $('.custom-chevron-left').click(function() {
+            var container = $('.recommendation-items-container');
+            var scrollAmount = container.scrollLeft() - itemWidth; // Di chuyển tới item trước đó
+            container.animate({
+                scrollLeft: scrollAmount
+            }, 400);
+        });
+    });
 
-        //     var $imageRow = $('.image-column-fellow');
-        //     console.log($imageRow);
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuLink = document.getElementById('menu-link-1');
+        const currentIcon = document.querySelector('.current-icon');
+        const alternateIcon = document.querySelector('.alternate-icon');
 
-        //     // Xử lý sự kiện cuộn khi sử dụng chuột hoặc phím mũi tên
-        //     $imageRow.scroll();
+        // Kiểm tra nếu URL hiện tại là main-2
+        let isAlternate = window.location.href.includes("main-2");
 
-        //     // Xử lý sự kiện click cho mũi tên chuyển đổi trái
-        //     $('.custom-chevron-left-fellow').click(function() {
-        //         console.log("Left arrow clicked");
-        //         $imageRow.animate({
-        //             scrollLeft: $imageRow.scrollLeft() - 273 // Độ lệch bạn muốn cuộn
-        //         }, 'slow');
-        //     });
+        // Cập nhật hiển thị của các SVG khi tải trang
+        currentIcon.style.display = isAlternate ? 'none' : 'block';
+        alternateIcon.style.display = isAlternate ? 'block' : 'none';
 
-        //     // Xử lý sự kiện click cho mũi tên chuyển đổi phải
-        //     $('.custom-chevron-right-fellow').click(function() {
-        //         console.log("Right arrow clicked");
-        //         $imageRow.animate({
-        //             scrollLeft: $imageRow.scrollLeft() + 273 // Độ lệch bạn muốn cuộn
-        //         }, 'slow');
-        //     });
-        // });
+        menuLink.addEventListener('click', function(event) {
+            event.preventDefault(); // Ngăn chuyển trang ngay lập tức
+
+            if (isAlternate) {
+                window.location.href = "{{ route('main') }}";
+            } else {
+                window.location.href = "{{ route('main-2') }}";
+            }
+
+            isAlternate = !isAlternate;
+
+            currentIcon.style.display = isAlternate ? 'none' : 'block';
+            alternateIcon.style.display = isAlternate ? 'block' : 'none';
+        });
+    });
     </script>
 </body>
 
