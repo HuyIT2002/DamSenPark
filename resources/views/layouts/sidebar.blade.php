@@ -6,9 +6,9 @@
                     </div>
                 </div>
 
-                <div class="menu-item {{ request()->is('main-2') ? 'active' : '' }}">
+                <div class="menu-item {{ request()->is('kham-pha') ? 'active' : '' }}">
                     <div class="menu-content">
-                        <a href="{{ route('main-2') }}" class="menu-title">Khám phá</a>
+                        <a href="{{ route('kham-pha') }}" class="menu-title">Khám phá</a>
                     </div>
                 </div>
                 <div class="menu-item">

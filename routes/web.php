@@ -27,9 +27,15 @@ Route::get('/main-2', function () {
 Route::get('/main-3', function () {
     return view('layouts.main.main-3');
 })->name('main-3');
+/* sự  kiện*/
 Route::get('/su-kien', function () {
     return view('layouts.sukien.su-kien');
 })->name('su-kien');
+Route::get('/warter-show', function () {
+    return view('layouts.sukien.warter-show');
+})->name('warter-show');
+
+/* vé*/
 Route::get('/ve-trong-cong-vien', function () {
     return view('layouts.giave.ve-trong-cong-vien');
 })->name('ve-trong-cong-vien');
@@ -77,3 +83,8 @@ Route::get('/canh-dep', function () {
 Route::get('/thuc-vat', function () {
     return view('layouts.giao-duc-trai-nghiem.thuc-vat');
 })->name('thuc-vat');
+
+// khám phá
+Route::get('/kham-pha', function () {
+    return view('layouts.kham-pha.kham-pha');
+})->name('kham-pha');

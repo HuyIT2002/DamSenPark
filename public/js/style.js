@@ -506,4 +506,186 @@ $(document).ready(function() {
     // Gọi hàm checkAndShowOverlay ban đầu để khởi tạo
     checkAndShowOverlay();
 });
+
+ $(document).ready(function() {
+            var $title = $('.title-warter-show');
+            var $line = $('.line-warter-show');
+            $line.css('width', $title.outerWidth());
+        });
+
+
+//   $(document).ready(function() {
+//             const $img = $('.Discover-background img');
+//             let isDragging = false;
+//             let startY = 0;
+//             let startTop = 0;
+
+//             $('.Discover-background').on('mousedown', function(e) {
+//                 isDragging = true;
+//                 startY = e.clientY;
+//                 startTop = parseInt($img.css('top'), 10);
+//                 $(this).css('cursor', 'grabbing'); // Thay đổi biểu tượng khi kéo
+//                 e.preventDefault();
+//             });
+
+//             $(document).on('mousemove', function(e) {
+//                 if (isDragging) {
+//                     let deltaY = e.clientY - startY;
+//                     let newTop = startTop + deltaY;
+//                     let maxScroll = $('.white-background-4').height() - $img.height();
+
+//                     if (newTop > 0) {
+//                         newTop = 0;
+//                     } else if (newTop < maxScroll) {
+//                         newTop = maxScroll;
+//                     }
+
+//                     $img.css('top', `${newTop}px`);
+//                 }
+//             });
+
+//             $(document).on('mouseup', function() {
+//                 if (isDragging) {
+//                     isDragging = false;
+//                     $('.Discover-background').css('cursor', 'grab'); // Trở lại biểu tượng ban đầu
+//                 }
+//             });
+//         });
+
+$(document).ready(function() {
+    const $img = $('.draggable-img');
+    let isDragging = false;
+    let startY = 0;
+    let startTop = 0;
+
+    $('.Discover-background').on('mousedown', function(e) {
+        isDragging = true;
+        startY = e.clientY;
+        startTop = parseInt($img.css('top'), 10) || 0;
+        $(this).css('cursor', 'auto'); // Thay đổi biểu tượng khi kéo
+        e.preventDefault();
+    });
+
+    $(document).on('mousemove', function(e) {
+        if (isDragging) {
+            let deltaY = e.clientY - startY;
+            let newTop = startTop + deltaY;
+            let maxScroll = $('.white-background-4').height() - $img.height();
+
+            if (newTop > 0) {
+                newTop = 0;
+            } else if (newTop < maxScroll) {
+                newTop = maxScroll;
+            }
+
+            $img.css('top', `${newTop}px`);
+            updateContainerPositions(newTop);
+        }
+    });
+
+    $(document).on('mouseup', function() {
+        if (isDragging) {
+            isDragging = false;
+            $('.Discover-background').css('cursor', 'auto'); // Trở lại biểu tượng ban đầu
+        }
+    });
+
+    $('.Discover-background').on('wheel', function(e) {
+        let deltaY = e.originalEvent.deltaY;
+        let currentTop = parseInt($img.css('top'), 10) || 0;
+        let newTop = currentTop - deltaY;
+        let maxScroll = $('.white-background-4').height() - $img.height();
+
+        if (newTop > 0) {
+            newTop = 0;
+        } else if (newTop < maxScroll) {
+            newTop = maxScroll;
+        }
+
+        $img.css('top', `${newTop}px`);
+        updateContainerPositions(newTop);
+        e.preventDefault();
+    });
+
+    function updateContainerPositions(newTop) {
+        $('.outer-discover-container').each(function() {
+            const top = $(this).data('top');
+            const left = $(this).data('left');
+            $(this).css({
+                top: `${top + newTop}px`,
+                left: `${left}px`
+            });
+        });
+    }
+
+    // Đặt vị trí ban đầu của các container
+    updateContainerPositions(parseInt($img.css('top'), 10) || 0);
+});
+    
+$(document).ready(function() {
+    $('.chevron-left-svg').each(function() {
+        $(this).on('mouseenter', function() {
+            // Change the fill color of the rect element
+            $(this).find('rect').attr('fill', 'white');
+            // Change the stroke color of the path element
+            $(this).find('.Icon').attr('stroke', '#057433');
+            // Change the stroke color of the circle (border)
+            $(this).find('.circle-border').attr('stroke', 'white');
+        });
+
+        $(this).on('mouseleave', function() {
+            // Revert the fill color of the rect element
+            $(this).find('rect').attr('fill', '#057433');
+            // Revert the stroke color of the path element
+            $(this).find('.Icon').attr('stroke', 'white');
+            // Revert the stroke color of the circle (border)
+            $(this).find('.circle-border').attr('stroke', '#057433');
+        });
+    });
+});
+
+
+
+//   $(document).ready(function() {
+//             var containerStates = {};
+
+//             $('.inner-discover-container').click(function() {
+//                 var $targetContainer = $(this).closest('.outer-discover-container').find('.rectangle-discover-container');
+//                 var containerID = $targetContainer.attr('id');
+
+//                 var isVisible = containerStates[containerID];
+
+//                 if (isVisible) {
+//                     $targetContainer.removeClass('visible');
+//                     containerStates[containerID] = false;
+//                     $(this).find('.number-discover-text').removeClass('active');
+//                 } else {
+//                     $targetContainer.addClass('visible');
+//                     containerStates[containerID] = true;
+//                     $(this).find('.number-discover-text').addClass('active');
+//                 }
+//             });
+//         });
+$(document).ready(function() {
+    var containerStates = {};
+
+    $('.inner-discover-container').click(function() {
+        var $targetContainer = $(this).closest('.outer-discover-container').find('.rectangle-discover-container');
+        var containerID = $targetContainer.attr('id');
+
+        var isVisible = containerStates[containerID];
+
+        if (isVisible) {
+            $targetContainer.removeClass('visible');
+            containerStates[containerID] = false;
+            $(this).find('.number-discover-text').removeClass('active');
+        } else {
+            $targetContainer.addClass('visible');
+            containerStates[containerID] = true;
+            $(this).find('.number-discover-text').addClass('active');
+        }
+    });
+});
+
+
 });
