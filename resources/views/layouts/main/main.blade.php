@@ -3,8 +3,9 @@
 @section('content')
 <div class="banner">
     <div class="image-slider">
-        <img src="{{ asset('/public/images/banner1.png') }}" alt="Banner">
-        <img src="{{ asset('/public/images/Rectangle-1526.png') }}" alt="Banner">
+        @foreach($images as $image)
+        <img src="{{ asset('/public/images/home/' . $image->image_path) }}" alt="Banner">
+        @endforeach
     </div>
     <div class="svg-container">
         <img src="{{ asset('/public/images/Frame.svg') }}" alt="Frame SVG" class="frame-img">
@@ -24,15 +25,19 @@
     <div class="outer-container-2">
         <div class="inner-container-2">
             <div class="triangle-2">
-                <img class="icon-2" src="{{ asset('/public/images/chevron-left-1.svg') }}" alt="Chevron Left Icon">
+                <img class="icon-22" src="{{ asset('/public/images/chevron-left-1.svg') }}" alt="Chevron Left Icon">
             </div>
         </div>
     </div>
-    <div class="custom-div">
-        <div class="inner-content">
-            KHÁM PHÁ NGAY
+    <a href="{{ route('main-2') }}" class="custom-link">
+        <div class="custom-div">
+            <div class="inner-content">
+                KHÁM PHÁ NGAY
+            </div>
         </div>
-    </div>
+    </a>
+
+
     <div class="icons-wrapper">
     </div>
     @endsection

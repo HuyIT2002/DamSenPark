@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CategoriesChildController;
+use App\Http\Controllers\HomeImageController;
+use App\Http\Controllers\LichSuHinhThanhController;
+use App\Http\Controllers\ServiceController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,16 +20,9 @@ Route::get('/', function () {
     return view('layouts.home.home');
 });
 
-Route::get('/main', function () {
-    return view('layouts.main.main');
-})->name('main');
+Route::get('/main', [HomeImageController::class, 'show'])->name('main');
+Route::get('/main-2', [CategoriesChildController::class, 'index'])->name('main-2');
 
-Route::get('/main-2', function () {
-    return view('layouts.main.main-2');
-})->name('main-2');
-Route::get('/main-3', function () {
-    return view('layouts.main.main-3');
-})->name('main-3');
 /* sự  kiện*/
 Route::get('/su-kien', function () {
     return view('layouts.sukien.su-kien');
@@ -50,20 +46,20 @@ Route::get('/ve-dich-vu', function () {
 })->name('ve-dich-vu');
 
 // giới thiệu
-Route::get('/gioi-thieu', function () {
-    return view('layouts.gioi-thieu.gioi-thieu');
-})->name('gioi-thieu');
+Route::prefix('gioi-thieu')->name('gioi-thieu.')->group(function () {
+    Route::get('/', function () {
+        return view('layouts.gioi-thieu.gioi-thieu');
+    })->name('gioi-thieu');
 
-Route::get('/lich-su-hinh-thanh', function () {
-    return view('layouts.gioi-thieu.lich-su-hinh-thanh');
-})->name('lich-su-hinh-thanh');
-Route::get('/thanh-vien', function () {
-    return view('layouts.gioi-thieu.thanh-vien');
-})->name('thanh-vien');
-Route::get('/chinh-sach-bao-mat', function () {
-    return view('layouts.gioi-thieu.chinh-sach-bao-mat');
-})->name('chinh-sach-bao-mat');
+    Route::get('/lich-su-hinh-thanh', [LichSuHinhThanhController::class, 'index'])->name('lich-su-hinh-thanh');
+    Route::get('/thanh-vien', function () {
+        return view('layouts.gioi-thieu.thanh-vien');
+    })->name('thanh-vien');
 
+    Route::get('/chinh-sach-bao-mat', function () {
+        return view('layouts.gioi-thieu.chinh-sach-bao-mat');
+    })->name('chinh-sach-bao-mat');
+});
 //tro-choi
 Route::get('/ca-chep-nhao-lon', function () {
     return view('layouts.tro-choi.ca-chep-nhao-lon');

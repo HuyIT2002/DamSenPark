@@ -13,13 +13,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -29,11 +26,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">10</span>
+                <span class="text-kham-pha">10</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -48,13 +44,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -65,11 +58,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">02</span>
+                <span class="text-kham-pha">02</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -85,13 +77,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -102,11 +91,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">11</span>
+                <span class="text-kham-pha">11</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -122,13 +110,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -139,11 +124,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">38</span>
+                <span class="text-kham-pha">38</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -159,13 +143,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -176,11 +157,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">36</span>
+                <span class="text-kham-pha">36</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -196,13 +176,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -213,11 +190,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">42</span>
+                <span class="text-kham-pha">42</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -233,13 +209,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -250,11 +223,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">37</span>
+                <span class="text-kham-pha">37</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -270,13 +242,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -287,11 +256,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">35</span>
+                <span class="text-kham-pha">35</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -307,13 +275,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -324,11 +289,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">40</span>
+                <span class="text-kham-pha">40</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -344,13 +308,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -361,11 +322,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">39</span>
+                <span class="text-kham-pha">39</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -381,13 +341,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -398,11 +355,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">49</span>
-                s <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <span class="text-kham-pha">49</span>
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -418,13 +374,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -435,11 +388,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">45</span>
+                <span class="text-kham-pha">45</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -455,13 +407,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -472,11 +421,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">12</span>
+                <span class="text-kham-pha">12</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -492,13 +440,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -509,11 +454,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">21</span>
+                <span class="text-kham-pha">21</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -529,13 +473,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -546,11 +487,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">19</span>
+                <span class="text-kham-pha">19</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -566,13 +506,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -583,11 +520,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">13</span>
+                <span class="text-kham-pha">13</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -603,13 +539,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -620,11 +553,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">58</span>
+                <span class="text-kham-pha">58</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -640,13 +572,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -655,11 +584,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">20</span>
+                <span class="text-kham-pha">20</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -673,13 +601,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -688,11 +613,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">09</span>
+                <span class="text-kham-pha">09</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -706,13 +630,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -721,11 +642,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">04</span>
+                <span class="text-kham-pha">04</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -739,13 +659,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -754,11 +671,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">07</span>
+                <span class="text-kham-pha">07</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -772,13 +688,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -787,11 +700,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">08</span>
+                <span class="text-kham-pha">08</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -805,13 +717,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -820,11 +729,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">53</span>
+                <span class="text-kham-pha">53</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -838,13 +746,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -853,11 +758,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">22</span>
+                <span class="text-kham-pha">22</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -871,13 +775,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -886,11 +787,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">57</span>
+                <span class="text-kham-pha">57</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -904,13 +804,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -919,11 +816,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">54</span>
+                <span class="text-kham-pha">54</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -937,13 +833,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -952,11 +845,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">50</span>
+                <span class="text-kham-pha">50</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -970,13 +862,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -985,11 +874,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">48</span>
+                <span class="text-kham-pha">48</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1003,13 +891,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1018,11 +903,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">41</span>
+                <span class="text-kham-pha">41</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1036,13 +920,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1051,11 +932,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">46</span>
+                <span class="text-kham-pha">46</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1069,13 +949,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1084,11 +961,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">18</span>
+                <span class="text-kham-pha">18</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1102,13 +978,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1117,11 +990,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">51</span>
+                <span class="text-kham-pha">51</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1135,13 +1007,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1150,11 +1019,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">43</span>
+                <span class="text-kham-pha">43</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1168,13 +1036,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1183,11 +1048,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">52</span>
+                <span class="text-kham-pha">52</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1201,13 +1065,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1216,11 +1077,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">01</span>
+                <span class="text-kham-pha">01</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1234,13 +1094,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1249,11 +1106,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">03</span>
+                <span class="text-kham-pha">03</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1267,13 +1123,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1282,11 +1135,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">34</span>
+                <span class="text-kham-pha">34</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1300,13 +1152,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1315,11 +1164,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">32</span>
+                <span class="text-kham-pha">32</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1333,13 +1181,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1348,11 +1193,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">16</span>
+                <span class="text-kham-pha">16</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1366,13 +1210,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1381,11 +1222,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">15</span>
+                <span class="text-kham-pha">15</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1399,13 +1239,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1414,11 +1251,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">17</span>
+                <span class="text-kham-pha">17</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1432,13 +1268,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1447,11 +1280,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">14</span>
+                <span class="text-kham-pha">14</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1465,13 +1297,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1480,11 +1309,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">23</span>
+                <span class="text-kham-pha">23</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1498,13 +1326,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1513,11 +1338,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">24</span>
+                <span class="text-kham-pha">24</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1531,13 +1355,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1546,11 +1367,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">21</span>
+                <span class="text-kham-pha">21</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1564,13 +1384,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1579,11 +1396,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">29</span>
+                <span class="text-kham-pha">29</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1597,13 +1413,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1612,11 +1425,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">33</span>
+                <span class="text-kham-pha">33</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1630,13 +1442,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1645,11 +1454,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">06</span>
+                <span class="text-kham-pha">06</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1663,13 +1471,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1678,11 +1483,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">25</span>
+                <span class="text-kham-pha">25</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1696,13 +1500,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1711,11 +1512,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">26</span>
+                <span class="text-kham-pha">26</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1729,13 +1529,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1744,11 +1541,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">27</span>
+                <span class="text-kham-pha">27</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1762,13 +1558,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1777,11 +1570,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">31</span>
+                <span class="text-kham-pha">31</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1795,13 +1587,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1810,11 +1599,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">30</span>
+                <span class="text-kham-pha">30</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>
@@ -1828,13 +1616,10 @@
             </div>
             <div class="left-content">
                 <div class="square-background">
-                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg class="chevron-left-svg" width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="chevron-left">
-                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)"
-                                fill="#057433" />
-                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white"
-                                stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                            <rect x=" 64" y="64" width="64" height="64" rx="32" transform="rotate(180 64 64)" fill="#057433" />
+                            <path class="Icon" d="M27.667 45.3359L39.667 32.0026L27.667 18.6693" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
                         </g>
                         <circle class="circle-border" cx="32" cy="32" r="31" />
                     </svg>
@@ -1843,11 +1628,10 @@
         </div>
         <div class="inner-discover-container">
             <div class="number-discover-text">
-                <span class="text">28</span>
+                <span class="text-kham-pha">28</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="xmark">
-                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Icon" d="M6.5 6L18.5 18M18.5 6L6.5 18" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </g>
                 </svg>
             </div>

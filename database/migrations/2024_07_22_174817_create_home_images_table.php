@@ -13,9 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('parents', function (Blueprint $table) {
-            $table->increments('parent_id');
-            $table->string('parent_name');
+        Schema::create('home_images', function (Blueprint $table) {
+            $table->increments('home_images_id');
+            $table->string('image_path');
             $table->timestamps();
         });
     }
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('parents');
+        Schema::dropIfExists('home_images');
     }
 };

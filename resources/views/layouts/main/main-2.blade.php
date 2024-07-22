@@ -2,204 +2,68 @@
 
 @section('content')
 <div class="white-background">
-    <div class="content-container">
-        <div class="item selected" data-item="1">
-            <div class="text-selected" id="highlighted-text">Trò chơi </div>
-            <div class="additional-info">
-                <div class="info-item">CẢM GIÁC MẠNH
+    <div class="content-container" id="container">
+        @foreach ($groupedData as $parentId => $parentData)
+        <div class="item-title-kp" data-item="{{ $parentId }}">
+            <div class="text-selected" id="highlighted-text">{{ $parentData['parent_name'] }}</div>
+            @foreach ($parentData['categories'] as $categoryId => $category)
+            @if ($parentId == 1)
+            <div class="additional-info yet-another-special-layout">
+                @foreach ($parentData['categories'] as $categoryId => $category)
+                <div class="info-item">
+                    <p>{{ $category['category_name'] }}</p>
                     <ul>
+                        @foreach ($category['category_child_names'] as $child)
                         <li>
                             <a href="your-link.html" class="info-link">
                                 <div class="icon-container-2">
                                     <div class="icon-2">
-                                        <div class="number">01</div>
+                                        <div class="number">{{ $child['stt'] }}</div>
                                     </div>
                                     <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
+                                        <div class="title-text">{{ $child['name'] }}</div>
                                     </div>
                                 </div>
                             </a>
                         </li>
+                        @endforeach
                     </ul>
                 </div>
-                <div class="info-item">TƯƠNG TÁC ẢO
-                    <ul>
-                        <li>
-                            <a href="your-link.html" class="info-link">
-                                <div class="icon-container-2">
-                                    <div class="icon-2">
-                                        <div class="number">01</div>
-                                    </div>
-                                    <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="info-item">GIẢI TRÍ</div>
-                <div class="info-item">THIẾU NHI</div>
+                @endforeach
             </div>
-        </div>
-        <div class="item" data-item="2">
-            <div class="text-selected">Vườn thú</div>
-            <div class="additional-info">
-                <div class="info-item">
-                    <ul>
-                        <li>
-                            <a href="your-link.html" class="info-link">
-                                <div class="icon-container-2">
-                                    <div class="icon-2">
-                                        <div class="number">04</div>
-                                    </div>
-                                    <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="info-item">
-                    <ul>
-                        <li>
-                            <a href="your-link.html" class="info-link">
-                                <div class="icon-container-2">
-                                    <div class="icon-2">
-                                        <div class="number">05</div>
-                                    </div>
-                                    <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="info-item">
-                    <ul>
-                        <li>
-                            <a href="your-link.html" class="info-link">
-                                <div class="icon-container-2">
-                                    <div class="icon-2">
-                                        <div class="number">06</div>
-                                    </div>
-                                    <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="info-item">
-                    <ul>
-                        <li>
-                            <a href="your-link.html" class="info-link">
-                                <div class="icon-container-2">
-                                    <div class="icon-2">
-                                        <div class="number">07</div>
-                                    </div>
-                                    <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+            @else
 
-        <div class="item" data-item="3">
-            <div class="text-selected">Cảnh đẹp</div>
-            <div class="additional-info">
-                <div class="info-item">
-                    <ul>
-                        <li>
-                            <a href="your-link.html" class="info-link">
-                                <div class="icon-container-2">
-                                    <div class="icon-2">
-                                        <div class="number">01</div>
-                                    </div>
-                                    <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
-        <div class="item" data-item="4">
-            <div class="text-selected">Sân khấu</div>
-            <div class="additional-info">
+
+            <div class="additional-info @if ($parentId == 3) special-layout @elseif ($parentId == 2) another-special-layout @endif">
                 <div class="info-item">
+                    <p>{{ $category['category_name'] }}</p>
                     <ul>
+                        @foreach ($category['category_child_names'] as $child)
                         <li>
                             <a href="your-link.html" class="info-link">
                                 <div class="icon-container-2">
                                     <div class="icon-2">
-                                        <div class="number">01</div>
+                                        <div class="number">{{ $child['stt'] }}</div>
                                     </div>
                                     <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
+                                        <div class="title-text">{{ $child['name'] }}</div>
                                     </div>
                                 </div>
                             </a>
                         </li>
+                        @endforeach
                     </ul>
                 </div>
             </div>
+            @endif
+            @endforeach
+
+
 
         </div>
+        @endforeach
 
-        <div class="item" data-item="5">
-            <div class="text-selected">Giáo dục trải nghiệm</div>
-            <div class="additional-info">
-                <div class="info-item">
-                    <ul>
-                        <li>
-                            <a href="your-link.html" class="info-link">
-                                <div class="icon-container-2">
-                                    <div class="icon-2">
-                                        <div class="number">01</div>
-                                    </div>
-                                    <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="item" data-item="6">
-            <div class="text-selected">Ẩm thực</div>
-            <div class="additional-info">
-                <div class="info-item">
-                    <ul>
-                        <li>
-                            <a href="your-link.html" class="info-link">
-                                <div class="icon-container-2">
-                                    <div class="icon-2">
-                                        <div class="number">01</div>
-                                    </div>
-                                    <div class="title">
-                                        <div class="title-text">Cá Chép Nhào Lộn</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
         <div class="scroll-line"></div>
     </div>

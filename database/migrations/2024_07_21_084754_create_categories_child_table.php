@@ -13,20 +13,23 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('categories', function (Blueprint $table) {
-            $table->increments('category_id'); // Tạo cột id tự tăng
-            $table->string('category_name'); // Tạo cột name
-            $table->unsignedInteger('parent_id')->nullable(); // Tạo cột parent_id với kiểu dữ liệu big integer không âm, có thể null
-            $table->timestamps(); // Tạo cột created_at và updated_at
+        Schema::create('categories_child', function (Blueprint $table) {
+            $table->increments('categories_child_id');
+            $table->string('stt_category');
+            $table->string('name');
+            $table->unsignedInteger('parent_id')->nullable();
+            $table->unsignedInteger('category_id')->nullable();
+            $table->timestamps();
 
             // Thiết lập khóa ngoại
             $table->foreign('parent_id')
                 ->references('parent_id')->on('parents')
                 ->onDelete('set null');
-                
+            $table->foreign('category_id')
+                ->references('category_id')->on('categories')
+                ->onDelete('set null');
         });
     }
-
 
     /**
      * Reverse the migrations.
@@ -35,6 +38,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('categories');
+        Schema::dropIfExists('categories_child');
     }
 };

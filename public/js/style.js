@@ -137,11 +137,12 @@ $(document).ready(function() {
         $('.icon-container').not($('.icon-container').eq(currentIndex)).removeClass('active');
     });
 });
+    
 $(document).ready(function() {
-   var firstItemLeftPosition = $('.item:first').position().left;
-    var scrollLineWidth = $('.item:first').outerWidth() * 0.9; // 30% của chiều rộng .item
+   var firstItemLeftPosition = $('.item-title-kp:first').position().left;
+    var scrollLineWidth = $('.item-title-kp:first').outerWidth() * 0.9; // 30% của chiều rộng .item
 
-      $('.item[data-item="1"]').addClass('selected');
+      $('.item-title-kp[data-item="1"]').addClass('selected');
     $('.scroll-line').css({
         left: firstItemLeftPosition + 1 + 'px',
         width: scrollLineWidth + 'px',
@@ -149,16 +150,16 @@ $(document).ready(function() {
     });
     $('#highlighted-text').css('color', '#EC008C');
     // Bắt sự kiện click trên bất kỳ .item nào
-    $('.item').on('click', function() {
+    $('.item-title-kp').on('click', function() {
         // Xóa màu hồng của các phần tử có ID là highlighted-text khi click vào .item
         $('#highlighted-text').css('color', '');
     });
 
 
     // Khi click vào một .item
-    $('.item').on('click', function() {
+    $('.item-title-kp').on('click', function() {
         // Xóa lớp 'selected' khỏi tất cả các .item
-        $('.item').removeClass('selected');
+        $('.item-title-kp').removeClass('selected');
         
         // Thêm lớp 'selected' cho .item hiện tại
         $(this).addClass('selected');
@@ -185,6 +186,9 @@ $(document).ready(function() {
         }
     });
 });
+    
+
+    
 $(document).ready(function() {
     const maxVisible = 1; // Số lượng tối đa các image-container-fellow hiển thị
 
@@ -644,46 +648,66 @@ $(document).ready(function() {
     });
 });
 
+// $(document).ready(function() {
+//     var containerStates = {};
 
+//     $('.inner-discover-container').click(function() {
+//         var $targetContainer = $(this).closest('.outer-discover-container').find('.rectangle-discover-container');
+//         var containerID = $targetContainer.attr('id');
 
-//   $(document).ready(function() {
-//             var containerStates = {};
+//         var isVisible = containerStates[containerID];
 
-//             $('.inner-discover-container').click(function() {
-//                 var $targetContainer = $(this).closest('.outer-discover-container').find('.rectangle-discover-container');
-//                 var containerID = $targetContainer.attr('id');
+//         if (isVisible) {
+//             $targetContainer.removeClass('visible');
+//             containerStates[containerID] = false;
+//             $(this).find('.number-discover-text').removeClass('active');
+//         } else {
+//             $targetContainer.addClass('visible');
+//             containerStates[containerID] = true;
+//             $(this).find('.number-discover-text').addClass('active');
+//         }
+//     });
+// });
+document.addEventListener('DOMContentLoaded', function() {
+    const menuLink = document.getElementById('menu-link-1');
+    const currentIcon = document.querySelector('.current-icon');
+    const alternateIcon = document.querySelector('.alternate-icon');
+    const contentContainer = document.getElementById('content-container');
 
-//                 var isVisible = containerStates[containerID];
+    // Kiểm tra nếu URL hiện tại là main-2
+    let isAlternate = window.location.href.includes("main-2");
 
-//                 if (isVisible) {
-//                     $targetContainer.removeClass('visible');
-//                     containerStates[containerID] = false;
-//                     $(this).find('.number-discover-text').removeClass('active');
-//                 } else {
-//                     $targetContainer.addClass('visible');
-//                     containerStates[containerID] = true;
-//                     $(this).find('.number-discover-text').addClass('active');
-//                 }
-//             });
-//         });
-$(document).ready(function() {
-    var containerStates = {};
+    // Cập nhật hiển thị của các SVG khi tải trang
+    currentIcon.style.display = isAlternate ? 'none' : 'block';
+    alternateIcon.style.display = isAlternate ? 'block' : 'none';
 
-    $('.inner-discover-container').click(function() {
-        var $targetContainer = $(this).closest('.outer-discover-container').find('.rectangle-discover-container');
-        var containerID = $targetContainer.attr('id');
+    menuLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Ngăn chuyển trang ngay lập tức
 
-        var isVisible = containerStates[containerID];
+        let url = isAlternate ? "{{ route('main') }}" : "{{ route('main-2') }}";
 
-        if (isVisible) {
-            $targetContainer.removeClass('visible');
-            containerStates[containerID] = false;
-            $(this).find('.number-discover-text').removeClass('active');
-        } else {
-            $targetContainer.addClass('visible');
-            containerStates[containerID] = true;
-            $(this).find('.number-discover-text').addClass('active');
-        }
+        fetch(url, {
+            method: 'GET',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        })
+        .then(response => response.text())
+        .then(data => {
+            // Cập nhật nội dung của container với nội dung mới
+            contentContainer.innerHTML = data;
+
+            // Cập nhật URL mà không reload trang
+            history.pushState({}, '', url);
+
+            // Cập nhật hiển thị của các SVG
+            isAlternate = !isAlternate;
+            currentIcon.style.display = isAlternate ? 'none' : 'block';
+            alternateIcon.style.display = isAlternate ? 'block' : 'none';
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
     });
 });
 
