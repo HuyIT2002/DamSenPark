@@ -5,6 +5,7 @@ use App\Http\Controllers\CategoriesChildController;
 use App\Http\Controllers\HomeImageController;
 use App\Http\Controllers\LichSuHinhThanhController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -60,6 +61,7 @@ Route::prefix('gioi-thieu')->name('gioi-thieu.')->group(function () {
         return view('layouts.gioi-thieu.chinh-sach-bao-mat');
     })->name('chinh-sach-bao-mat');
 });
+
 //tro-choi
 Route::get('/ca-chep-nhao-lon', function () {
     return view('layouts.tro-choi.ca-chep-nhao-lon');
@@ -76,9 +78,9 @@ Route::get('/canh-dep', function () {
 })->name('canh-dep');
 
 //giao-duc-trai-nghiem
-Route::get('/thuc-vat', function () {
-    return view('layouts.giao-duc-trai-nghiem.thuc-vat');
-})->name('thuc-vat');
+Route::get('/post/{post_id}', [PostController::class, 'showThucVat'])->name('thuc-vat');
+Route::get('/show/{post_id}', [PostController::class, 'show'])->name('post.show');
+
 
 // khám phá
 Route::get('/kham-pha', function () {

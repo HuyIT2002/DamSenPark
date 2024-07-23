@@ -1385,12 +1385,17 @@ body {
     position: relative;
     margin-left: 15px;
 }
+.recommendation-item-image {
+    width: 350px;
+    height: 240px;
+    object-fit: cover; /* Đảm bảo hình ảnh giữ tỉ lệ mà không bị biến dạng */
+}
 
 .recommendation-item-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 120px;
+    gap: 10px;
 }
 
 .recommendation-item-title {
@@ -5314,8 +5319,8 @@ body {
 }
 
 .education-background {
-    width: 100%;
-    height: 100%;
+      width: 1471px;
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -5324,8 +5329,8 @@ body {
 }
 
 .education-background img {
-    width: 100%;
-    height: auto;
+     width: 1471px;
+    height: 648px;
     object-fit: cover;
 }
 
@@ -5428,6 +5433,11 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer; 
+}
+
+.education-button:hover {
+    background: #1E8046; 
 }
 
 .button-education-text {
@@ -5587,7 +5597,12 @@ body {
     width: auto;
     /* Allow width to adjust based on content */
     height: auto;
-    /* Allow height to adjust based on content */
+    
+    cursor: pointer; /* Change cursor to hand */
+}
+
+.cta-section-education-card:hover {
+    background: #1E8046; /* Darker shade of the current color */
 }
 
 
@@ -5601,6 +5616,7 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 
@@ -5648,7 +5664,7 @@ body {
     justify-content: space-between;
     align-items: center;
     /* Canh giữa theo chiều dọc */
-    margin-top: 600px;
+    margin-top: 8%;
 }
 
 .recommendation-container-education {

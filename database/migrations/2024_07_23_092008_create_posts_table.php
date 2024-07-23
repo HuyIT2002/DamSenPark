@@ -13,20 +13,21 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('categories_child', function (Blueprint $table) {
-            $table->increments('categories_child_id');
-            $table->string('stt_category');
-            $table->string('name');
+        Schema::create('posts', function (Blueprint $table) {
+            $table->increments('posts_id');
+            $table->string('plant_name');
+            $table->text('content');
+            $table->string('image_url');
             $table->unsignedInteger('parent_id')->nullable();
-            $table->unsignedInteger('category_id')->nullable();
+            $table->unsignedInteger('categories_child_id')->nullable();
             $table->timestamps();
 
-            // Thiết lập khóa ngoại
+            // Define foreign keys
             $table->foreign('parent_id')
                 ->references('parent_id')->on('parents')
                 ->onDelete('set null');
-            $table->foreign('category_id')
-                ->references('category_id')->on('categories')
+            $table->foreign('categories_child_id')
+                ->references('categories_child_id')->on('categories_child')
                 ->onDelete('set null');
         });
     }
@@ -38,6 +39,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('categories_child');
+        Schema::dropIfExists('posts');
     }
 };
