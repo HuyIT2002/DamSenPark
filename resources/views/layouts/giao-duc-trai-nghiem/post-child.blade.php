@@ -166,12 +166,17 @@
     <div class="recommendation-container-education">
         <div class="recommendation-title">Có thể bạn thích</div>
         <div class="recommendation-items-container">
+            @foreach($postsWithParentId3 as $post)
             <div class="recommendation-item">
                 <img class="recommendation-item-image" src="{{ asset('/public/images/canh-dep/' . $post->image_url) }}" />
                 <div class="recommendation-item-details">
                     <div class="recommendation-item-header">
-                        <div class="recommendation-item-title">Roller Coaster</div>
-                        <div class="recommendation-item-date">10/02/2020</div>
+                        <div class="recommendation-item-title">
+                            {{ $post->categoriesChild ? $post->categoriesChild->name : 'N/A' }}
+                        </div>
+                        <div class="recommendation-item-date">
+                            {{ $post->categoriesChild ? \Carbon\Carbon::parse($post->categoriesChild->created_at)->format('d/m/Y') : 'N/A' }}
+                        </div>
                     </div>
                     <div class="recommendation-item-footer">
                         <div class="recommendation-icon-container">
@@ -185,13 +190,13 @@
                                 </svg>
                             </div>
                             <div class="custom-text">
-                                Cảnh đẹp
+                                {{ $post->parent ? $post->parent->parent_name : 'N/A' }}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            @endforeach
         </div>
 
     </div>

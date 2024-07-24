@@ -13,26 +13,18 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
-            $table->increments('posts_id');
-            $table->string('plant_name');
-            $table->text('content');
-            $table->string('image_url');
-            $table->unsignedInteger('parent_id')->nullable();
+        Schema::create('members', function (Blueprint $table) {
+            $table->increments('members_id');
+            $table->text('title');
+            $table->unsignedInteger('images_id')->nullable();
             $table->unsignedInteger('categories_child_id')->nullable();
-            $table->unsignedInteger('category_id')->nullable();
             $table->timestamps();
-
-            // Define foreign keys
-            $table->foreign('parent_id')
-                ->references('parent_id')->on('parents')
+            $table->foreign('images_id')
+                ->references('images_id')->on('images')
                 ->onDelete('set null');
             $table->foreign('categories_child_id')
                 ->references('categories_child_id')->on('categories_child')
                 ->onDelete('set null');
-            $table->foreign('category_id')
-            ->references('category_id')->on('categories')
-            ->onDelete('set null');
         });
     }
 
@@ -43,6 +35,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('posts');
+        Schema::dropIfExists('members');
     }
 };

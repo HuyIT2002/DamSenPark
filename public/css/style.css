@@ -1275,6 +1275,14 @@ body {
 .custom-dot.active {
     background-color: #259E58;
 }
+.education-box-2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 55%;
+}
 
 /*Phượng Hoàng Bay*/
 .unique-container {
@@ -1352,7 +1360,7 @@ body {
 
 .recommendation-container {
     position: absolute;
-    top: 1900px;
+    top: 1950px;
     left: 70px;
     z-index: 1000;
     width: calc(4 * 355px + 41 * 1px);
@@ -1469,7 +1477,7 @@ body {
 
 .chevrons-container {
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 0;
     right: 0;
     display: flex;

@@ -626,6 +626,7 @@ $(document).ready(function() {
     updateContainerPositions(parseInt($img.css('top'), 10) || 0);
 });
     
+    
 $(document).ready(function() {
     $('.chevron-left-svg').each(function() {
         $(this).on('mouseenter', function() {
@@ -648,26 +649,32 @@ $(document).ready(function() {
     });
 });
 
-// $(document).ready(function() {
-//     var containerStates = {};
+$(document).ready(function() {
+    var containerStates = {};
 
+    $('.inner-discover-container').click(function() {
+        var $targetContainer = $(this).closest('.outer-discover-container').find('.rectangle-discover-container');
+        var containerID = $targetContainer.attr('id');
+
+        var isVisible = containerStates[containerID];
+
+        if (isVisible) {
+            $targetContainer.removeClass('visible');
+            containerStates[containerID] = false;
+            $(this).find('.number-discover-text').removeClass('active');
+        } else {
+            $targetContainer.addClass('visible');
+            containerStates[containerID] = true;
+            $(this).find('.number-discover-text').addClass('active');
+        }
+    });
+    });
+//     $(document).ready(function() {
 //     $('.inner-discover-container').click(function() {
-//         var $targetContainer = $(this).closest('.outer-discover-container').find('.rectangle-discover-container');
-//         var containerID = $targetContainer.attr('id');
-
-//         var isVisible = containerStates[containerID];
-
-//         if (isVisible) {
-//             $targetContainer.removeClass('visible');
-//             containerStates[containerID] = false;
-//             $(this).find('.number-discover-text').removeClass('active');
-//         } else {
-//             $targetContainer.addClass('visible');
-//             containerStates[containerID] = true;
-//             $(this).find('.number-discover-text').addClass('active');
-//         }
+//         $('.rectangle-discover-container').toggleClass('visible');
 //     });
 // });
+
 document.addEventListener('DOMContentLoaded', function() {
     const menuLink = document.getElementById('menu-link-1');
     const currentIcon = document.querySelector('.current-icon');

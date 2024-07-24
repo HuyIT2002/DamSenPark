@@ -4,39 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\PostModel;
+use App\Models\ListImageModel;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 
 class PostController extends Controller
 {
-    // public function showThucVat($post_id)
-    // {
-    //     // Lấy bài viết dựa trên post_id
-    //     $latestPost = PostModel::with(['categoriesChild', 'parent'])->find($post_id);
-
-    //     if ($latestPost) {
-    //         $categoryName = $latestPost->categoriesChild ? $latestPost->categoriesChild->name : '';
-    //         $categoryCreatedAt = $latestPost->categoriesChild ? Carbon::parse($latestPost->categoriesChild->created_at)->format('d/m/Y') : '';
-    //         $parentName = $latestPost->parent ? $latestPost->parent->parent_name : '';
-    //         $parentCreatedAt = $latestPost->parent ? Carbon::parse($latestPost->parent->created_at)->format('d/m/Y') : '';
-    //         $imageUrl = $latestPost->image_url;
-    //         $content = $latestPost->content;
-    //         $plantName = $latestPost->plant_name;
-    //         $created_at = Carbon::parse($latestPost->created_at)->format('d/m/Y');
-    //     } else {
-    //         $categoryName = '';
-    //         $categoryCreatedAt = '';
-    //         $parentName = '';
-    //         $parentCreatedAt = '';
-    //         $imageUrl = '';
-    //         $content = '';
-    //         $plantName = '';
-    //         $created_at = '';
-    //     }
-
-    //     // Truyền dữ liệu đến view
-    //     return view('layouts.giao-duc-trai-nghiem.thuc-vat', compact('latestPost', 'categoryName', 'categoryCreatedAt', 'parentName', 'parentCreatedAt', 'imageUrl', 'content', 'plantName', 'created_at'));
-    // }
     public function showThucVat($categories_child_id)
     {
 
@@ -130,5 +103,17 @@ class PostController extends Controller
         $created_at = Carbon::parse($latestPost->created_at)->format('d/m/Y');
 
         return view('layouts.giao-duc-trai-nghiem.post-child', compact('latestPost', 'postsWithParentId3', 'latestPosts', 'categoryName', 'categoryCreatedAt', 'parentName', 'parentCreatedAt', 'imageUrl', 'content', 'plantName', 'posts_id', 'created_at'));
+    }
+
+    public function showCanhDep()
+    {
+        $postsWithParentId3 = PostModel::whereHas('parent', function ($query) {
+            $query->where('parent_id', 3);
+        })->with(['categoriesChild', 'parent'])
+        ->get();
+        $images = ListImageModel::where('images_id', 4)->get();
+        $images5 = ListImageModel::where('images_id', 5)->get();
+        $images6 = ListImageModel::where('images_id', 5)->get();
+        return view('layouts.canh-dep.canh-dep', compact('postsWithParentId3', 'images', 'images5', 'images6'));
     }
 }

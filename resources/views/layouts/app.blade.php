@@ -16,7 +16,11 @@
 
     </head>
 
-
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
 
 <body>
     <div class="container">

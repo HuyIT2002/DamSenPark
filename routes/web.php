@@ -4,8 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriesChildController;
 use App\Http\Controllers\HomeImageController;
 use App\Http\Controllers\LichSuHinhThanhController;
-use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\ImageController;
+use App\Http\Controllers\MemberController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\EventController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,9 +28,7 @@ Route::get('/main', [HomeImageController::class, 'show'])->name('main');
 Route::get('/main-2', [CategoriesChildController::class, 'index'])->name('main-2');
 
 /* sự  kiện*/
-Route::get('/su-kien', function () {
-    return view('layouts.sukien.su-kien');
-})->name('su-kien');
+Route::get('/su-kien', [EventController::class, 'index'])->name('su-kien');
 Route::get('/warter-show', function () {
     return view('layouts.sukien.warter-show');
 })->name('warter-show');
@@ -53,10 +54,9 @@ Route::prefix('gioi-thieu')->name('gioi-thieu.')->group(function () {
     })->name('gioi-thieu');
 
     Route::get('/lich-su-hinh-thanh', [LichSuHinhThanhController::class, 'index'])->name('lich-su-hinh-thanh');
-    Route::get('/thanh-vien', function () {
-        return view('layouts.gioi-thieu.thanh-vien');
-    })->name('thanh-vien');
-
+    Route::get('/thanh-vien', [ImageController::class, 'showMImages'])->name('thanh-vien');
+    Route::get('/thanh-vien', [MemberController::class, 'showMembers'])->name('thanh-vien');
+    
     Route::get('/chinh-sach-bao-mat', function () {
         return view('layouts.gioi-thieu.chinh-sach-bao-mat');
     })->name('chinh-sach-bao-mat');
@@ -73,14 +73,11 @@ Route::get('/khi-duoi-dai', function () {
 })->name('khi-duoi-dai');
 
 //cảnh đẹp
-Route::get('/canh-dep', function () {
-    return view('layouts.canh-dep.canh-dep');
-})->name('canh-dep');
-
-//giao-duc-trai-nghiem
-Route::get('/post/{post_id}', [PostController::class, 'showThucVat'])->name('thuc-vat');
-Route::get('/show/{post_id}', [PostController::class, 'show'])->name('post.show');
-
+Route::group([], function () {
+    Route::get('/post/{post_id}', [PostController::class, 'showThucVat'])->name('thuc-vat');
+    Route::get('/show/{post_id}', [PostController::class, 'show'])->name('post.show');
+    Route::get('/quang-truong-vua-hung', [PostController::class, 'showCanhDep'])->name('canh-dep');
+});
 
 // khám phá
 Route::get('/kham-pha', function () {

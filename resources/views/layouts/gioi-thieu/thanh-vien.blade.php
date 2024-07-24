@@ -1,10 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="white-background-3">
-    <div class="container-3">
-        <img class="centered-image" src="{{ asset('/public/images/Rectangle 5.png') }}" alt="Placeholder Image">
-    </div>
+    @if ($imageByIdDisplay)
+    <img class="centered-image" src="{{ asset('/public/images/thanh-vien/' . $imageByIdDisplay->url) }}" alt="Image with ID Display 1">
+    @endif
     <div class="inner-container-ve-td">
         <div class="title-ve">Thành viên</div>
         <div class="line-ve"></div>
@@ -15,18 +16,13 @@
         </div>
         <div class="description">Đầm Sen là điểm check-in được ưa chuộng của giới trẻ hiện nay.</div>
     </div>
-
+    @if ($member1->isNotEmpty())
     <div class="electric-vehicle-fellow">
-        Nhà hàng thủy tạ
+        {{ $member1->first()->category_name }}
     </div>
     <div class="history-fellow-container">
         <div class="history-fellow-content">
-            <p>Đơn vị thành viên đầu tiên của Đầm Sen là Nhà hàng Thủy tạ nằm ở cổng số 2 của CVVH Đầm Sen. Địa chỉ số 3
-                Hòa Bình, Quận 11, TP.HCM. Ra đời từ năm 1985, nằm trong lòng CVVH Đầm Sen (thuộc Công ty cổ phần Dịch
-                vụ & Du lịch Phú Thọ quản lý), nhà hàng Thủy Tạ đã định hình thương hiệu và không ngừng phát triển. Hàng
-                năm, đội ngũ nhân viên của nhà hàng đều được đào tạo nâng cao về nghiệp vụ cũng như thái độ phục vụ để
-                đáp ứng mọi yêu cầu của thực khách. Chính vì vậy, suốt nghiều năm qua, nhà hàng Thủy Tạ Đầm Sen vẫn là
-                cái tên được lựa chọn hàng đầu của các cá nhân và cơ quan đơn vị khi đặt tiệc tổ chức sự kiện.</p>
+            <p>{{ $member1->first()->member_title }}</p>
         </div>
         <div class="history-fellow-logo">
             <img class="logo-image" src="{{ asset('/public/images/Rectangle 1500.png') }}" alt="Placeholder Image">
@@ -56,31 +52,15 @@
                     </svg>
                 </div>
                 <div class="image-column-fellow">
+                    @foreach ($member1 as $image)
                     <div class="image-container-fellow">
-                        <img class="image-fellow" src="{{ asset('/public/images/image-1.jpg') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow">Vua đầu bếp “Jan Can Cook” từng đến giao lưu với đội ngũ bếp
-                            của nhà hàng Thủy Tạ Đầm Sen</div>
+                        <img class="image-fellow" src="{{ asset('/public/images/thanh-vien/' . $image->image_url) }}" alt="Image {{ $image->list_images_id }}">
+                        <div class="image-caption-fellow {{ !$image->list_image_title ? 'hidden' : '' }}">
+                            {{ $image->list_image_title }}
+                        </div>
+
                     </div>
-                    <div class="image-container-fellow">
-                        <img class="image-fellow" src="{{ asset('/public/images/image-2.jpg') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow">Xem phim Cinemax 8D tại CVVH Đầm Sen</div>
-                    </div>
-                    <div class="image-container-fellow">
-                        <img class="image-fellow" src="{{ asset('/public/images/image-3.jpg') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow"> Nhà hàng Thủy Tạ Đầm Sen</div>
-                    </div>
-                    <div class="image-container-fellow">
-                        <img class="image-fellow" src="{{ asset('/public/images/image-4.jpg') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow">Xem phim Cinemax 8D tại CVVH Đầm Sen</div>
-                    </div>
-                    <div class="image-container-fellow">
-                        <img class="image-fellow" src="{{ asset('/public/images/image-5.jpg') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow">Xem phim Cinemax 8D tại CVVH Đầm Sen</div>
-                    </div>
-                    <div class="image-container-fellow">
-                        <img class="image-fellow" src="{{ asset('/public/images/image-6.jpg') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow">Xem phim Cinemax 8D tại CVVH Đầm Sen </div>
-                    </div>
+                    @endforeach
                 </div>
                 <div class="custom-chevron-right-fellow">
                     <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,61 +74,30 @@
             <div class="new-section">
                 <div class="border-box"></div>
                 <div class="image-row">
+                    @foreach ($member1 as $image)
                     <div class="image-column">
                         <div class="image-container-column-fellow">
-                            <img class="image-colum-fellow" src="{{ asset('/public/images/image-6.jpg') }}" />
+                            <img class="image-colum-fellow" src="{{ asset('/public/images/thanh-vien/' . $image->image_url) }}" alt="Image {{ $image->list_images_id }}" />
                             <div class="image-overlay"></div>
                         </div>
                     </div>
-                    <div class="image-column">
-                        <div class="image-container-column-fellow">
-                            <img class="image-colum-fellow" src="{{ asset('/public/images/image-5.jpg') }}" />
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                    <div class="image-column">
-                        <div class="image-container-column-fellow">
-                            <img class="image-colum-fellow" src="{{ asset('/public/images/image-1.jpg') }}" />
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                    <div class="image-column">
-                        <div class="image-container-column-fellow">
-                            <img class="image-colum-fellow" src="{{ asset('/public/images/image-2.jpg') }}" />
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                    <div class="image-column">
-                        <div class="image-container-column-fellow">
-                            <img class="image-colum-fellow" src="{{ asset('/public/images/image-3.jpg') }}" />
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-                    <div class="image-column">
-                        <div class="image-container-column-fellow">
-                            <img class="image-colum-fellow" src="{{ asset('/public/images/image-4.jpg') }}" />
-                            <div class="image-overlay"></div>
-                        </div>
-                    </div>
-
+                    @endforeach
                 </div>
             </div>
         </div>
     </div>
+    @endif
 
+
+
+
+    @if ($member2->isNotEmpty())
     <div class="electric-vehicle-fellow">
-        cà phê vườn đá
+        {{ $member2->first()->category_name }}
     </div>
     <div class="history-fellow-container-2">
         <div class="history-fellow-content-2">
-            <p>Cà phê Vườn Đá bắt đầu hoạt động vào năm 2009. Đây được xem là cà phê rộng và “thiên nhiên” nhất tại
-                TP.HCM.
-                Khuôn viên quán là một phần diện tích của CVVH Đầm Sen. Kiến trúc nhà sàn bên cạnh những tảng đá
-                thiên nhiên với đa dạng hình thù. Đồng thời có dòng suối chảy róc rách cùng những loài chim thả tự
-                nhiên. Khách đến có thể cảm nhận như một “Đà Lạt thu nhỏ”. Đồng thời, vào mỗi tối và sáng thứ bảy – chủ
-                nhật đều có biểu diễn nhạc sống.</br>
-                Năm 2018, đơn vị thành viên của Đầm Sen này đã khai trương thêm gian triển lãm tranh đá quý để khách
-                tham quan có điều kiện thưỡng lãm.</p>
+            <p>{{ $member2->first()->member_title }}</p>
         </div>
         <div class="history-fellow-logo-container">
             <div class="small-line">
@@ -354,30 +303,12 @@
                     </svg>
                 </div>
                 <div class="image-column-fellow-vd">
+                    @foreach ($member2 as $image)
                     <div class="image-container-fellow-vd">
-                        <img class="image-fellow-vd" src="{{ asset('/public/images/image-01.png') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow-vd">Quán cà phê Stone Garden tại CVVH Đầm Sen</div>
+                        <img class="image-fellow-vd" src="{{ asset('/public/images/thanh-vien/' . $image->image_url) }}" alt="Image {{ $image->list_images_id }}">
+                        <div class="image-caption-fellow-vd"> {{ $image->list_image_title }}</div>
                     </div>
-                    <div class="image-container-fellow-vd">
-                        <img class="image-fellow-vd" src="{{ asset('/public/images/image-02.png') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow-vd">Xem phim Cinemax 8D tại CVVH Đầm Sen</div>
-                    </div>
-                    <div class="image-container-fellow-vd">
-                        <img class="image-fellow-vd" src="{{ asset('/public/images/image-03.png') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow-vd"> Nhà hàng Thủy Tạ Đầm Sen</div>
-                    </div>
-                    <div class="image-container-fellow-vd">
-                        <img class="image-fellow-vd" src="{{ asset('/public/images/image-4.jpg') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow-vd">Xem phim Cinemax 8D tại CVVH Đầm Sen</div>
-                    </div>
-                    <div class="image-container-fellow-vd">
-                        <img class="image-fellow-vd" src="{{ asset('/public/images/image-05.png') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow-vd">Xem phim Cinemax 8D tại CVVH Đầm Sen</div>
-                    </div>
-                    <div class="image-container-fellow-vd">
-                        <img class="image-fellow-vd" src="{{ asset('/public/images/image-06.png') }}" alt="Placeholder Image">
-                        <div class="image-caption-fellow-vd">Xem phim Cinemax 8D tại CVVH Đầm Sen </div>
-                    </div>
+                    @endforeach
                 </div>
                 <div class="custom-chevron-right-fellow-vd">
                     <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -391,48 +322,23 @@
             <div class="new-section-vd">
                 <div class="border-box-vd"></div>
                 <div class="image-row-vd">
+                    @foreach ($member2 as $image)
                     <div class="image-column-vd">
                         <div class="image-container-column-fellow-vd">
-                            <img class="image-colum-fellow-vd" src="{{ asset('/public/images/image-06.png') }}" />
+                            <img class="image-colum-fellow-vd" src="{{ asset('/public/images/thanh-vien/' . $image->image_url) }}" />
                             <div class="image-overlay-vd"></div>
                         </div>
                     </div>
-                    <div class="image-column-vd">
-                        <div class="image-container-column-fellow-vd">
-                            <img class="image-colum-fellow-vd" src="{{ asset('/public/images/image-05.png') }}" />
-                            <div class="image-overlay-vd"></div>
-                        </div>
-                    </div>
-                    <div class="image-column-vd">
-                        <div class="image-container-column-fellow-vd">
-                            <img class="image-colum-fellow-vd" src="{{ asset('/public/images/image-01.png') }}" />
-                            <div class="image-overlay-vd"></div>
-                        </div>
-                    </div>
-                    <div class="image-column-vd">
-                        <div class="image-container-column-fellow-vd">
-                            <img class="image-colum-fellow-vd" src="{{ asset('/public/images/image-02.png') }}" />
-                            <div class="image-overlay-vd"></div>
-                        </div>
-                    </div>
-                    <div class="image-column-vd">
-                        <div class="image-container-column-fellow-vd">
-                            <img class="image-colum-fellow-vd" src="{{ asset('/public/images/image-03.png') }}" />
-                            <div class="image-overlay-vd"></div>
-                        </div>
-                    </div>
-                    <div class="image-column-vd">
-                        <div class="image-container-column-fellow-vd">
-                            <img class="image-colum-fellow-vd" src="{{ asset('/public/images/image-03.png') }}" />
-                            <div class="image-overlay-vd"></div>
-                        </div>
-                    </div>
-
+                    @endforeach
                 </div>
             </div>
         </div>
 
     </div>
+    @endif
+
+
+
     <div class="unique-container-fellow-vd">
         <div class="unique-item-fellow">
             <div class="custom-rotated-left-fellow">
@@ -459,12 +365,17 @@
     <div class="recommendation-container-vd">
         <div class="recommendation-title">Có thể bạn thích</div>
         <div class="recommendation-items-container">
+            @foreach($postsWithParentId3 as $post)
             <div class="recommendation-item">
-                <img class="recommendation-item-image" src="https://via.placeholder.com/350x240" />
+                <img class="recommendation-item-image" src="{{ asset('/public/images/tro-choi/cam-giac-manh/' . $post->image_url) }}" />
                 <div class="recommendation-item-details">
                     <div class="recommendation-item-header">
-                        <div class="recommendation-item-title">Roller Coaster</div>
-                        <div class="recommendation-item-date">10/02/2020</div>
+                        <div class="recommendation-item-title">
+                            {{ $post->categoriesChild ? $post->categoriesChild->name : 'N/A' }}
+                        </div>
+                        <div class="recommendation-item-date">
+                            {{ $post->categoriesChild ? \Carbon\Carbon::parse($post->categoriesChild->created_at)->format('d/m/Y') : 'N/A' }}
+                        </div>
                     </div>
                     <div class="recommendation-item-footer">
                         <div class="recommendation-icon-container">
@@ -478,128 +389,13 @@
                                 </svg>
                             </div>
                             <div class="custom-text">
-                                Cảm giác mạnh
+                                {{ $post->parent ? $post->category->category_name : 'N/A' }}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="recommendation-item">
-                <img class="recommendation-item-image" src="https://via.placeholder.com/350x240" />
-                <div class="recommendation-item-details">
-                    <div class="recommendation-item-header">
-                        <div class="recommendation-item-title">Roller Coaster</div>
-                        <div class="recommendation-item-date">10/02/2020</div>
-                    </div>
-                    <div class="recommendation-item-footer">
-                        <div class="recommendation-icon-container">
-                            <div class="recommendation-icon-background"></div>
-                            <div class="recommendation-icon-overlay"></div>
-                        </div>
-                        <div class="custom-icon-container">
-                            <div class="custom-tag-icon">
-                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.83 8.7L15.3 4.17C14.35 3.22 13.04 2.71 11.7 2.78L6.7 3.02C4.7 3.11 3.11 4.7 3.01 6.69L2.77 11.69C2.71 13.03 3.21 14.34 4.16 15.29L8.69 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.7ZM9.5 12.38C7.92 12.38 6.62 11.09 6.62 9.5C6.62 7.91 7.92 6.62 9.5 6.62C11.08 6.62 12.38 7.91 12.38 9.5C12.38 11.09 11.08 12.38 9.5 12.38ZM17.53 13.53L13.53 17.53C13.38 17.68 13.19 17.75 13 17.75C12.81 17.75 12.62 17.68 12.47 17.53C12.18 17.24 12.18 16.76 12.47 16.47L16.47 12.47C16.76 12.18 17.24 12.18 17.53 12.47C17.82 12.76 17.82 13.24 17.53 13.53Z" fill="#EC008C" />
-                                </svg>
-                            </div>
-                            <div class="custom-text">
-                                Cảm giác mạnh
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="recommendation-item">
-                <img class="recommendation-item-image" src="https://via.placeholder.com/350x240" />
-                <div class="recommendation-item-details">
-                    <div class="recommendation-item-header">
-                        <div class="recommendation-item-title">Roller Coaster</div>
-                        <div class="recommendation-item-date">10/02/2020</div>
-                    </div>
-                    <div class="recommendation-item-footer">
-                        <div class="recommendation-icon-container">
-                            <div class="recommendation-icon-background"></div>
-                            <div class="recommendation-icon-overlay"></div>
-                        </div>
-                        <div class="custom-icon-container">
-                            <div class="custom-tag-icon">
-                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.83 8.7L15.3 4.17C14.35 3.22 13.04 2.71 11.7 2.78L6.7 3.02C4.7 3.11 3.11 4.7 3.01 6.69L2.77 11.69C2.71 13.03 3.21 14.34 4.16 15.29L8.69 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.7ZM9.5 12.38C7.92 12.38 6.62 11.09 6.62 9.5C6.62 7.91 7.92 6.62 9.5 6.62C11.08 6.62 12.38 7.91 12.38 9.5C12.38 11.09 11.08 12.38 9.5 12.38ZM17.53 13.53L13.53 17.53C13.38 17.68 13.19 17.75 13 17.75C12.81 17.75 12.62 17.68 12.47 17.53C12.18 17.24 12.18 16.76 12.47 16.47L16.47 12.47C16.76 12.18 17.24 12.18 17.53 12.47C17.82 12.76 17.82 13.24 17.53 13.53Z" fill="#EC008C" />
-                                </svg>
-                            </div>
-                            <div class="custom-text">
-                                Cảm giác mạnh
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="recommendation-item">
-                <img class="recommendation-item-image" src="https://via.placeholder.com/350x240" />
-                <div class="recommendation-item-details">
-                    <div class="recommendation-item-header">
-                        <div class="recommendation-item-title">Roller Coaster</div>
-                        <div class="recommendation-item-date">10/02/2020</div>
-                    </div>
-                    <div class="recommendation-item-footer">
-                        <div class="recommendation-icon-container">
-                            <div class="recommendation-icon-background"></div>
-                            <div class="recommendation-icon-overlay"></div>
-                        </div>
-                        <div class="recommendation-item-category">Cảm giác mạnh</div>
-                    </div>
-                </div>
-            </div>
-            <div class="recommendation-item">
-                <img class="recommendation-item-image" src="https://via.placeholder.com/350x240" />
-                <div class="recommendation-item-details">
-                    <div class="recommendation-item-header">
-                        <div class="recommendation-item-title">Roller Coaster 5</div>
-                        <div class="recommendation-item-date">10/02/2020</div>
-                    </div>
-                    <div class="recommendation-item-footer">
-                        <div class="recommendation-icon-container">
-                            <div class="recommendation-icon-background"></div>
-                            <div class="recommendation-icon-overlay"></div>
-                        </div>
-                        <div class="custom-icon-container">
-                            <div class="custom-tag-icon">
-                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.83 8.7L15.3 4.17C14.35 3.22 13.04 2.71 11.7 2.78L6.7 3.02C4.7 3.11 3.11 4.7 3.01 6.69L2.77 11.69C2.71 13.03 3.21 14.34 4.16 15.29L8.69 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.7ZM9.5 12.38C7.92 12.38 6.62 11.09 6.62 9.5C6.62 7.91 7.92 6.62 9.5 6.62C11.08 6.62 12.38 7.91 12.38 9.5C12.38 11.09 11.08 12.38 9.5 12.38ZM17.53 13.53L13.53 17.53C13.38 17.68 13.19 17.75 13 17.75C12.81 17.75 12.62 17.68 12.47 17.53C12.18 17.24 12.18 16.76 12.47 16.47L16.47 12.47C16.76 12.18 17.24 12.18 17.53 12.47C17.82 12.76 17.82 13.24 17.53 13.53Z" fill="#EC008C" />
-                                </svg>
-                            </div>
-                            <div class="custom-text">
-                                Cảm giác mạnh
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="recommendation-item">
-                <img class="recommendation-item-image" src="https://via.placeholder.com/350x240" />
-                <div class="recommendation-item-details">
-                    <div class="recommendation-item-header">
-                        <div class="recommendation-item-title">Roller Coaster 6</div>
-                        <div c lass="recommendation-item-date">10/02/2020</div>
-                    </div>
-                    <div class="recommendation-item-footer">
-                        <div class="recommendation-icon-container">
-                            <div class="recommendation-icon-background"></div>
-                            <div class="recommendation-icon-overlay"></div>
-                        </div>
-                        <div class="custom-icon-container">
-                            <div class="custom-tag-icon">
-                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.83 8.7L15.3 4.17C14.35 3.22 13.04 2.71 11.7 2.78L6.7 3.02C4.7 3.11 3.11 4.7 3.01 6.69L2.77 11.69C2.71 13.03 3.21 14.34 4.16 15.29L8.69 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.7ZM9.5 12.38C7.92 12.38 6.62 11.09 6.62 9.5C6.62 7.91 7.92 6.62 9.5 6.62C11.08 6.62 12.38 7.91 12.38 9.5C12.38 11.09 11.08 12.38 9.5 12.38ZM17.53 13.53L13.53 17.53C13.38 17.68 13.19 17.75 13 17.75C12.81 17.75 12.62 17.68 12.47 17.53C12.18 17.24 12.18 16.76 12.47 16.47L16.47 12.47C16.76 12.18 17.24 12.18 17.53 12.47C17.82 12.76 17.82 13.24 17.53 13.53Z" fill="#EC008C" />
-                                </svg>
-                            </div>
-                            <div class="custom-text">
-                                Cảm giác mạnh
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
 
     </div>

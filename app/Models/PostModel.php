@@ -12,7 +12,7 @@ class PostModel extends Model
     protected $primaryKey = 'posts_id';
     protected $keyType = 'int';
     protected $fillable = [
-        'plant_name', 'content', 'image_url', 'parent_id', 'categories_child_id'
+        'plant_name', 'content', 'image_url', 'parent_id', 'categories_child_id', 'category_id'
     ];
     public $timestamps = true;
 
@@ -24,5 +24,9 @@ class PostModel extends Model
     public function categoriesChild()
     {
         return $this->belongsTo(CategoryChild::class, 'categories_child_id', 'categories_child_id');
+    }
+    public function category()
+    {
+        return $this->belongsTo(Categories::class, 'category_id', 'category_id');
     }
 }

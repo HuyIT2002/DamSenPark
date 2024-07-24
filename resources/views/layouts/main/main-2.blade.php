@@ -50,7 +50,7 @@
                         $child['categories_child_id'])->exists();
                         @endphp
                         <li data-categories-child-id="{{ $child['categories_child_id'] }}">
-                            <a href="{{ $exists ? route('thuc-vat', ['post_id' => $child['categories_child_id']]) : url('/404') }}" class="info-link">
+                            <a href="{{ $child['categories_child_id'] == 21 ? route('canh-dep') : route('thuc-vat', ['post_id' => $child['categories_child_id']]) }}" class="info-link">
                                 <div class="icon-container-2">
                                     <div class="icon-2">
                                         <div class="number">{{ $child['stt'] }}</div>
@@ -60,6 +60,7 @@
                                     </div>
                                 </div>
                             </a>
+
                         </li>
                         @endforeach
                     </ul>
