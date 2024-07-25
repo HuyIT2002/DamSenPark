@@ -487,12 +487,15 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    cursor: pointer; /* Thay đổi con trỏ chuột thành bàn tay */
-    transition: background-color 0.3s; /* Thêm hiệu ứng chuyển màu nền */
+    cursor: pointer;
+    /* Thay đổi con trỏ chuột thành bàn tay */
+    transition: background-color 0.3s;
+    /* Thêm hiệu ứng chuyển màu nền */
 }
 
 .custom-div:hover {
-    background: #014e23; /* Màu nền nhạt hơn khi hover */
+    background: #014e23;
+    /* Màu nền nhạt hơn khi hover */
 }
 
 .inner-content {
@@ -788,55 +791,79 @@ body {
     margin-left: auto;
     margin-right: 55px;
 }
+
 .special-layout {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 cột */
-    grid-template-rows: repeat(5, auto); /* 5 hàng */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 cột */
+    grid-template-rows: repeat(5, auto);
+    /* 5 hàng */
 }
 
 /* Đảm bảo mỗi info-item nằm trong một ô lưới */
 .special-layout .info-item {
-    grid-column: span 1; /* Mỗi info-item chiếm 1 cột */
-    grid-row: span 1;    /* Mỗi info-item chiếm 1 hàng */
+    grid-column: span 1;
+    /* Mỗi info-item chiếm 1 cột */
+    grid-row: span 1;
+    /* Mỗi info-item chiếm 1 hàng */
 }
 
 /* Các kiểu bổ sung để phù hợp với thiết kế của bạn */
 .special-layout .info-item ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 4 cột */
-    grid-template-rows: repeat(5, auto); /* 3 hàng */
-    list-style: none; /* Bỏ kiểu danh sách mặc định */
-    padding: 0; /* Bỏ padding mặc định */
-    margin: 0; /* Bỏ margin mặc định */
-    column-gap: 40%; /* Khoảng cách giữa các cột */
-    grid-auto-flow: column; /* Sắp xếp theo cột */
+    grid-template-columns: repeat(2, 1fr);
+    /* 4 cột */
+    grid-template-rows: repeat(5, auto);
+    /* 3 hàng */
+    list-style: none;
+    /* Bỏ kiểu danh sách mặc định */
+    padding: 0;
+    /* Bỏ padding mặc định */
+    margin: 0;
+    /* Bỏ margin mặc định */
+    column-gap: 40%;
+    /* Khoảng cách giữa các cột */
+    grid-auto-flow: column;
+    /* Sắp xếp theo cột */
 }
 
 .special-layout.info-item ul li {
     box-sizing: border-box;
     /* Các kiểu bổ sung khác nếu cần */
 }
+
 /**/
 .another-special-layout {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 cột */
-    grid-template-rows: repeat(3, auto); /* 3 hàng */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 cột */
+    grid-template-rows: repeat(3, auto);
+    /* 3 hàng */
 }
 
 .another-special-layout .info-item {
-    grid-column: span 1; /* Mỗi info-item chiếm 1 cột */
-    grid-row: span 1;    /* Mỗi info-item chiếm 1 hàng */
+    grid-column: span 1;
+    /* Mỗi info-item chiếm 1 cột */
+    grid-row: span 1;
+    /* Mỗi info-item chiếm 1 hàng */
 }
 
 .another-special-layout .info-item ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 cột */
-    grid-template-rows: repeat(3, auto); /* 3 hàng */
-    list-style: none; /* Bỏ kiểu danh sách mặc định */
-    padding: 0; /* Bỏ padding mặc định */
-    margin: 0; /* Bỏ margin mặc định */
-    column-gap: 20%; /* Khoảng cách giữa các cột */
-    grid-auto-flow: column; /* Sắp xếp theo cột */
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 cột */
+    grid-template-rows: repeat(3, auto);
+    /* 3 hàng */
+    list-style: none;
+    /* Bỏ kiểu danh sách mặc định */
+    padding: 0;
+    /* Bỏ padding mặc định */
+    margin: 0;
+    /* Bỏ margin mặc định */
+    column-gap: 20%;
+    /* Khoảng cách giữa các cột */
+    grid-auto-flow: column;
+    /* Sắp xếp theo cột */
 }
 
 .another-special-layout .info-item ul li {
@@ -845,10 +872,11 @@ body {
 }
 
 /**/
-   .yet-another-special-layout {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr); /* 4 cột đều nhau */
-        }
+.yet-another-special-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 cột đều nhau */
+}
 
 .text {
     color: #259E58;
@@ -896,7 +924,7 @@ body {
     margin-left: 30px;
     margin-right: 100px;
     /* Khoảng cách giữa các info-item */
-   
+
 
 }
 
@@ -924,7 +952,7 @@ body {
     background-color: #EECDE0;
     position: absolute;
     bottom: 0;
-     left: 40px;
+    left: 40px;
     right: 10px;
     width: 90%;
 }
@@ -969,7 +997,8 @@ body {
 }
 
 .info-item ul li {
-    margin-bottom: -45px; /* Điều chỉnh khoảng cách giữa các mục */
+    margin-bottom: -45px;
+    /* Điều chỉnh khoảng cách giữa các mục */
 }
 
 
@@ -1117,7 +1146,7 @@ body {
 
 /*slides box*/
 .section {
-    position: absolute;
+    position: relative;
     background: white;
     border-radius: 40px;
     overflow: hidden;
@@ -1131,13 +1160,70 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
+    position: relative; /* Đảm bảo phần tử cha định vị đúng */
 }
 
-.section:nth-child(1) {
-    width: 625px;
-    height: 384px;
-    left: 0px;
-    top: 80px;
+
+.section-inner img {
+    position: relative;
+    cursor: pointer;
+    /* Để các ảnh có thể được nhấp vào */
+}
+.cta-section-inner {
+    position: absolute; /* Đảm bảo phần tử CTA nằm trên ảnh */
+    top: 50%; /* Điều chỉnh vị trí từ trên xuống theo nhu cầu */
+    left: 50%; /* Điều chỉnh vị trí từ trái qua theo nhu cầu */
+    transform: translate(-50%, -50%); /* Để căn giữa phần tử CTA */
+    padding: 5px 20px;
+    background: #259E58;
+    border-radius: 8px;
+    border: 0.5px solid;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    z-index: 10; /* Đảm bảo nằm trên ảnh */
+}
+
+.cta-section-inner:hover {
+    background: #1E8046;
+}
+
+.highlight-container {
+    position: absolute;
+    width: 945px;
+    height: 544px;
+    left: 335px;
+    top: 25.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    /* Hiệu ứng chuyển động */
+}
+
+.highlight-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 45px;
+}
+
+.section-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section-inner img {
+    cursor: pointer;
+    /* Để các ảnh có thể được nhấp vào */
+    pointer-events: auto;
 }
 
 .section:nth-child(2),
@@ -1152,9 +1238,18 @@ body {
         0px 0px 60px rgba(248, 248, 248, 0.9);
 }
 
+.section:nth-child(1) {
+    width: 625px;
+    height: 384px;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+
 .section:nth-child(2) {
     width: 625px;
     height: 384px;
+    position: absolute;
     left: 740px;
     top: 80px;
 }
@@ -1162,6 +1257,7 @@ body {
 .section:nth-child(3) {
     width: 785px;
     height: 464px;
+    position: absolute;
     left: 92px;
     top: 40px;
 }
@@ -1169,6 +1265,7 @@ body {
 .section:nth-child(4) {
     width: 785px;
     height: 464px;
+    position: absolute;
     left: 510px;
     top: 40px;
 }
@@ -1176,30 +1273,10 @@ body {
 .section:nth-child(5) {
     width: 945px;
     height: 544px;
-    left: 200px;
-    top: 0px
-}
-
-/* .section .content {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 30px;
-    color: white;
-    font-family: Nunito;
-    word-wrap: break-word;
+    left: 200px;
+    top: 0px;
 }
-
-.section .content .title {
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 1.2;
-} */
 
 .section .content .description {
     font-size: 16px;
@@ -1250,17 +1327,36 @@ body {
     pointer-events: all;
 }
 
-.custom-dot {
-    width: 10px;
-    height: 10px;
-    background-color: #259E58;
-    /* Màu sắc của các chấm */
-    border-radius: 50%;
-    /* Làm tròn các góc để tạo hình dáng chấm */
-    display: inline-block;
-    margin: 0 5px;
-    /* Khoảng cách giữa các chấm */
+.custom-dots-container {
+    display: flex; /* Sử dụng flexbox để căn chỉnh các chấm theo hàng */
+    align-items: center; /* Căn giữa các chấm theo chiều dọc */
+    justify-content: center; /* Căn giữa các chấm theo chiều ngang */
+    position: relative; /* Đảm bảo rằng các chấm được căn chỉnh chính xác */
 }
+
+.custom-dot {
+    width: 10px; /* Kích thước của chấm bình thường */
+    height: 10px;
+    background-color: #259E58; /* Màu sắc của các chấm */
+    border-radius: 50%; /* Làm tròn các góc để tạo hình dáng chấm */
+    display: inline-block;
+    margin: 0 10px; /* Khoảng cách giữa các chấm */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi khi thay đổi trạng thái */
+}
+
+.custom-dot.active {
+    width: 16px; /* Kích thước của chấm khi active */
+    height: 16px;
+    background: white; /* Màu nền của chấm khi active */
+    border-radius: 50%; /* Đảm bảo hình dạng tròn khi active */
+    border: 2px #259E58 solid; /* Viền của chấm khi active */
+    margin: 0; /* Xóa margin để căn chỉnh chính xác */
+    position: relative; /* Đảm bảo rằng chấm được căn chỉnh chính xác trong container */
+    z-index: 1; /* Đảm bảo rằng chấm active nằm trên các chấm khác */
+}
+
+
+
 
 .custom-dot-left svg,
 .custom-dot-right svg {
@@ -1272,9 +1368,7 @@ body {
     margin-top: 5px;
 }
 
-.custom-dot.active {
-    background-color: #259E58;
-}
+
 .education-box-2 {
     width: 100%;
     display: flex;
@@ -1393,10 +1487,12 @@ body {
     position: relative;
     margin-left: 15px;
 }
+
 .recommendation-item-image {
     width: 350px;
     height: 240px;
-    object-fit: cover; /* Đảm bảo hình ảnh giữ tỉ lệ mà không bị biến dạng */
+    object-fit: cover;
+    /* Đảm bảo hình ảnh giữ tỉ lệ mà không bị biến dạng */
 }
 
 .recommendation-item-header {
@@ -5327,7 +5423,7 @@ body {
 }
 
 .education-background {
-      width: 1471px;
+    width: 1471px;
     height: auto;
     position: absolute;
     top: 0;
@@ -5337,7 +5433,7 @@ body {
 }
 
 .education-background img {
-     width: 1471px;
+    width: 1471px;
     height: 648px;
     object-fit: cover;
 }
@@ -5441,11 +5537,11 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .education-button:hover {
-    background: #1E8046; 
+    background: #1E8046;
 }
 
 .button-education-text {
@@ -5605,12 +5701,14 @@ body {
     width: auto;
     /* Allow width to adjust based on content */
     height: auto;
-    
-    cursor: pointer; /* Change cursor to hand */
+
+    cursor: pointer;
+    /* Change cursor to hand */
 }
 
 .cta-section-education-card:hover {
-    background: #1E8046; /* Darker shade of the current color */
+    background: #1E8046;
+    /* Darker shade of the current color */
 }
 
 
@@ -5896,26 +5994,32 @@ body {
     width: 85px;
 }
 
-        .rectangle-discover-container {
-            width: 288px;
-            height: 85px;
-            background: white;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.23);
-            padding: 10px;
-            position: absolute; /* Loại bỏ khỏi luồng tài liệu */
-            visibility: hidden; /* Ẩn phần tử */
-            opacity: 0; /* Ẩn phần tử */
-            transition: opacity 0.3s ease;
-            margin-top: -100px;
-        }
+.rectangle-discover-container {
+    width: 288px;
+    height: 85px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.23);
+    padding: 10px;
+    position: absolute;
+    /* Loại bỏ khỏi luồng tài liệu */
+    visibility: hidden;
+    /* Ẩn phần tử */
+    opacity: 0;
+    /* Ẩn phần tử */
+    transition: opacity 0.3s ease;
+    margin-top: -100px;
+}
 
-        .rectangle-discover-container.visible {
-            visibility: visible; /* Hiển thị phần tử */
-            opacity: 1; /* Hiển thị phần tử */
-        }
+.rectangle-discover-container.visible {
+    visibility: visible;
+    /* Hiển thị phần tử */
+    opacity: 1;
+    /* Hiển thị phần tử */
+}
+
 .square-background {
     width: 85px;
     /* Kích thước chiều rộng */

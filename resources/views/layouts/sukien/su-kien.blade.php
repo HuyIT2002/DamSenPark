@@ -6,32 +6,52 @@
     <div class="slideshow-container">
         <div class="section">
             <div class="section-inner">
-                <img src="{{ asset('/public/images/5.jpg') }}" alt="Slide 2">
+                <img id="slide-5" src="{{ asset('/public/images/5.jpg') }}" alt="Slide 1">
+
             </div>
         </div>
         <div class="section">
             <div class="section-inner">
-                <img src="{{ asset('/public/images/4.jpg') }}" alt="Slide 2">
+                <img id="slide-4" src="{{ asset('/public/images/4.jpg') }}" alt="Slide 2">
             </div>
         </div>
         <div class="section">
             <div class="section-inner">
-                <img src="{{ asset('/public/images/3.jpg') }}" alt="Slide 3">
+                <img id="slide-3" src="{{ asset('/public/images/3.jpg') }}" alt="Slide 3">
             </div>
         </div>
         <div class="section">
             <div class="section-inner">
-                <img src="{{ asset('/public/images/2.jpg') }}" alt="Slide 4">
+                <img id="slide-2" src="{{ asset('/public/images/2.jpg') }}" alt="Slide 4">
             </div>
         </div>
         <div class="section">
             <div class="section-inner">
-                <img src="{{ asset('/public/images/1.png') }}" alt="Slide 5">
+                <img id="slide-1" src="{{ asset('/public/images/1.png') }}" alt="Slide 5">
+                <div class="cta-section-inner">
+                    <a href="" class="cta-button-education-card">
+                        <div class="cta-text-education-card">Xem thêm</div>
+                        <div class="arrow-icon-introduce">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g id="arrow-narrow-up">
+                                    <path id="Icon" d="M20.625 15L15.625 10M20.625 15L15.625 20M20.625 15L6.5625 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
+
+
     </div>
+    <div class="highlight-container">
+
+    </div>
+
+
     <div class="custom-container">
-        <div class="custom-dot-left" onclick="plusSlides(-1)">
+        <div class="custom-dot-left">
             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="Arrow Left">
                     <path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M8.62155 10.5001H21.5002V13.5001H8.62155L13.5609 18.4395L11.4396 20.5608L2.87891 12.0001L11.4396 3.43945L13.5609 5.56077L8.62155 10.5001Z" fill="#259E58" />
@@ -39,13 +59,9 @@
             </svg>
         </div>
         <div class="custom-dots-container">
-            <div class="custom-dot" onclick="currentSlide(1)"></div>
-            <div class="custom-dot" onclick="currentSlide(2)"></div>
-            <div class="custom-dot" onclick="currentSlide(3)"></div>
-            <div class="custom-dot" onclick="currentSlide(4)"></div>
-            <div class="custom-dot" onclick="currentSlide(5)"></div>
+            <div class="custom-dot"></div>
         </div>
-        <div class="custom-dot-right" onclick="plusSlides(1)">
+        <div class="custom-dot-right">
             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="Arrow Right">
                     <path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M15.9775 13.5563H3.42383V10.4423H15.9775L11.1628 5.31522L13.2306 3.11328L21.5752 11.9993L13.2306 20.8853L11.1628 18.6833L15.9775 13.5563Z" fill="#259E58" />

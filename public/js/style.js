@@ -669,11 +669,11 @@ $(document).ready(function() {
         }
     });
     });
-//     $(document).ready(function() {
-//     $('.inner-discover-container').click(function() {
-//         $('.rectangle-discover-container').toggleClass('visible');
-//     });
-// });
+    $(document).ready(function() {
+    $('.inner-discover-container').click(function() {
+        $('.rectangle-discover-container').toggleClass('visible');
+    });
+});
 
 document.addEventListener('DOMContentLoaded', function() {
     const menuLink = document.getElementById('menu-link-1');
@@ -717,6 +717,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
 
 
 });
